@@ -1,0 +1,30 @@
+[
+  {
+    "id": "q12",
+    "chapter": 6,
+    "difficulty": "easy",
+    "questionText": "What is a main benefit of using a test execution tool?",
+    "options": [
+      "It automatically generates perfect test cases without human input.",
+      "It reduces the time required for repetitive tasks like regression testing.",
+      "It guarantees that no defects remain in the code.",
+      "It removes the need for manual exploratory testing completely."
+    ],
+    "correctAnswer": "It reduces the time required for repetitive tasks like regression testing.",
+    "explanation": "Test execution tools automate the running of tests, saving enormous amounts of time for repetitive suites like regression tests. They do not eliminate the need for human thought or manual tests."
+  },
+  {
+    "id": "q13",
+    "chapter": 6,
+    "difficulty": "hard",
+    "questionText": "Which type of tool is most likely to be used by developers rather than testers?",
+    "options": [
+      "Defect management tool",
+      "Requirements management tool",
+      "Static analysis tool",
+      "Test execution tool"
+    ],
+    "correctAnswer": "Static analysis tool",
+    "explanation": "Static analysis tools are often used by developers during the coding phase to catch syntax and standard violations before the code is even run."
+  }
+]

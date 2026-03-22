@@ -1,0 +1,30 @@
+[
+  {
+    "id": "q10",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "Which of the following is a primary task of a Test Manager?",
+    "options": [
+      "Writing detailed test scripts",
+      "Writing test summary reports based on gathered metrics",
+      "Executing automated tests",
+      "Fixing defects found during testing"
+    ],
+    "correctAnswer": "Writing test summary reports based on gathered metrics",
+    "explanation": "The Test Manager focuses on planning, monitoring, and controlling the testing activities, which includes writing summary reports. The Test Analyst usually writes and executes scripts, and developers fix defects."
+  },
+  {
+    "id": "q11",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "In risk-based testing, what two factors are typically used to assess the level of risk?",
+    "options": [
+      "Likelihood and Impact",
+      "Cost and Schedule",
+      "Defect density and Test coverage",
+      "Complexity and Usability"
+    ],
+    "correctAnswer": "Likelihood and Impact",
+    "explanation": "Risk is typically evaluated by assessing the Likelihood (probability of the risk occurring) and the Impact (the severity of the consequences if it occurs)."
+  }
+]

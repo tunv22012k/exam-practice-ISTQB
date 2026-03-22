@@ -1,0 +1,30 @@
+[
+  {
+    "id": "q6",
+    "chapter": 3,
+    "difficulty": "easy",
+    "questionText": "Which of the following is considered a form of static testing?",
+    "options": [
+      "Executing automated test scripts",
+      "Running the application and doing exploratory testing",
+      "A formal review of a requirements document",
+      "Performance testing using a specialized tool"
+    ],
+    "correctAnswer": "A formal review of a requirements document",
+    "explanation": "Static testing involves examining work products without executing the code. Reviews are the most common form of static testing."
+  },
+  {
+    "id": "q7",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "Which role in a formal review is responsible for leading the review and making the final decision on whether to proceed?",
+    "options": [
+      "Author",
+      "Scribe/Recorder",
+      "Reviewer",
+      "Moderator/Facilitator"
+    ],
+    "correctAnswer": "Moderator/Facilitator",
+    "explanation": "The Moderator (or Facilitator) leads the review meeting, schedules it, paces it, and mediates discussions."
+  }
+]

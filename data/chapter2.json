@@ -1,0 +1,30 @@
+[
+  {
+    "id": "q4",
+    "chapter": 2,
+    "difficulty": "easy",
+    "questionText": "Which testing level focuses primarily on validating against user requirements?",
+    "options": [
+      "Component Testing",
+      "Integration Testing",
+      "System Testing",
+      "Acceptance Testing"
+    ],
+    "correctAnswer": "Acceptance Testing",
+    "explanation": "Acceptance testing focuses on validating whether the system fulfills user requirements and business needs."
+  },
+  {
+    "id": "q5",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "What is the main purpose of impact analysis in maintenance testing?",
+    "options": [
+      "To evaluate the consequences of a change and the side effects it may cause.",
+      "To determine the number of testers needed for the project.",
+      "To understand the total cost of the testing phase.",
+      "To prioritize the execution of existing automated tests."
+    ],
+    "correctAnswer": "To evaluate the consequences of a change and the side effects it may cause.",
+    "explanation": "Impact analysis is conducted during maintenance testing to determine how a change (like a bug fix or new feature) might affect existing functionality and to decide what needs to be regression tested."
+  }
+]

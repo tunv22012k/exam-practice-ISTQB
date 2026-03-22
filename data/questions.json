@@ -1,0 +1,212 @@
+[
+  {
+    "id": "q1",
+    "chapter": 1,
+    "difficulty": "easy",
+    "questionText": "What is the primary objective of software testing?",
+    "options": [
+      "To find defects in the software",
+      "To prove that the software has no bugs",
+      "To show that the system meets all user needs",
+      "To debug and fix the code"
+    ],
+    "correctAnswer": "To find defects in the software",
+    "explanation": "Finding defects is one of the primary objectives of testing. Debugging is done by developers, not testers. It is impossible to prove software has no bugs (Testing shows presence of defects fallacy)."
+  },
+  {
+    "id": "q2",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which of the following describes the 'Pesticide Paradox'?",
+    "options": [
+      "Testing everything is impossible.",
+      "Repeating the same tests will eventually no longer find new defects.",
+      "Defects are clustered together in a small number of modules.",
+      "Testing should start as early as possible."
+    ],
+    "correctAnswer": "Repeating the same tests will eventually no longer find new defects.",
+    "explanation": "The Pesticide Paradox states that if the same tests are repeated over and over again, eventually they will no longer find any new bugs. Test cases need to be updated or new ones written."
+  },
+  {
+    "id": "q3",
+    "chapter": 1,
+    "difficulty": "hard",
+    "questionText": "What does a 'false positive' mean in the context of software testing?",
+    "options": [
+      "A test fails due to a defect in the software.",
+      "A test passes despite there being a defect in the software.",
+      "A test reports a defect, but no defect actually exists in the software.",
+      "A test fails because the environment is correctly configured."
+    ],
+    "correctAnswer": "A test reports a defect, but no defect actually exists in the software.",
+    "explanation": "A false positive is when a test fails (indicating a defect) but the software is actually behaving correctly. This can be due to a mistake in the test case itself, or an environment issue."
+  },
+  {
+    "id": "q4",
+    "chapter": 2,
+    "difficulty": "easy",
+    "questionText": "Which testing level focuses primarily on validating against user requirements?",
+    "options": [
+      "Component Testing",
+      "Integration Testing",
+      "System Testing",
+      "Acceptance Testing"
+    ],
+    "correctAnswer": "Acceptance Testing",
+    "explanation": "Acceptance testing focuses on validating whether the system fulfills user requirements and business needs."
+  },
+  {
+    "id": "q5",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "What is the main purpose of impact analysis in maintenance testing?",
+    "options": [
+      "To evaluate the consequences of a change and the side effects it may cause.",
+      "To determine the number of testers needed for the project.",
+      "To understand the total cost of the testing phase.",
+      "To prioritize the execution of existing automated tests."
+    ],
+    "correctAnswer": "To evaluate the consequences of a change and the side effects it may cause.",
+    "explanation": "Impact analysis is conducted during maintenance testing to determine how a change (like a bug fix or new feature) might affect existing functionality and to decide what needs to be regression tested."
+  },
+  {
+    "id": "q6",
+    "chapter": 3,
+    "difficulty": "easy",
+    "questionText": "Which of the following is considered a form of static testing?",
+    "options": [
+      "Executing automated test scripts",
+      "Running the application and doing exploratory testing",
+      "A formal review of a requirements document",
+      "Performance testing using a specialized tool"
+    ],
+    "correctAnswer": "A formal review of a requirements document",
+    "explanation": "Static testing involves examining work products without executing the code. Reviews are the most common form of static testing."
+  },
+  {
+    "id": "q7",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "Which role in a formal review is responsible for leading the review and making the final decision on whether to proceed?",
+    "options": [
+      "Author",
+      "Scribe/Recorder",
+      "Reviewer",
+      "Moderator/Facilitator"
+    ],
+    "correctAnswer": "Moderator/Facilitator",
+    "explanation": "The Moderator (or Facilitator) leads the review meeting, schedules it, paces it, and mediates discussions."
+  },
+  {
+    "id": "q8",
+    "chapter": 4,
+    "difficulty": "easy",
+    "questionText": "Equivalence partitioning is an example of what type of test technique?",
+    "options": [
+      "White-box technique",
+      "Black-box technique",
+      "Experience-based technique",
+      "Defect-based technique"
+    ],
+    "correctAnswer": "Black-box technique",
+    "explanation": "Equivalence partitioning is a black-box test design technique because it relies on the inputs/outputs specifications without needing knowledge of internal code structure."
+  },
+  {
+    "id": "q9",
+    "chapter": 4,
+    "difficulty": "hard",
+    "questionText": "An input field accepts ages from 18 to 60, inclusive. Using boundary value analysis, what are the most appropriate boundary values to test with 2-value boundary approach?",
+    "options": [
+      "17, 18, 60, 61",
+      "18, 19, 59, 60",
+      "17, 18, 19, 59, 60, 61",
+      "18, 60"
+    ],
+    "correctAnswer": "17, 18, 60, 61",
+    "explanation": "With 2-value BVA, we test the boundary value and the value immediately adjacent to the boundary on the invalid side. For 18, it's 18 (valid) and 17 (invalid). For 60, it's 60 (valid) and 61 (invalid)."
+  },
+  {
+    "id": "q10",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "Which of the following is a primary task of a Test Manager?",
+    "options": [
+      "Writing detailed test scripts",
+      "Writing test summary reports based on gathered metrics",
+      "Executing automated tests",
+      "Fixing defects found during testing"
+    ],
+    "correctAnswer": "Writing test summary reports based on gathered metrics",
+    "explanation": "The Test Manager focuses on planning, monitoring, and controlling the testing activities, which includes writing summary reports. The Test Analyst usually writes and executes scripts, and developers fix defects."
+  },
+  {
+    "id": "q11",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "In risk-based testing, what two factors are typically used to assess the level of risk?",
+    "options": [
+      "Likelihood and Impact",
+      "Cost and Schedule",
+      "Defect density and Test coverage",
+      "Complexity and Usability"
+    ],
+    "correctAnswer": "Likelihood and Impact",
+    "explanation": "Risk is typically evaluated by assessing the Likelihood (probability of the risk occurring) and the Impact (the severity of the consequences if it occurs)."
+  },
+  {
+    "id": "q12",
+    "chapter": 6,
+    "difficulty": "easy",
+    "questionText": "What is a main benefit of using a test execution tool?",
+    "options": [
+      "It automatically generates perfect test cases without human input.",
+      "It reduces the time required for repetitive tasks like regression testing.",
+      "It guarantees that no defects remain in the code.",
+      "It removes the need for manual exploratory testing completely."
+    ],
+    "correctAnswer": "It reduces the time required for repetitive tasks like regression testing.",
+    "explanation": "Test execution tools automate the running of tests, saving enormous amounts of time for repetitive suites like regression tests. They do not eliminate the need for human thought or manual tests."
+  },
+  {
+    "id": "q13",
+    "chapter": 6,
+    "difficulty": "hard",
+    "questionText": "Which type of tool is most likely to be used by developers rather than testers?",
+    "options": [
+      "Defect management tool",
+      "Requirements management tool",
+      "Static analysis tool",
+      "Test execution tool"
+    ],
+    "correctAnswer": "Static analysis tool",
+    "explanation": "Static analysis tools are often used by developers during the coding phase to catch syntax and standard violations before the code is even run."
+  },
+  {
+    "id": "q14",
+    "chapter": 1,
+    "difficulty": "easy",
+    "questionText": "Which statement best describes the difference between debugging and testing?",
+    "options": [
+      "Testing is dynamic, debugging is static.",
+      "Testing identifies failures, debugging identifies the root cause and fixes it.",
+      "Testing removes defects, debugging finds failures.",
+      "Testing is done by developers, debugging is done by testers."
+    ],
+    "correctAnswer": "Testing identifies failures, debugging identifies the root cause and fixes it.",
+    "explanation": "Testing is the process of executing the software to find failures. Debugging is the developer's process of investigating the failure, finding the defect in the code, and fixing it."
+  },
+  {
+    "id": "q15",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "What technique is most suitable for testing state transitions of an object?",
+    "options": [
+      "Use Case Testing",
+      "State Transition Testing",
+      "Decision Table Testing",
+      "Exploratory Testing"
+    ],
+    "correctAnswer": "State Transition Testing",
+    "explanation": "State Transition Testing is a black-box technique specifically used to test the valid and invalid transitions between different states of a system or object."
+  }
+]

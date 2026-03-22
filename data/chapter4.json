@@ -1,0 +1,44 @@
+[
+  {
+    "id": "q8",
+    "chapter": 4,
+    "difficulty": "easy",
+    "questionText": "Equivalence partitioning is an example of what type of test technique?",
+    "options": [
+      "White-box technique",
+      "Black-box technique",
+      "Experience-based technique",
+      "Defect-based technique"
+    ],
+    "correctAnswer": "Black-box technique",
+    "explanation": "Equivalence partitioning is a black-box test design technique because it relies on the inputs/outputs specifications without needing knowledge of internal code structure."
+  },
+  {
+    "id": "q9",
+    "chapter": 4,
+    "difficulty": "hard",
+    "questionText": "An input field accepts ages from 18 to 60, inclusive. Using boundary value analysis, what are the most appropriate boundary values to test with 2-value boundary approach?",
+    "options": [
+      "17, 18, 60, 61",
+      "18, 19, 59, 60",
+      "17, 18, 19, 59, 60, 61",
+      "18, 60"
+    ],
+    "correctAnswer": "17, 18, 60, 61",
+    "explanation": "With 2-value BVA, we test the boundary value and the value immediately adjacent to the boundary on the invalid side. For 18, it's 18 (valid) and 17 (invalid). For 60, it's 60 (valid) and 61 (invalid)."
+  },
+  {
+    "id": "q15",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "What technique is most suitable for testing state transitions of an object?",
+    "options": [
+      "Use Case Testing",
+      "State Transition Testing",
+      "Decision Table Testing",
+      "Exploratory Testing"
+    ],
+    "correctAnswer": "State Transition Testing",
+    "explanation": "State Transition Testing is a black-box technique specifically used to test the valid and invalid transitions between different states of a system or object."
+  }
+]

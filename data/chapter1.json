@@ -1,0 +1,702 @@
+[
+  {
+    "id": "q101",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "During which stage of the fundamental test process is the testability of requirements evaluated?",
+    "options": [
+      "Test Design.",
+      "Test Analysis.",
+      "Test Execution.",
+      "Test Planning."
+    ],
+    "correctAnswer": "Test Analysis.",
+    "explanation": ""
+  },
+  {
+    "id": "q102",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which of the following BEST describes a Test Case?",
+    "options": [
+      "A testable aspect of a component or system identified as a basis for testing.",
+      "A description of the test objectives to be achieved and the means and the schedule for achieving them.",
+      "A set of preconditions, inputs, actions, expected results and postconditions developed based on test conditions.",
+      "A source to determine expected results to compare with the actual result of the system under test."
+    ],
+    "correctAnswer": "A set of preconditions, inputs, actions, expected results and postconditions developed based on test conditions.",
+    "explanation": ""
+  },
+  {
+    "id": "q103",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "During the development of a software change for a system, the developer makes a mistake in his work, which leads to a fault in the code. Unfortunately, the fault is not found by software testing and is released into live. What is the DEFINITE consequence of this mistake?",
+    "options": [
+      "If the defect is executed, the system may fail.",
+      "Loss of money, time, or business reputation.",
+      "The system will fail, causing a defect.",
+      "Contractual requirements have not been met by testing."
+    ],
+    "correctAnswer": "If the defect is executed, the system may fail.",
+    "explanation": ""
+  },
+  {
+    "id": "q104",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which of the following are benefits of an independent test team, and which are drawbacks?\n\na) Independent testers can find different defects.\nb) Developers may put less emphasis on quality.\nc) Independent testers can be seen as the reason for delayed projects.\nd) Independent testers can verify assumptions made during the specification of a system",
+    "options": [
+      "a and b are benefits, c and d are drawbacks.",
+      "b and c are benefits, a and d are drawbacks.",
+      "a and d are benefits, b and c are drawbacks.",
+      "c and d are benefits, a and b are drawbacks."
+    ],
+    "correctAnswer": "a and d are benefits, b and c are drawbacks.",
+    "explanation": ""
+  },
+  {
+    "id": "q105",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "What is quality assurances?",
+    "options": [
+      "The total costs incurred on quality activities and issues and often split into prevention costs, appraisal costs...",
+      "The degree to which a component or system protects information and data...",
+      "Part of quality management focused on providing confidence that quality requirements will be fulfilled.",
+      "The degree to which a component, system or process meets specified requirements..."
+    ],
+    "correctAnswer": "Part of quality management focused on providing confidence that quality requirements will be fulfilled.",
+    "explanation": ""
+  },
+  {
+    "id": "q106",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which of the following provides the BEST description of a test ware?",
+    "options": [
+      "A document specifying a sequence of actions for the execution of a test.",
+      "A set of input values and expected results",
+      "An attribute of a system specified by requirements documentation",
+      "Work products produced during the test process for use in planning, designing, executing, evaluating and reporting on testing"
+    ],
+    "correctAnswer": "Work products produced during the test process for use in planning, designing, executing, evaluating and reporting on testing",
+    "explanation": ""
+  },
+  {
+    "id": "q107",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "The testing approach with the least independence is:",
+    "options": [
+      "Having another developer on the same team write the tests",
+      "Having a tester on an independent team write the tests",
+      "Having the users write the tests",
+      "Having the developer write tests for his own code"
+    ],
+    "correctAnswer": "Having the developer write tests for his own code",
+    "explanation": ""
+  },
+  {
+    "id": "q108",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which option is part of the implementation and execution area of the fundamental test process?",
+    "options": [
+      "Developing the tests.",
+      "Comparing actual and expected results",
+      "Writing a test summary.",
+      "Analysing lessons learnt for future releases."
+    ],
+    "correctAnswer": "Comparing actual and expected results",
+    "explanation": ""
+  },
+  {
+    "id": "q109",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which statement is most true?",
+    "options": [
+      "Different testing is needed depending upon the application.",
+      "All software is tested in the same way.",
+      "A technique that finds defects will always find defects.",
+      "A technique that has found no defects is not useful."
+    ],
+    "correctAnswer": "Different testing is needed depending upon the application.",
+    "explanation": ""
+  },
+  {
+    "id": "q110",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "A bug or defect is:?",
+    "options": [
+      "A mistake made by a person;",
+      "A run-time problem experienced by a user;",
+      "The result of an error or mistake;",
+      "The result of a failure, which may lead to an error?"
+    ],
+    "correctAnswer": "The result of an error or mistake;",
+    "explanation": ""
+  },
+  {
+    "id": "q111",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which of the following is correct? Debugging is:",
+    "options": [
+      "Testing/checking whether the software performs correctly.",
+      "Checking that a previously reported defect has been corrected.",
+      "Identifying the cause of a defect, repairing the code and checking the fix is correct.",
+      "Checking that no unintended consequences have occurred as a result of a fix."
+    ],
+    "correctAnswer": "Identifying the cause of a defect, repairing the code and checking the fix is correct.",
+    "explanation": ""
+  },
+  {
+    "id": "q112",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which list of levels of tester independence is in the correct order, starting with the most independent first?",
+    "options": [
+      "Tests designed by the author; tests designed by another member...",
+      "Tests designed by someone from a different department...; tests designed by the author...",
+      "Tests designed by someone from a different company; tests designed by someone from a different department...; tests designed by another member...",
+      "Tests designed by someone from a different department...; tests designed by someone from a different company..."
+    ],
+    "correctAnswer": "Tests designed by someone from a different company; tests designed by someone from a different department...; tests designed by another member...",
+    "explanation": ""
+  },
+  {
+    "id": "q113",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which of the following defines the expected result of a test?",
+    "options": [
+      "Test case",
+      "Test procedure",
+      "Test execution schedule",
+      "Test condition"
+    ],
+    "correctAnswer": "Test case",
+    "explanation": ""
+  },
+  {
+    "id": "q114",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "When assembling a test team to work on an enhancement to an existing system, which of the following has the highest level of test independence?",
+    "options": [
+      "A business analyst who wrote the original requirements for the system.",
+      "A permanent programmer who reviewed some of the new code, but has not written any of it.",
+      "A permanent tester who found most defects in the original system.",
+      "A contract tester who has never worked for the organization before."
+    ],
+    "correctAnswer": "A contract tester who has never worked for the organization before.",
+    "explanation": ""
+  },
+  {
+    "id": "q115",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "The following statements relate to activities that are part of the fundamental test process.\n\ni. Evaluating the testability of requirements.\nii. Repeating testing activities after changes.\niii. Designing the test environment set-up.\niv. Developing and prioritizing test cases.\nv. Verifying the environment is set up correctly.\n\nWhich statement below is TRUE?",
+    "options": [
+      "(i) and (ii) are part of analysis and design...",
+      "(i) and (iii) , (iv) are part of analysis and design...",
+      "(i) and (v) are part of analysis and design...",
+      "(i) and (iv) are part of analysis and design, (ii), (iii) and (v) are part of test implementation and execution."
+    ],
+    "correctAnswer": "(i) and (iii) , (iv) are part of analysis and design...",
+    "explanation": ""
+  },
+  {
+    "id": "q116",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which statement correctly describes the public and profession aspects of the code of ethics?",
+    "options": [
+      "Public: Certified software testers shall act in the best interests of their client... Profession...",
+      "Public: Certified software testers shall advance the integrity and reputation... Profession...",
+      "Public: Certified software testers shall consider the wider public interest... Profession: Certified software testers shall participate...",
+      "Public: Certified software testers shall consider the wider public interest in their actions. Profession: Certified software testers shall advance the integrity and reputation of their industry consistent with the public interest."
+    ],
+    "correctAnswer": "Public: Certified software testers shall consider the wider public interest in their actions. Profession: Certified software testers shall advance the integrity and reputation of their industry consistent with the public interest.",
+    "explanation": ""
+  },
+  {
+    "id": "q117",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which of the following are valid justifications for developers testing their own code during unit testing?\n\n(i) Their lack of independence is mitigated by independent testing during system and acceptance testing.\n(ii) A person with a good understanding of the code can find more defects more quickly using white-box techniques.\n(iii) Developers have a better understanding of the requirements than testers.\n(iv) Testers write unnecessary incident reports because they find minor differences between the way in which the system behaves and the way in which it is specified to work.",
+    "options": [
+      "(i) and (ii)",
+      "(i) and (iv)",
+      "(ii) and (iii)",
+      "(iii) and (iv)"
+    ],
+    "correctAnswer": "(i) and (ii)",
+    "explanation": ""
+  },
+  {
+    "id": "q118",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which one of the following describes the major benefit of verification early in the life cycle?",
+    "options": [
+      "It allows the identification of changes in user requirements.",
+      "It facilitates timely set up of the test environment.",
+      "It reduces defect multiplication.",
+      "It allows testers to become involved early in the project."
+    ],
+    "correctAnswer": "It reduces defect multiplication.",
+    "explanation": ""
+  },
+  {
+    "id": "q119",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Even though a test that once revealed many defects is part of the regression suite, no new test cases have been created for the module under test in a long time. What test principle is the test team forgetting?",
+    "options": [
+      "Absence-of-errors fallacy",
+      "Defect clustering",
+      "Tests wear out",
+      "Early testing"
+    ],
+    "correctAnswer": "Tests wear out",
+    "explanation": ""
+  },
+  {
+    "id": "q120",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Test objectives vary between projects and so must be stated in the test plan. Which one of the following test objectives might conflict with the proper tester mindset?",
+    "options": [
+      "Show that the system works before we ship it.",
+      "Find as many defects as possible",
+      "Reduce the overall level of product risk",
+      "Prevent defects through early involvement"
+    ],
+    "correctAnswer": "Show that the system works before we ship it.",
+    "explanation": ""
+  },
+  {
+    "id": "q121",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which of the following characterises the cost of faults?",
+    "options": [
+      "They are cheapest to find in the early development phases and the most expensive to fix in the latest test phases.",
+      "They are easiest to find during system testing but the most expensive to fix then.",
+      "Faults are cheapest to find in the early development phases but the most expensive to fix then.",
+      "Although faults are most expensive to find during early development phases, they are cheapest to fix then."
+    ],
+    "correctAnswer": "They are cheapest to find in the early development phases and the most expensive to fix in the latest test phases.",
+    "explanation": ""
+  },
+  {
+    "id": "q122",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which activity in the Fundamental Test Process creates test suites for efficient test execution?",
+    "options": [
+      "Implementation and execution",
+      "Analysis and design",
+      "Planning and control",
+      "Test closure"
+    ],
+    "correctAnswer": "Implementation and execution",
+    "explanation": ""
+  },
+  {
+    "id": "q123",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "The list below (a to e) describes one major task for each of the five main activities of the fundamental test process. Which option (A to D) places the tasks in the correct order, by time?\n\na) Create bi-directional traceability between test basis and test cases.\nb) Check test logs against exit criteria.\nc) Define the objectives of testing.\nd) Check planned deliverables have been delivered.\ne) Comparing actual results with expected results.",
+    "options": [
+      "a, c, b, e, d",
+      "c, a, d, e, b",
+      "c, a, e, b, d",
+      "d, a, c, b, e"
+    ],
+    "correctAnswer": "c, a, e, b, d",
+    "explanation": ""
+  },
+  {
+    "id": "q124",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which of the following are DEBUGGING activities?\n\na) Designing tests to find failures.\nb) Locating the cause of failures.\nc) Analysing and fixing the defects.\nd) Executing tests to show failures.",
+    "options": [
+      "a and d.",
+      "a and b.",
+      "b and c.",
+      "c and d."
+    ],
+    "correctAnswer": "b and c.",
+    "explanation": ""
+  },
+  {
+    "id": "q125",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which of the following are TESTING activities?\n\na) Designing tests to find failures.\nb) Locating the cause of failures.\nc) Analysing and fixing the defects.\nd) Executing tests to show failures.",
+    "options": [
+      "a and d",
+      "a and b.",
+      "b and c.",
+      "c and d."
+    ],
+    "correctAnswer": "a and d",
+    "explanation": ""
+  },
+  {
+    "id": "q126",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which of the following options BEST explains the \"Tests wear out\" principle of testing?",
+    "options": [
+      "If we do not regularly review and revise our tests, we'll stop finding defects.",
+      "Repeatedly running a set of tests will ensure that a system is defect free.",
+      "Defects are, paradoxically, often contained in a small number of modules.",
+      "Testing, like spraying pesticide, is an effective bug/defect removal activity"
+    ],
+    "correctAnswer": "If we do not regularly review and revise our tests, we'll stop finding defects.",
+    "explanation": ""
+  },
+  {
+    "id": "q127",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "What does the term “Tests wear out” refer to?",
+    "options": [
+      "The phenomena where a piece of code that has a lot of bugs is likely to have more hidden, yet unfound bugs",
+      "The decreasing efficiency of debugging when done in code that has many bugs",
+      "Reduced effectiveness of test cases that are repeated and focused on the same scenarios",
+      "The redundancy of testing the same objects in both black and white box techniques"
+    ],
+    "correctAnswer": "Reduced effectiveness of test cases that are repeated and focused on the same scenarios",
+    "explanation": ""
+  },
+  {
+    "id": "q128",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "In foundation level syllabus you will find the main basic principles of testing. Which of the following sentences describes one of these basic principles?",
+    "options": [
+      "Complete testing of software is attainable if you have enough resources and test tools",
+      "For a software system, it is not possible, under normal conditions, to test all input and output combinations",
+      "A goal of testing is to show that the software is defect free",
+      "With automated testing you can make statements with more confidence about the quality of a product than with manual testing"
+    ],
+    "correctAnswer": "For a software system, it is not possible, under normal conditions, to test all input and output combinations",
+    "explanation": ""
+  },
+  {
+    "id": "q129",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which of the following is NOT a valid objective of testing?",
+    "options": [
+      "Ensuring required coverage of a test object",
+      "Investigating and fixing defects in the software under test",
+      "Gaining confidence that the system is fit-for-purpose",
+      "Providing information for stakeholders' decision making"
+    ],
+    "correctAnswer": "Investigating and fixing defects in the software under test",
+    "explanation": ""
+  },
+  {
+    "id": "q130",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which of the following phases in the fundamental test process is considered to deliver a document which can be used as a major input for test process improvement?",
+    "options": [
+      "Test planning and control",
+      "Test implementation &amp; execution",
+      "Evaluating exit criteria and reporting",
+      "Test project closure"
+    ],
+    "correctAnswer": "Test project closure",
+    "explanation": ""
+  },
+  {
+    "id": "q131",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which of the following would achieve the HIGHEST level of testing independence for a project's system test level?",
+    "options": [
+      "Training developers to design good tests for the test team to execute.",
+      "Outsourcing test design and execution to a different company.",
+      "Having the company's independent test team design and execute the tests.",
+      "Minimising contact between testers and developers during test design to avoid bias."
+    ],
+    "correctAnswer": "Outsourcing test design and execution to a different company.",
+    "explanation": ""
+  },
+  {
+    "id": "q132",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which of the following is a valid drawback of independent testing?",
+    "options": [
+      "Developer and independent testing will overlap and waste resources.",
+      "Developers loose the sense of responsibility and independent testers may become a bottleneck.",
+      "Independent testers need extra education and always cost more",
+      "Independent testers will become a bottleneck and introduce problems in incident management."
+    ],
+    "correctAnswer": "Developers loose the sense of responsibility and independent testers may become a bottleneck.",
+    "explanation": ""
+  },
+  {
+    "id": "q133",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "When considering the roles of test leader and tester, which of the following tasks would NOT typically be performed by a tester?",
+    "options": [
+      "Prepare and acquire the test data",
+      "Set up and check the test environment",
+      "Write test summary reports",
+      "Review tests developed by others"
+    ],
+    "correctAnswer": "Write test summary reports",
+    "explanation": ""
+  },
+  {
+    "id": "q134",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which list of levels of tester independence is in the correct order, starting with the most independent first?",
+    "options": [
+      "Tests designed by the author; tests designed by another member of the development team; tests designed by someone from a different company",
+      "Tests designed by someone from a different department within the company; tests designed by the author; tests designed by someone from a different company.",
+      "Tests designed by someone from a different company; tests designed by someone from a different department within the company; tests designed by another member of the development team.",
+      "Tests designed by someone from a different department within the company; tests designed by someone from a different company; tests designed by the author."
+    ],
+    "correctAnswer": "Tests designed by someone from a different company; tests designed by someone from a different department within the company; tests designed by another member of the development team.",
+    "explanation": ""
+  },
+  {
+    "id": "q135",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Hand over of Testware is a part of which Phase:",
+    "options": [
+      "Test Analysis and Design",
+      "Test Planning and control",
+      "Test Closure Activities",
+      "Evaluating exit criteria and reporting"
+    ],
+    "correctAnswer": "Test Closure Activities",
+    "explanation": ""
+  },
+  {
+    "id": "q136",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Reporting Discrepancies as incidents is a part of which phase:",
+    "options": [
+      "Test Analysis and Design",
+      "Test Implementation and execution",
+      "Test Closure Activities",
+      "Evaluating exit criteria and reporting"
+    ],
+    "correctAnswer": "Test Implementation and execution",
+    "explanation": ""
+  },
+  {
+    "id": "q137",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "What should be the MAIN objective during development testing?",
+    "options": [
+      "To cause as many failures as possible so that defects in the software are identified and can be fixed",
+      "To confirm that the system works as expected and that requirements have been met",
+      "To assess the quality of the software with no intention of fixing defects",
+      "To give information to stakeholders of the risk of releasing the system at a given time"
+    ],
+    "correctAnswer": "To cause as many failures as possible so that defects in the software are identified and can be fixed",
+    "explanation": ""
+  },
+  {
+    "id": "q138",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which of the following is not a part of the Test Implementation and Execution Phase?",
+    "options": [
+      "Creating test suites from the test cases",
+      "Executing test cases either manually or by using test execution tools",
+      "Comparing actual results",
+      "Designing the Tests"
+    ],
+    "correctAnswer": "Designing the Tests",
+    "explanation": ""
+  },
+  {
+    "id": "q139",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which of the following statements BEST describes one of the seven key principles of software testing?",
+    "options": [
+      "Automated tests are better than manual tests for avoiding the Exhaustive Testing",
+      "Exhaustive testing is, with sufficient effort and tool support, feasible for all software",
+      "It is normally impossible to test all input / output combinations for a software system.",
+      "The purpose of testing is to demonstrate the absence of defects."
+    ],
+    "correctAnswer": "It is normally impossible to test all input / output combinations for a software system.",
+    "explanation": ""
+  },
+  {
+    "id": "q140",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "What is the benefit of independent testing?",
+    "options": [
+      "More work gets done because testers do not disturb the developers all the time",
+      "Independent testers tend to be unbiased and find different defects than the developers",
+      "Independent testers do not need extra education and training",
+      "Independent testers reduce the bottleneck in the incident management process"
+    ],
+    "correctAnswer": "Independent testers tend to be unbiased and find different defects than the developers",
+    "explanation": ""
+  },
+  {
+    "id": "q141",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which is not a major task of test implementation and execution?",
+    "options": [
+      "Develop and prioritizing test cases, creating test data, writing test procedures and optionally, preparing test harness and writing automated test scripts.",
+      "Logging the outcome of test execution and recording the identities and versions of the software under test, test tools and testware.",
+      "Checking test logs against the exit criteria specified in test planning.",
+      "Verifying that the test environment has been set up correctly."
+    ],
+    "correctAnswer": "Checking test logs against the exit criteria specified in test planning.",
+    "explanation": ""
+  },
+  {
+    "id": "q142",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which is not the testing objective?",
+    "options": [
+      "Triggering failures",
+      "Gaining confidence about the level of quality and providing information",
+      "Evaluating test basis",
+      "Debugging defects"
+    ],
+    "correctAnswer": "Debugging defects",
+    "explanation": ""
+  },
+  {
+    "id": "q143",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "When assembling a test team to work on an enhancement to an existing system, which of the following has the highest level of test independence?",
+    "options": [
+      "A business analyst who wrote the original requirements for the system.",
+      "A permanent programmer who reviewed some of the new code, but has not written any of it.",
+      "A permanent tester who found most defects in the original system.",
+      "A contract tester who has never worked for the organization before"
+    ],
+    "correctAnswer": "A contract tester who has never worked for the organization before",
+    "explanation": ""
+  },
+  {
+    "id": "q144",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "The following statements relate to activities that are part of the fundamental test process. \n\ni. Evaluating the testability of requirements.\n\n ii. Repeating testing activities after changes.\n\n iii. Designing the test environment set-up. \n\niv. Developing and prioritizing test cases.\n\n v. Verifying the environment is set up correctly. \n\nWhich statement below is TRUE?",
+    "options": [
+      "(i) and (ii) are part of analysis and design, (iii), (iv) and (v) are part of test implementation and execution.",
+      "(i) and (iii) are part of analysis and design, (ii), (iv) and (v) are part of test implementation and execution.",
+      "(i) and (v) are part of analysis and design, (ii), (iii) and (iv) are part of test implementation and execution",
+      "(i) and (iv) are part of analysis and design, (ii), (iii) and (v) are part of test implementation and execution."
+    ],
+    "correctAnswer": "(i) and (iii) are part of analysis and design, (ii), (iv) and (v) are part of test implementation and execution.",
+    "explanation": ""
+  },
+  {
+    "id": "q145",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which of the following is an example of testing as part of the requirements specification phase?",
+    "options": [
+      "A requirements review meeting",
+      "A business analyst eliciting requirements",
+      "Performing acceptance tests against requirements",
+      "A test report showing requirements coverage"
+    ],
+    "correctAnswer": "A requirements review meeting",
+    "explanation": ""
+  },
+  {
+    "id": "q146",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which of the following answers describes a test condition?",
+    "options": [
+      "A testable aspect of a component or system identified as a basis for testing",
+      "A distinguishing characteristic of a component or system",
+      "The degree to which a software product provides functions which meet stated and implied needs when the software is used under specified conditions",
+      "test cases designed to execute combinations of conditions and actions resulting from them"
+    ],
+    "correctAnswer": "A testable aspect of a component or system identified as a basis for testing",
+    "explanation": ""
+  },
+  {
+    "id": "q147",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which one of the following is the BEST description of a test condition?",
+    "options": [
+      "An attribute of a component or system specified or implied by requirements documentation.",
+      "An aspect of the test basis that is relevant to achieve specific test objectives.",
+      "The capability of the software product to provide functions which meet stated and implied needs when the software is used under specified conditions.",
+      "The percentage of all single condition outcomes that independently affect a decision outcome that have been exercised by a test case suite."
+    ],
+    "correctAnswer": "An aspect of the test basis that is relevant to achieve specific test objectives.",
+    "explanation": ""
+  },
+  {
+    "id": "q148",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which one of the statements below describes a defect discovered during testing ?",
+    "options": [
+      "The product crashed when the user selected an option in a dialog box.",
+      "The developer of the system forgot to rename variables after a cut-and-paste operation",
+      "The developer misinterpreted the requirement for the algorithm.",
+      "The computation algorithm used the wrong input variables."
+    ],
+    "correctAnswer": "The computation algorithm used the wrong input variables.",
+    "explanation": ""
+  },
+  {
+    "id": "q149",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "Which of the following is an example of a defect in a car cruise control system?",
+    "options": [
+      "The developer of the system forgot to rename variables after a cut-and-paste operation.",
+      "Unnecessary code that sounds an alarm when reversing was included in the system.",
+      "The system stops maintaining a set speed when the radio volume is increased or decreased.",
+      "The design specification for the system wrongly states speeds in km/h."
+    ],
+    "correctAnswer": "The design specification for the system wrongly states speeds in km/h.",
+    "explanation": ""
+  },
+  {
+    "id": "q150",
+    "chapter": 1,
+    "difficulty": "normal",
+    "questionText": "A phone ringing in a neighboring cubicle distracts a programmer causing him to improperly program the logic that checks the upper boundary of an input variable. Later, during system testing, a tester notices that this input field accepts invalid input values.\n\nWhich of the following correctly describes an incorrectly coded upper bound?",
+    "options": [
+      "The root cause",
+      "A failure",
+      "An error",
+      "A defect"
+    ],
+    "correctAnswer": "A defect",
+    "explanation": ""
+  }
+]
