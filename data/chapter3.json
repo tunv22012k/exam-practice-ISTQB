@@ -1,30 +1,417 @@
 [
   {
-    "id": "q6",
-    "chapter": 3,
-    "difficulty": "easy",
-    "questionText": "Which of the following is considered a form of static testing?",
-    "options": [
-      "Executing automated test scripts",
-      "Running the application and doing exploratory testing",
-      "A formal review of a requirements document",
-      "Performance testing using a specialized tool"
-    ],
-    "correctAnswer": "A formal review of a requirements document",
-    "explanation": "Static testing involves examining work products without executing the code. Reviews are the most common form of static testing."
-  },
-  {
-    "id": "q7",
+    "id": "q301",
     "chapter": 3,
     "difficulty": "normal",
-    "questionText": "Which role in a formal review is responsible for leading the review and making the final decision on whether to proceed?",
+    "questionText": "When comparing Static and Dynamic test techniques, which of the following statements is TRUE?",
     "options": [
-      "Author",
-      "Scribe/Recorder",
-      "Reviewer",
-      "Moderator/Facilitator"
+      "Static Testing finds failures, whilst Dynamic Testing only finds the cause of failures.",
+      "Static Testing techniques, such as reviews, can be undertaken before Dynamic Testing, making defects cheaper to remove.",
+      "Static Testing is based on the execution of code, whist Dynamic Testing relies on examination and analysis.",
+      "Only Static Testing has the objective of identifying defects."
     ],
-    "correctAnswer": "Moderator/Facilitator",
-    "explanation": "The Moderator (or Facilitator) leads the review meeting, schedules it, paces it, and mediates discussions."
+    "correctAnswer": "Static Testing techniques, such as reviews, can be undertaken before Dynamic Testing, making defects cheaper to remove.",
+    "explanation": ""
+  },
+  {
+    "id": "q302",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "One of the roles in a review is that of moderator, which of the following best describes this role?",
+    "options": [
+      "Plans the review, runs the review meeting and ensures that follow-up activities are completed.",
+      "Allocates time in the plan, decides which reviews will take place and that the benefits are delivered.",
+      "Writes the document to be reviewed, agrees that the document can be reviewed, and updates the document with any changes.",
+      "Documents all issues raised in the review meeting, records problems and open points."
+    ],
+    "correctAnswer": "Plans the review, runs the review meeting and ensures that follow-up activities are completed.",
+    "explanation": ""
+  },
+  {
+    "id": "q303",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "Which of the following statements are correct for walkthroughs? \n(i) Often led by the author.\n(ii) Documented and defined results.\n(iii) All participants have defined roles.\n(iv) Used to aid learning.\n(v) Main purpose is to find defects.",
+    "options": [
+      "(i) and (v) are correct",
+      "(ii) and (iii) are correct.",
+      "(i) and (iv) are correct.",
+      "(iii) and (iv) are correct."
+    ],
+    "correctAnswer": "(i) and (iv) are correct.",
+    "explanation": ""
+  },
+  {
+    "id": "q304",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "What benefits do static analysis tools have over test execution tools?",
+    "options": [
+      "Static analysis tools find defects earlier in the life cycle",
+      "Static analysis tools can be used before code is written.",
+      "Static analysis tools test that the delivered code meets business requirements.",
+      "Static analysis tools are particularly effective for regression testing."
+    ],
+    "correctAnswer": "Static analysis tools find defects earlier in the life cycle",
+    "explanation": ""
+  },
+  {
+    "id": "q305",
+    "chapter": 3,
+    "difficulty": "normal",
+    "type": "multiple",
+    "questionText": "You are reading a user story in the product backlog to prepare for a meeting with the product\nowner and a developer, noting potential defects as you go. Which TWO of the following statements is\ntrue about this activity?",
+    "options": [
+      "It is not a static test, because static testing involves execution of the test object",
+      "It is not a static test, because static testing is always performed using a tool",
+      "It is a static test, because any defects you find could be found cheaper during dynamic testing",
+      "It is a static test, because static testing does not involve execution of the test object"
+    ],
+    "correctAnswer": [
+      "It is a static test, because any defects you find could be found cheaper during dynamic testing",
+      "It is a static test, because static testing does not involve execution of the test object"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "q306",
+    "chapter": 3,
+    "difficulty": "normal",
+    "type": "multiple",
+    "questionText": "Which TWO of the following statements on the use of checklists in a formal review is CORRECT?",
+    "options": [
+      "As part of the review planning, the reviewers create the checklists needed for the review",
+      "As part of the individual review, the reviewers fill in the checklists provided for the review",
+      "As part of the review meeting, the reviewers create defect reports based on the checklists provided for the review",
+      "As part of the review initiation, the reviewers receive the checklists needed for the review"
+    ],
+    "correctAnswer": [
+      "As part of the individual review, the reviewers fill in the checklists provided for the review",
+      "As part of the review initiation, the reviewers receive the checklists needed for the review"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "q307",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "Decide which of the following statements (i-v) are true for static testing.\ni. Abnormal external behaviors are easier to identify with this testing\nii. Discrepancies from a coding standard are easier to find with this testing\niii. It identifies failures caused by defects when the software is run\niv. Its test objective is to identify defects as early as possible\nv. Missing coverage for critical security requirements is easier to find and fix",
+    "options": [
+      "i, iv, v are true for static testing",
+      "i, iii, iv are true for static testing",
+      "ii, iii are true for static testing",
+      "ii, iv, v are true for static testing"
+    ],
+    "correctAnswer": "ii, iv, v are true for static testing",
+    "explanation": ""
+  },
+  {
+    "id": "q308",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "What task may management take on during a formal review?",
+    "options": [
+      "Taking overall responsibility for the review",
+      "Deciding what is to be reviewed",
+      "Ensuring the effective running of review meetings, and mediating, if necessary",
+      "Recording review information such as review decisions"
+    ],
+    "correctAnswer": "Deciding what is to be reviewed",
+    "explanation": ""
+  },
+  {
+    "id": "q309",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "Which of following review types has its purpose of discussing, making decisions, evaluation alternatives, solving technical problems and checking conformance to specifications, plans, regulations and standards? [K2]",
+    "options": [
+      "Informal",
+      "Walkthrough",
+      "Technical Review",
+      "Inspection"
+    ],
+    "correctAnswer": "Technical Review",
+    "explanation": ""
+  },
+  {
+    "id": "q310",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "You are performing a review, how many comments do you find based on checklist?\nThe Test Cases are as follows:\nTC1. Success - valid 'User Name' and 'Password'; Customer Menu displayed \nTC2. Failure - 'User Name' field has blank entry; Error Number 12 displayed \nTC3. Failure - 'User Id' entered does not exist on database (i.e. unregistered user); Error Number 23 displayed\n TC4. Failure - 'Password' entered does not match user's password on database; Error Number 24 displayed \nYou are guided by the following checklist in your review:\nC1. There must be one test case to cover success\nC2. There must be one test case for each error path ( validation failure) \nC3. Each test case must use terminology consistent with the test basis document (field names, error number)",
+    "options": [
+      "1.",
+      "2.",
+      "3.",
+      "4."
+    ],
+    "correctAnswer": "3.",
+    "explanation": "",
+    "imageUrl": "/images/q310.png"
+  },
+  {
+    "id": "q311",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "When comparing Static and Dynamic test techniques, which of the following statements is TRUE?",
+    "options": [
+      "Static Testing finds failures, whilst Dynamic Testing only finds the cause of failures.",
+      "Only Static Testing has the objective of identifying defects.",
+      "Static Testing techniques, such as reviews, can be undertaken before Dynamic Testing, making defects cheaper to remove.",
+      "Static Testing is based on the execution of code, whist Dynamic Testing relies on examination and analysis."
+    ],
+    "correctAnswer": "Static Testing techniques, such as reviews, can be undertaken before Dynamic Testing, making defects cheaper to remove.",
+    "explanation": ""
+  },
+  {
+    "id": "q312",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "Which defect below is MOST likely to be found by a review during static testing?",
+    "options": [
+      "Incorrect interface specifications.",
+      "Old versions of software in use.",
+      "Performance bottlenecks.",
+      "Broken links to web addresses."
+    ],
+    "correctAnswer": "Incorrect interface specifications.",
+    "explanation": ""
+  },
+  {
+    "id": "q313",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "What benefits do static analysis tools have over test execution tools?",
+    "options": [
+      "Static analysis tools find defects earlier in the life cycle.",
+      "Static analysis tools can be used before code is written.",
+      "Static analysis tools test that the delivered code meets business requirements.",
+      "Static analysis tools are particularly effective for regression testing."
+    ],
+    "correctAnswer": "Static analysis tools find defects earlier in the life cycle.",
+    "explanation": ""
+  },
+  {
+    "id": "q314",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "One of the roles in a review is that of moderator, which of the following best describes this role?",
+    "options": [
+      "Plans the review, runs the review meeting and ensures that follow-up activities are completed.",
+      "Allocates time in the plan, decides which reviews will take place and that the benefits are delivered.",
+      "Writes the document to be reviewed, agrees that the document can be reviewed, and updates the document with any changes.",
+      "Documents all issues raised in the review meeting, records problems and open points."
+    ],
+    "correctAnswer": "Plans the review, runs the review meeting and ensures that follow-up activities are completed.",
+    "explanation": ""
+  },
+  {
+    "id": "q315",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "What do static analysis tools analyze?",
+    "options": [
+      "Design",
+      "Test cases",
+      "Requirements",
+      "Program code"
+    ],
+    "correctAnswer": "Program code",
+    "explanation": ""
+  },
+  {
+    "id": "q316",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "Which of the following is most likely to be a benefit of using static techniques?",
+    "options": [
+      "Fewer performance defects.",
+      "Productivity improvements in the development process.",
+      "More efficient regression testing.",
+      "Quick return on investment in static analysis tools."
+    ],
+    "correctAnswer": "Productivity improvements in the development process.",
+    "explanation": ""
+  },
+  {
+    "id": "q317",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "Which of the following are static techniques?",
+    "options": [
+      "Walkthrough.",
+      "State transition testing.",
+      "Decision table testing.",
+      "Statement testing."
+    ],
+    "correctAnswer": "Walkthrough.",
+    "explanation": ""
+  },
+  {
+    "id": "q318",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "Which one of the following roles is typically used in a review?",
+    "options": [
+      "Champion.",
+      "Author.",
+      "Project sponsor.",
+      "Custodian."
+    ],
+    "correctAnswer": "Author.",
+    "explanation": ""
+  },
+  {
+    "id": "q319",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "Which of the following statements are correct for walkthroughs?\n\n(i) Often led by the author.\n(ii) Documented and defined results.\n(iii) All participants have defined roles.\n(iv) Used to aid learning.\n(v) Main purpose is to find defects.",
+    "options": [
+      "(i) and (v) are correct.",
+      "(ii) and (iii) are correct.",
+      "(i) and (iv) are correct.",
+      "(iii) and  (iv) are correct"
+    ],
+    "correctAnswer": "(i) and (iv) are correct.",
+    "explanation": ""
+  },
+  {
+    "id": "q320",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "Which of the following has the typical formal review activities in the correct sequence?",
+    "options": [
+      "Kick-off, review meeting, planning, follow-up.",
+      "Kick-off, planning, review meeting, re-work.",
+      "Planning, kick-off, individual preparation, review meeting.",
+      "Planning, individual preparation, follow-up, re-work"
+    ],
+    "correctAnswer": "Planning, kick-off, individual preparation, review meeting.",
+    "explanation": ""
+  },
+  {
+    "id": "q321",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "Which of the following statements are true?\n\n(i) Defects are likely to be found earlier in the development process by using reviews rather than static analysis.\n\n(ii) Walkthroughs require code but static analysis does not require code.\n\n(iii) Informal reviews can be performed on code and specifications.\n\n(iv) Dynamic techniques are generally used before static techniques.\n\n(v) Dynamic techniques can only be used after code is ready to be executed.",
+    "options": [
+      "(i), (ii), (vi).",
+      "(ii), (iii), (v).",
+      "(i), (iv), (v).",
+      "(i), (iii), (v)."
+    ],
+    "correctAnswer": "(i), (iii), (v).",
+    "explanation": ""
+  },
+  {
+    "id": "q322",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "An important benefit of code inspections is that they",
+    "options": [
+      "enable the code to be tested before the execution environment is ready.",
+      "can be performed by the person who wrote the code.",
+      "can be performed by inexperienced staff.",
+      "are cheap to perform."
+    ],
+    "correctAnswer": "enable the code to be tested before the execution environment is ready.",
+    "explanation": ""
+  },
+  {
+    "id": "q323",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "Which of the following statements about reviews is true?",
+    "options": [
+      "Reviews cannot be performed on user requirements specifications.",
+      "Reviews are the least effective way of testing code.",
+      "Reviews are unlikely to find faults in test plans.",
+      "Reviews should be performed on specifications, code, and test plans."
+    ],
+    "correctAnswer": "Reviews should be performed on specifications, code, and test plans.",
+    "explanation": ""
+  },
+  {
+    "id": "q324",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "Increasing the quality of the software, by better development methods, will affect the time needed for testing (the test phases) by",
+    "options": [
+      "increasing test time",
+      "no change",
+      "reducing test time",
+      "can’t say"
+    ],
+    "correctAnswer": "reducing test time",
+    "explanation": ""
+  },
+  {
+    "id": "q325",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "Inspections can find all the following except?",
+    "options": [
+      "Requirements that have been omitted from the design documents",
+      "Spelling and grammar faults in the documents",
+      "Variables not defined in the code",
+      "How much of the code has been covered"
+    ],
+    "correctAnswer": "How much of the code has been covered",
+    "explanation": ""
+  },
+  {
+    "id": "q326",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "Which statement about Static Testing is TRUE?",
+    "options": [
+      "Static testing can be applied to any work product that participants know how to read and understand.",
+      "Static testing must only be applied to final work products that have been signed off.",
+      "Static testing must be conducted by users of the product being tested.",
+      "Static testing executes the code to verify the functionality is as expected."
+    ],
+    "correctAnswer": "Static testing can be applied to any work product that participants know how to read and understand.",
+    "explanation": ""
+  },
+  {
+    "id": "q327",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "Which of the following statements is correct?",
+    "options": [
+      "Pair programming is done with developer and tester pairing together",
+      "Pair programming is an alternative",
+      "Pair programming is used usually in waterfall model",
+      "Pair programming is, among other things, an informal review method"
+    ],
+    "correctAnswer": "Pair programming is, among other things, an informal review method",
+    "explanation": ""
+  },
+  {
+    "id": "q328",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "Which of the following is a defect that is more likely to be found by a static analysis tool than by other testing techniques?",
+    "options": [
+      "Omission of a major requirement",
+      "Inadequate decision coverage",
+      "Component memory leakage",
+      "Variables that are not used improperly declared"
+    ],
+    "correctAnswer": "Variables that are not used improperly declared",
+    "explanation": ""
+  },
+  {
+    "id": "q329",
+    "chapter": 3,
+    "difficulty": "normal",
+    "questionText": "Which of the following type of defect would NOT be typically found by using a static analysis tool?",
+    "options": [
+      "A variable is defined but is then not used",
+      "A variable is used in a calculation before it is defined",
+      "A variable has the wrong numeric value passed into it",
+      "A variable is used but not declared"
+    ],
+    "correctAnswer": "A variable has the wrong numeric value passed into it",
+    "explanation": ""
   }
 ]

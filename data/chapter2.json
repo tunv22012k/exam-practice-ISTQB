@@ -1,30 +1,550 @@
 [
   {
-    "id": "q4",
-    "chapter": 2,
-    "difficulty": "easy",
-    "questionText": "Which testing level focuses primarily on validating against user requirements?",
-    "options": [
-      "Component Testing",
-      "Integration Testing",
-      "System Testing",
-      "Acceptance Testing"
-    ],
-    "correctAnswer": "Acceptance Testing",
-    "explanation": "Acceptance testing focuses on validating whether the system fulfills user requirements and business needs."
-  },
-  {
-    "id": "q5",
+    "id": "q201",
     "chapter": 2,
     "difficulty": "normal",
-    "questionText": "What is the main purpose of impact analysis in maintenance testing?",
+    "questionText": "Which of the following apply to System Testing?\na) May satisfy legal requirements.\nb) Can use system specifications as a test basis.\nc) Often the responsibility of business users.\nd) Main goal is to establish confidence.\ne) Should focus on the communication between systems.",
     "options": [
-      "To evaluate the consequences of a change and the side effects it may cause.",
-      "To determine the number of testers needed for the project.",
-      "To understand the total cost of the testing phase.",
-      "To prioritize the execution of existing automated tests."
+      "a and c.",
+      "b and d.",
+      "a and b.",
+      "c and e."
     ],
-    "correctAnswer": "To evaluate the consequences of a change and the side effects it may cause.",
-    "explanation": "Impact analysis is conducted during maintenance testing to determine how a change (like a bug fix or new feature) might affect existing functionality and to decide what needs to be regression tested."
+    "correctAnswer": "b and d.",
+    "explanation": ""
+  },
+  {
+    "id": "q202",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Which of the following is a characteristic of good testing in any life cycle model?",
+    "options": [
+      "Analysis and design of tests begins as soon as development is completed.",
+      "Some, but not all, development activities have corresponding test activities",
+      "Each test level has test objectives specific to that level",
+      "All document reviews involve the development team."
+    ],
+    "correctAnswer": "Each test level has test objectives specific to that level",
+    "explanation": ""
+  },
+  {
+    "id": "q203",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "System requirement states that up to 100 users should be able to carry out a transaction, with responses returned within 5 seconds.\nWhat type of non-functional testing would you carry out to verify these requirements?",
+    "options": [
+      "Stress testing",
+      "Maintenance testing",
+      "Load testing",
+      "Usability testing"
+    ],
+    "correctAnswer": "Load testing",
+    "explanation": ""
+  },
+  {
+    "id": "q204",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "The difference between re-testing and regression testing is:",
+    "options": [
+      "Re-testing is running a test again; regression testing looks for unexpected side effects",
+      "Re-testing looks for unexpected side effects; regression testing is repeating those tests",
+      "Re-testing is done after faults are fixed; regression testing is done earlier",
+      "Re-testing uses different environments, regression testing uses the same environment",
+      "Re-testing is done by developers, regression testing is done by independent testers"
+    ],
+    "correctAnswer": "Re-testing is running a test again; regression testing looks for unexpected side effects",
+    "explanation": ""
+  },
+  {
+    "id": "q205",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "According to the ISTQB Glossary, regression testing is required for what purpose?",
+    "options": [
+      "To verify the success of corrective actions.",
+      "To prevent a task from being incorrectly considered completed",
+      "To ensure that defects have not been introduced by a modification",
+      "To motivate better unit testing by the programmers."
+    ],
+    "correctAnswer": "To ensure that defects have not been introduced by a modification",
+    "explanation": ""
+  },
+  {
+    "id": "q206",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Maintenance testing is:",
+    "options": [
+      "updating tests when the software has changed",
+      "testing a released system that has been changed",
+      "testing by users to ensure that the system meets a business need",
+      "testing to maintain business advantage"
+    ],
+    "correctAnswer": "testing a released system that has been changed",
+    "explanation": ""
+  },
+  {
+    "id": "q207",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "For which of the following would maintenance testing be used?",
+    "options": [
+      "Correction of defects during the development phase",
+      "Planned enhancements to an existing operational system.",
+      "Complaints about system quality during user acceptance testing.",
+      "Integrating functions during the development of a new system."
+    ],
+    "correctAnswer": "Planned enhancements to an existing operational system.",
+    "explanation": ""
+  },
+  {
+    "id": "q208",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Which of the following is not true of regression testing?",
+    "options": [
+      "It can be carried out at each stage of the life cycle.",
+      "It serves to demonstrate that the changed software works as intended.",
+      "It serves to demonstrate that software has not been unintentionally changed.",
+      "It is often automated."
+    ],
+    "correctAnswer": "It serves to demonstrate that the changed software works as intended.",
+    "explanation": ""
+  },
+  {
+    "id": "q209",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Which pair of definitions is correct?",
+    "options": [
+      "Regression testing is checking that the reported defect has been fixed; retesting is testing that there are no additional problems in previously tested software",
+      "Regression testing is checking there are no additional problems in previously tested software; retesting enables developers to isolate the problem.",
+      "Regression testing involves running all tests that have been run before; retesting runs new tests",
+      "Regression testing is checking that there are no additional problems in previously tested software, retesting is demonstrating that the reported defect has been fixed."
+    ],
+    "correctAnswer": "Regression testing is checking that there are no additional problems in previously tested software, retesting is demonstrating that the reported defect has been fixed.",
+    "explanation": ""
+  },
+  {
+    "id": "q210",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Which of the following is true about the V-model?",
+    "options": [
+      "It has the same steps as the waterfall model for software development",
+      "It is referred to as a cyclical model for software development.",
+      "It enables the production of a working version of the system as early as possible",
+      "It enables test planning to start as early as possible."
+    ],
+    "correctAnswer": "It enables test planning to start as early as possible.",
+    "explanation": ""
+  },
+  {
+    "id": "q211",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Which of the following is true of iterative development?",
+    "options": [
+      "It uses fully defined specifications from the start.",
+      "It involves the users in the testing throughout",
+      "Changes to the system do not need to be formally recorded.",
+      "It is not suitable for developing websites."
+    ],
+    "correctAnswer": "It involves the users in the testing throughout",
+    "explanation": ""
+  },
+  {
+    "id": "q212",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "A top-down development strategy affects which level of testing most?",
+    "options": [
+      "Component testing",
+      "Integration testing",
+      "System testing",
+      "User acceptance testing"
+    ],
+    "correctAnswer": "Integration testing",
+    "explanation": ""
+  },
+  {
+    "id": "q213",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Which of the following statements are true? \n(i) For every development activity there is a corresponding testing activity. \n(ii) Each test level has the same test objectives.\n (iii) The analysis and design of tests for a given test level should begin after the corresponding development activity.\n (iv)Testers should be involved in reviewing documents as soon as drafts are available in the development life cycle.",
+    "options": [
+      "(i) and (ii)",
+      "(iii) and (iv)",
+      "(ii) and (iii)",
+      "(i) and (iv)"
+    ],
+    "correctAnswer": "(i) and (iv)",
+    "explanation": ""
+  },
+  {
+    "id": "q214",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "To test a function, the programmer has to write a _________, which calls the function to be tested and passes it test data:",
+    "options": [
+      "Stub",
+      "Driver",
+      "Proxy",
+      "None of the above"
+    ],
+    "correctAnswer": "Driver",
+    "explanation": ""
+  },
+  {
+    "id": "q215",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "What is regression test?",
+    "options": [
+      "Running the same test again in the same circumstances to reproduce the problem.",
+      "A cursory run through a test pack to see if any new errors have been introduced.",
+      "Checking that the predetermined exit criteria for the test phase have been met",
+      "Running a previously failed test against new software/data/documents to see if the problem is solved"
+    ],
+    "correctAnswer": "A cursory run through a test pack to see if any new errors have been introduced.",
+    "explanation": ""
+  },
+  {
+    "id": "q216",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "You are testing a user story with three acceptance criteria: AC1, AC2 and AC3. AC1 is covered by\ntest case TC1, AC2 by TC2, and AC3 by TC3. The test execution history had three test runs on three\nconsecutive versions of the software as image:\nTests are repeated once you are informed that all defects found in the test run are corrected and a new version of the software is available.\nWhich of the above tests are executed as regression tests?",
+    "options": [
+      "Only 4, 7, 8, 9",
+      "Only 5, 7",
+      "Only 4, 6, 8, 9",
+      "Only 5, 6"
+    ],
+    "correctAnswer": "Only 5, 7",
+    "explanation": "",
+    "imageUrl": "/images/q216.png"
+  },
+  {
+    "id": "q217",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "There are several characteristics of good testing in any life cycle model. Which statement is true about the characteristics of good testing? [K1]",
+    "options": [
+      "Each test level has general test objectives",
+      "The planning of tests for a given test level should begin during the corresponding",
+      "Testers should be involved in reviewing documents as soon as drafts are available in the development life cycle",
+      "For every testing activity there is a corresponding development activity."
+    ],
+    "correctAnswer": "Testers should be involved in reviewing documents as soon as drafts are available in the development life cycle",
+    "explanation": ""
+  },
+  {
+    "id": "q218",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "You work as a tester in a project on a mobile application for food ordering for one of your clients.\nThe client sent you a list of requirements. One of them, with high priority, says\n“The order must be processed in less than 10 seconds in 95% of the cases”.\nYou created a set of test cases in which a number of random orders were made, the processing time\nmeasured, and the test results were checked against the requirements.\nWhat test type did you perform?",
+    "options": [
+      "Functional, because the test cases cover the user’s business requirement for the system",
+      "Non-functional, because the measure the system’s performance",
+      "Functional, because the test cases interact with the user interface",
+      "Structural, because we need to know the internal structure of the program to measure the order processing time"
+    ],
+    "correctAnswer": "Non-functional, because the measure the system’s performance",
+    "explanation": ""
+  },
+  {
+    "id": "q219",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Your organization’s test strategy suggests that once a system is going to be retired, data migration\nshall be tested. As part of what test type is this testing MOST likely to be performed?",
+    "options": [
+      "Maintenance testing",
+      "Regression testing",
+      "Component testing",
+      "Integration testing"
+    ],
+    "correctAnswer": "Maintenance testing",
+    "explanation": ""
+  },
+  {
+    "id": "q220",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Which of the following are triggers for Maintenance testing?\na) System migration from one platform to another.\nb) Retirement of a system.\nc) Preparation for an audit of a system.\nd) Modifications to a system.\ne) Development of a whole new system.",
+    "options": [
+      "a, c and d.",
+      "a, d and e.",
+      "b, c and e.",
+      "a, b and d."
+    ],
+    "correctAnswer": "a, b and d.",
+    "explanation": ""
+  },
+  {
+    "id": "q221",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Which of the following are triggers for maintenance testing? \n1. The period of time since last regression testing a system \n2. New operating system installations \n3. Changes in corporate policies and government regulations \n4. Converting a legacy system to a software package \n5. Developing a new software application  Select one:",
+    "options": [
+      "2, 3, 4, and 5",
+      "1, 2, 3, and 4",
+      "2, 3, and 4",
+      "2, 3, and 5"
+    ],
+    "correctAnswer": "2, 3, and 4",
+    "explanation": ""
+  },
+  {
+    "id": "q222",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "An impact analysis after maintenance to an existing system evaluates:",
+    "options": [
+      "The skills and knowledge of testers to perform regression testing",
+      "Different test design techniques to use for re-testing after a change",
+      "How changes to a system might affect the unchanged areas of the system",
+      "How long a legacy system can remain operational and not need replacement"
+    ],
+    "correctAnswer": "How changes to a system might affect the unchanged areas of the system",
+    "explanation": ""
+  },
+  {
+    "id": "q223",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "What is retesting?",
+    "options": [
+      "Running the same test again in the same circumstances to reproduce the problem.",
+      "A cursory run through a test pack to see if any new errors have been introduced.",
+      "Checking that the predetermined exit criteria for the test phase have been met",
+      "Running a previously failed test against new software/data/documents to see if the problem is solved"
+    ],
+    "correctAnswer": "Running a previously failed test against new software/data/documents to see if the problem is solved",
+    "explanation": ""
+  },
+  {
+    "id": "q224",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Which of the following is in the correct order (typically)?",
+    "options": [
+      "Unit testing, system testing, acceptance testing, maintenance testing.",
+      "System testing, unit testing, acceptance testing, maintenance testing.",
+      "Acceptance testing, system testing, maintenance testing, unit testing.",
+      "Unit testing, maintenance testing, system testing, acceptance testing."
+    ],
+    "correctAnswer": "Unit testing, system testing, acceptance testing, maintenance testing.",
+    "explanation": ""
+  },
+  {
+    "id": "q225",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Which of the following is not true of regression testing",
+    "options": [
+      "It can be carried out at each stage of the life cycle.",
+      "It serves to demonstrate that the changed software works as intended.",
+      "It serves to demonstrate that software has not been unintentionally changed.",
+      "It is often automated."
+    ],
+    "correctAnswer": "It serves to demonstrate that the changed software works as intended.",
+    "explanation": ""
+  },
+  {
+    "id": "q226",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "One of the roles in a review is that of moderator, which of the following best describes this role?",
+    "options": [
+      "Plans the review, runs the review meeting and ensures that follow-up activities are completed.",
+      "Allocates time in the plan, decides which reviews will take place and that the benefits are delivered.",
+      "Writes the document to be reviewed, agrees that the document can be reviewed, and updates the document with any changes.",
+      "Documents all issues raised in the review meeting, records problems and open points."
+    ],
+    "correctAnswer": "Plans the review, runs the review meeting and ensures that follow-up activities are completed.",
+    "explanation": ""
+  },
+  {
+    "id": "q227",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Which pair of definitions is correct?",
+    "options": [
+      "Regression testing is checking that the reported defect has been fixed; retesting is testing that there are no additional problems in previously tested software.",
+      "Regression testing is checking there are no additional problems in previously tested software; retesting enables developers to isolate the problem.",
+      "Regression testing involves running all tests that have been run before; retesting runs new tests.",
+      "Regression testing is checking that there are no additional problems in previously tested software, retesting is demonstrating that the reported defect has been fixed."
+    ],
+    "correctAnswer": "Regression testing is checking that there are no additional problems in previously tested software, retesting is demonstrating that the reported defect has been fixed.",
+    "explanation": ""
+  },
+  {
+    "id": "q228",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "A top-down development strategy affects which level of testing most?",
+    "options": [
+      "Component testing",
+      "Integration testing",
+      "System testing",
+      "User acceptance testing"
+    ],
+    "correctAnswer": "Integration testing",
+    "explanation": ""
+  },
+  {
+    "id": "q229",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Which of the following is a non-functional requirement?",
+    "options": [
+      "The system will enable users to buy books.",
+      "The system will allow users to return books.",
+      "The system will ensure security of the customer details.",
+      "The system will allow up to 100 users to log in at the same time."
+    ],
+    "correctAnswer": "The system will allow up to 100 users to log in at the same time.",
+    "explanation": ""
+  },
+  {
+    "id": "q230",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Which of the following statements are true?\n\n(i) For every development activity there is a corresponding testing activity.\n\n(ii) Each test level has the same test objectives.\n\n(iii) The analysis and design of tests for a given test level should begin after the corresponding development activity.\n\n(iv)Testers should be involved in reviewing documents as soon as drafts are available in the development life cycle.",
+    "options": [
+      "(i) and (ii)",
+      "(iii) and (iv)",
+      "(ii) and (iii)",
+      "(i) and (iv)"
+    ],
+    "correctAnswer": "(i) and (iv)",
+    "explanation": ""
+  },
+  {
+    "id": "q231",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "What is regression test?",
+    "options": [
+      "Running the same test again in the same circumstances to reproduce the problem.",
+      "A cursory run through a test pack to see if any new errors have been introduced.",
+      "Checking that the predetermined exit criteria for the test phase have been met",
+      "Running a previously failed test against new software/data/documents to see if the problem is solved"
+    ],
+    "correctAnswer": "A cursory run through a test pack to see if any new errors have been introduced.",
+    "explanation": ""
+  },
+  {
+    "id": "q232",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Which of the following list contains only non-functional tests?",
+    "options": [
+      "Interoperability (compatibility) testing, System testing, performance testing",
+      "Load testing, stress testing, component testing, portability testing",
+      "Load testing, stress testing, reliability testing, performance testing",
+      "Load testing, stress testing, component testing, portability testing"
+    ],
+    "correctAnswer": "Load testing, stress testing, reliability testing, performance testing",
+    "explanation": ""
+  },
+  {
+    "id": "q233",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Acceptance testing means",
+    "options": [
+      "Testing performed on a single stand",
+      "Testing after changes have been made to ensure that no unwanted changes were introduced",
+      "Testing to ensure that the system meets the needs of the organization and end user.",
+      "Users test the application in the developers environment"
+    ],
+    "correctAnswer": "Testing to ensure that the system meets the needs of the organization and end user.",
+    "explanation": ""
+  },
+  {
+    "id": "q234",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Integration testing where all the system’s components being combined to form the system at once.",
+    "options": [
+      "System testing",
+      "Component testing",
+      "Incremental testing",
+      "Big-bang testing"
+    ],
+    "correctAnswer": "Big-bang testing",
+    "explanation": ""
+  },
+  {
+    "id": "q235",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Alpha testing is",
+    "options": [
+      "post-release testing by end user representatives at the developer’s site.",
+      "the first testing that is performed.",
+      "pre-release testing by end user representatives at the developer’s site.",
+      "pre-release testing by end user representatives at their sites."
+    ],
+    "correctAnswer": "pre-release testing by end user representatives at the developer’s site.",
+    "explanation": ""
+  },
+  {
+    "id": "q236",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Which requirement is testable?",
+    "options": [
+      "The tested application is portable.",
+      "Loading time of the tested web application is within 3 seconds.",
+      "The critical part of the tested application has no fault.",
+      "The tested application is user-friendly."
+    ],
+    "correctAnswer": "Loading time of the tested web application is within 3 seconds.",
+    "explanation": ""
+  },
+  {
+    "id": "q237",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Which of the following is a form of functional testing?",
+    "options": [
+      "Boundary value analysis",
+      "Usability testing",
+      "Performance testing",
+      "Security testing"
+    ],
+    "correctAnswer": "Boundary value analysis",
+    "explanation": ""
+  },
+  {
+    "id": "q238",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "After a record of poor quality software releases (incorrect menu selection options, new features that do not work, users allowed to change security levels without administrator rights), you have been asked to review the test capability in your company. \nYou have limited time to do the review before the next project, which type of testing would be MOST appropriate to review first?",
+    "options": [
+      "Functional testing.",
+      "Non-functional testing",
+      "Performance testing",
+      "Structural testing."
+    ],
+    "correctAnswer": "Structural testing.",
+    "explanation": ""
+  },
+  {
+    "id": "q239",
+    "chapter": 2,
+    "difficulty": "normal",
+    "questionText": "Where and by whom is Beta testing normally performed?",
+    "options": [
+      "By customers or potential customers at their own locations",
+      "By an independent test team at the developing organization’s location",
+      "At the developing organization’s site, but not by the developing team",
+      "By customers or potential customers at the developing organization’s site"
+    ],
+    "correctAnswer": "By customers or potential customers at their own locations",
+    "explanation": ""
   }
 ]

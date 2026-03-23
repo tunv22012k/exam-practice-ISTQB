@@ -226,16 +226,30 @@ export default function ExamPage() {
           </div>
 
           {/* Question Text */}
-          <h1 className="text-xl md:text-2xl font-medium leading-relaxed mb-12 animate-fade-in-up whitespace-pre-wrap">
+          <h1 className="text-xl md:text-2xl font-medium leading-relaxed mb-6 animate-fade-in-up whitespace-pre-wrap">
             {currentQuestion?.questionText}
           </h1>
+
+          {currentQuestion?.imageUrl && (
+            <div className="mb-8 rounded-2xl overflow-hidden border border-white/10 shadow-2xl animate-fade-in-up">
+              <img 
+                src={currentQuestion.imageUrl} 
+                alt="Question illustration" 
+                className="max-h-[400px] object-contain mx-auto"
+              />
+            </div>
+          )}
 
           {/* Options List */}
           <div className="space-y-4 mb-20">
             {currentQuestion?.options.map((option, idx) => {
-              const isSelected = userAnswers[currentQuestion.id] === option;
-              return (
-                <label
+              const uAns = userAnswers[currentQuestion.id];
+              const qType = currentQuestion?.type;
+              const isSelected = qType === 'multiple'
+                ? (Array.isArray(uAns) && uAns.includes(option))
+                : uAns === option;
+                return (
+                  <label
                   key={idx}
                   className={`
                       group flex items-start p-5 rounded-2xl cursor-pointer transition-all duration-300 border backdrop-blur-sm
@@ -246,15 +260,23 @@ export default function ExamPage() {
                 >
                   <div className="flex items-center h-6 mr-4">
                     <div className={`
-                        w-6 h-6 rounded-full border-2 flex items-center justify-center transition-all duration-300
+                        w-6 h-6 rounded-${qType === 'multiple' ? 'md' : 'full'} border-2 flex items-center justify-center transition-all duration-300
                         ${isSelected ? 'border-blue-400' : 'border-slate-500 group-hover:border-slate-400'}
                       `}>
-                      {isSelected && <div className="w-3 h-3 bg-blue-400 rounded-full animate-bounce-short"></div>}
+                      {isSelected && (
+                        <div className={qType === 'multiple' ? "" : "w-3 h-3 bg-blue-400 rounded-full animate-bounce-short"}>
+                          {qType === 'multiple' && (
+                            <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                            </svg>
+                          )}
+                        </div>
+                      )}
                     </div>
                   </div>
 
                   <input
-                    type="radio"
+                    type={qType === 'multiple' ? "checkbox" : "radio"}
                     name={`question-${currentQuestion.id}`}
                     value={option}
                     checked={isSelected}

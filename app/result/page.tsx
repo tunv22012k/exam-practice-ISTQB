@@ -29,12 +29,20 @@ export default function ResultPage() {
 
     examQuestions.forEach(q => {
       const uAns = userAnswers[q.id];
-      if (!uAns) {
+      const cAns = q.correctAnswer;
+      
+      if (!uAns || (Array.isArray(uAns) && uAns.length === 0)) {
         unattempted++;
-      } else if (uAns === q.correctAnswer) {
-        correct++;
       } else {
-        incorrect++;
+        const isCorrect = Array.isArray(cAns) 
+          ? (Array.isArray(uAns) && uAns.length === cAns.length && uAns.every(val => cAns.includes(val)))
+          : uAns === cAns;
+          
+        if (isCorrect) {
+          correct++;
+        } else {
+          incorrect++;
+        }
       }
     });
 
@@ -116,8 +124,11 @@ export default function ResultPage() {
 
         {examQuestions.map((q, idx) => {
           const uAns = userAnswers[q.id];
-          const isCorrect = uAns === q.correctAnswer;
-          const isUnattempted = !uAns;
+          const cAns = q.correctAnswer;
+          const isCorrect = Array.isArray(cAns) 
+            ? (Array.isArray(uAns) && uAns.length === cAns.length && uAns.every(val => cAns.includes(val)))
+            : uAns === cAns;
+          const isUnattempted = !uAns || (Array.isArray(uAns) && uAns.length === 0);
 
           return (
             <div key={q.id} className="bg-slate-800/40 border border-slate-700/50 rounded-[2rem] p-6 md:p-8 hover:bg-slate-800/60 transition-colors">
@@ -139,8 +150,8 @@ export default function ResultPage() {
               
               <div className="space-y-3 mb-8">
                 {q.options.map((opt, oIdx) => {
-                  const isUserSelection = uAns === opt;
-                  const isActualCorrect = q.correctAnswer === opt;
+                  const isUserSelection = Array.isArray(uAns) ? uAns.includes(opt) : uAns === opt;
+                  const isActualCorrect = Array.isArray(cAns) ? cAns.includes(opt) : cAns === opt;
                   
                   let optStyle = "bg-slate-900/40 border-slate-700 text-slate-400";
                   let icon = null;

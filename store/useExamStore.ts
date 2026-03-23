@@ -15,8 +15,10 @@ export type Question = {
   difficulty: "easy" | "normal" | "hard";
   questionText: string;
   options: string[];
-  correctAnswer: string;
+  correctAnswer: string | string[];
   explanation: string;
+  imageUrl?: string;
+  type?: 'single' | 'multiple';
 };
 
 export type ExamState = 'idle' | 'running' | 'submitted';
@@ -27,7 +29,7 @@ export interface AppState {
   
   // Real-time exam session data
   examQuestions: Question[];
-  userAnswers: Record<string, string>; // Maps questionId to selected option
+  userAnswers: Record<string, string | string[]>; // Maps questionId to selected option(s)
   timeRemaining: number; // in seconds
   
   // Actions
@@ -53,8 +55,20 @@ export const useExamStore = create<AppState>((set) => ({
   resetExam: () => set({ examConfig: null, examState: 'idle', examQuestions: [], userAnswers: {}, timeRemaining: 0 }),
   
   setExamQuestions: (questions) => set({ examQuestions: questions }),
-  setAnswer: (questionId, answer) => set((state) => ({
-    userAnswers: { ...state.userAnswers, [questionId]: answer }
-  })),
+  setAnswer: (questionId, answer) => set((state) => {
+    const question = state.examQuestions.find(q => q.id === questionId);
+    if (question?.type === 'multiple') {
+      const currentAnswers = (state.userAnswers[questionId] as string[]) || [];
+      const newAnswers = currentAnswers.includes(answer as string)
+        ? currentAnswers.filter(a => a !== answer)
+        : [...currentAnswers, answer as string];
+      return {
+        userAnswers: { ...state.userAnswers, [questionId]: newAnswers }
+      };
+    }
+    return {
+      userAnswers: { ...state.userAnswers, [questionId]: answer }
+    };
+  }),
   setTimeRemaining: (seconds) => set({ timeRemaining: seconds }),
 }));
