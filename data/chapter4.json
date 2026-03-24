@@ -480,7 +480,7 @@
     ],
     "correctAnswer": "01.001, 01.002, 01.004, 01.003, 01.005",
     "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_7.png"
+    "imageUrl": "/images/quiz_chapter4_7.jpg"
   },
   {
     "id": "q435",
@@ -565,7 +565,7 @@
     ],
     "correctAnswer": "Decision testing",
     "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_8.png"
+    "imageUrl": "/images/quiz_chapter4_8.jpg"
   },
   {
     "id": "q441",
@@ -608,7 +608,7 @@
     ],
     "correctAnswer": "4",
     "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_9.png"
+    "imageUrl": "/images/quiz_chapter4_9.jpg"
   },
   {
     "id": "q444",
@@ -623,7 +623,7 @@
     ],
     "correctAnswer": "4",
     "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_10.png"
+    "imageUrl": "/images/quiz_chapter4_10.jpg"
   },
   {
     "id": "q445",
@@ -666,7 +666,7 @@
     ],
     "correctAnswer": "01.001, 01.002, 01.004, 01.003, 01.005",
     "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_11.png"
+    "imageUrl": "/images/quiz_chapter4_11.jpg"
   },
   {
     "id": "q448",
@@ -681,7 +681,7 @@
     ],
     "correctAnswer": "TC4 – TC3 – TC1 – TC2 – TC5 – TC6",
     "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_12.png"
+    "imageUrl": "/images/quiz_chapter4_12.jpg"
   },
   {
     "id": "q449",
@@ -738,7 +738,7 @@
     ],
     "correctAnswer": "2",
     "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_13.png"
+    "imageUrl": "/images/quiz_chapter4_13.jpg"
   },
   {
     "id": "q453",
@@ -767,7 +767,7 @@
     ],
     "correctAnswer": "DT2, DT4",
     "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_14.png"
+    "imageUrl": "/images/quiz_chapter4_14.jpg"
   },
   {
     "id": "q455",
@@ -782,7 +782,7 @@
     ],
     "correctAnswer": "WAIT → TRICKLE → CHARGE → HIGH → CHARGE → TRICKLE → WAIT → OFF → WAIT",
     "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_15.png"
+    "imageUrl": "/images/quiz_chapter4_15.jpg"
   },
   {
     "id": "q456",
@@ -937,7 +937,7 @@
     ],
     "correctAnswer": "Condition1 = NO, Condition2 = YES, Condition3 = NO, Action= NO",
     "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_16.png"
+    "imageUrl": "/images/quiz_chapter4_16.jpg"
   },
   {
     "id": "q467",
@@ -952,7 +952,7 @@
     ],
     "correctAnswer": "The given test cases represent all possible valid transitions in the state transition diagram.",
     "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_17.png"
+    "imageUrl": "/images/quiz_chapter4_17.jpg"
   },
   {
     "id": "q468",
