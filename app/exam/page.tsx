@@ -226,15 +226,15 @@ export default function ExamPage() {
           </div>
 
           {/* Question Text */}
-          <h1 className="text-xl md:text-2xl font-medium leading-relaxed mb-6 animate-fade-in-up whitespace-pre-wrap">
+          <h1 className="text-xl md:text-1xl font-medium leading-relaxed mb-6 animate-fade-in-up whitespace-pre-wrap">
             {currentQuestion?.questionText}
           </h1>
 
           {currentQuestion?.imageUrl && (
             <div className="mb-8 rounded-2xl overflow-hidden border border-white/10 shadow-2xl animate-fade-in-up">
-              <img 
-                src={currentQuestion.imageUrl} 
-                alt="Question illustration" 
+              <img
+                src={currentQuestion.imageUrl}
+                alt="Question illustration"
                 className="max-h-[400px] object-contain mx-auto"
               />
             </div>
@@ -248,8 +248,8 @@ export default function ExamPage() {
               const isSelected = qType === 'multiple'
                 ? (Array.isArray(uAns) && uAns.includes(option))
                 : uAns === option;
-                return (
-                  <label
+              return (
+                <label
                   key={idx}
                   className={`
                       group flex items-start p-5 rounded-2xl cursor-pointer transition-all duration-300 border backdrop-blur-sm
