@@ -1,44 +1,1680 @@
 [
   {
-    "id": "q8",
-    "chapter": 4,
-    "difficulty": "easy",
-    "questionText": "Equivalence partitioning is an example of what type of test technique?",
-    "options": [
-      "White-box technique",
-      "Black-box technique",
-      "Experience-based technique",
-      "Defect-based technique"
-    ],
-    "correctAnswer": "Black-box technique",
-    "explanation": "Equivalence partitioning is a black-box test design technique because it relies on the inputs/outputs specifications without needing knowledge of internal code structure."
-  },
-  {
-    "id": "q9",
-    "chapter": 4,
-    "difficulty": "hard",
-    "questionText": "An input field accepts ages from 18 to 60, inclusive. Using boundary value analysis, what are the most appropriate boundary values to test with 2-value boundary approach?",
-    "options": [
-      "17, 18, 60, 61",
-      "18, 19, 59, 60",
-      "17, 18, 19, 59, 60, 61",
-      "18, 60"
-    ],
-    "correctAnswer": "17, 18, 60, 61",
-    "explanation": "With 2-value BVA, we test the boundary value and the value immediately adjacent to the boundary on the invalid side. For 18, it's 18 (valid) and 17 (invalid). For 60, it's 60 (valid) and 61 (invalid)."
-  },
-  {
-    "id": "q15",
+    "id": "q401",
     "chapter": 4,
     "difficulty": "normal",
-    "questionText": "What technique is most suitable for testing state transitions of an object?",
+    "questionText": "Which of the following is an extension of equivalence partitioning?",
     "options": [
-      "Use Case Testing",
-      "State Transition Testing",
-      "Decision Table Testing",
-      "Exploratory Testing"
+      "Decision tables",
+      "Decision testing",
+      "Boundary value analysis",
+      "State transition testing"
     ],
-    "correctAnswer": "State Transition Testing",
-    "explanation": "State Transition Testing is a black-box technique specifically used to test the valid and invalid transitions between different states of a system or object."
+    "correctAnswer": "Boundary value analysis",
+    "explanation": ""
+  },
+  {
+    "id": "q402",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "If test cases are derived from looking at the code, what type of test design technique is being used?",
+    "options": [
+      "Black-box",
+      "White-box",
+      "Specification-based",
+      "Behavior-based"
+    ],
+    "correctAnswer": "White-box",
+    "explanation": ""
+  },
+  {
+    "id": "q403",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following is a Black Box test design technique?",
+    "options": [
+      "Decision Coverage",
+      "Error Guessing",
+      "Statement Coverage",
+      "Equivalence Partitioning"
+    ],
+    "correctAnswer": "Equivalence Partitioning",
+    "explanation": ""
+  },
+  {
+    "id": "q404",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following would be a good test technique to use when under severe time pressure?",
+    "options": [
+      "Exploratory testing",
+      "Structure based testing",
+      "Specification based testing",
+      "Use Case testing"
+    ],
+    "correctAnswer": "Exploratory testing",
+    "explanation": ""
+  },
+  {
+    "id": "q405",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "A thermometer measures temperature in whole degrees only. If the temperature falls below 18 degrees, the heating is switched off. It is switched on again when the temperature reaches 21 degrees. What are the best values in degrees to cover all equivalence partitions?",
+    "options": [
+      "15, 19 and 25",
+      "17, 18, and 19",
+      "18, 20 and 22",
+      "16, 26, and 32"
+    ],
+    "correctAnswer": "15, 19 and 25",
+    "explanation": ""
+  },
+  {
+    "id": "q406",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following are white-box test design techniques? \na) Decision table testing. \nb) Decision coverage. \nc) Boundary value analysis. \nd) Error guessing.\ne) Statement testing.",
+    "options": [
+      "a and e",
+      "b and d",
+      "b and e",
+      "e and d"
+    ],
+    "correctAnswer": "b and e",
+    "explanation": ""
+  },
+  {
+    "id": "q407",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "A garden irrigation system allows the user to specify 2 inputs: \n1. Frequency - The number of times the system should be automatically switched on per day; minimum once per day, maximum 5 times \n2. Duration - The duration of operation, in whole minutes, each time it is switched on; ranging from 1 to 60. Applying 2-value boundary value analysis which of the following options has the correct test set of valid and invalid boundary values?",
+    "options": [
+      "Frequency 1, 5; Duration 1, 60",
+      "Frequency 0, 1, 5, 6; Duration 59 seconds, 1 minute, 60 minutes, 60 minutes 1 second",
+      "Frequency 0, 1, 5, 6; Duration 0, 1, 30, 60, 61",
+      "Frequency 0, 1, 2, 5, 6; Duration 0, 1, 30, 60, 61"
+    ],
+    "correctAnswer": "Frequency 0, 1, 5, 6; Duration 59 seconds, 1 minute, 60 minutes, 60 minutes 1 second",
+    "explanation": ""
+  },
+  {
+    "id": "q408",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following is an experience-based testing technique?",
+    "options": [
+      "Error guessing",
+      "Intuitive testing",
+      "Oracle-based testing",
+      "Exhaustive testing"
+    ],
+    "correctAnswer": "Error guessing",
+    "explanation": ""
+  },
+  {
+    "id": "q409",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following test techniques uses the requirements specifications as a test basis?",
+    "options": [
+      "Structure-based",
+      "Black-box",
+      "White-box",
+      "Exploratory"
+    ],
+    "correctAnswer": "Black-box",
+    "explanation": ""
+  },
+  {
+    "id": "q410",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following is a good reason to use experience-based testing?",
+    "options": [
+      "You can find defects that might be missed by more formal techniques",
+      "You can test for defects that only experienced users would encounter",
+      "You can target the developer’s efforts to the areas that users will be more likely to use",
+      "It is supported by strong tools and can be automated"
+    ],
+    "correctAnswer": "You can find defects that might be missed by more formal techniques",
+    "explanation": ""
+  },
+  {
+    "id": "q411",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "You have designed test cases to provide 100% statement and 100% decision coverage for the following fragment of code. \nif width > length then biggest_dimension = width \nelse biggest_dimension = length \nend_if \nThe following has been added to the bottom of the code fragment above. \nprint \"Biggest dimension is \" & biggest_dimension \nprint \"Width: \" & width \nprint \"Length: \" & length \nHow many more test cases are required?",
+    "options": [
+      "One more test case will be required for 100 % decision coverage.",
+      "Two more test cases will be required for 100 % statement coverage, one of which will be used to provide 100% decision coverage.",
+      "None, existing test cases can be used.",
+      "One more test case will be required for 100% statement coverage."
+    ],
+    "correctAnswer": "None, existing test cases can be used.",
+    "explanation": ""
+  },
+  {
+    "id": "q412",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Given the following fragment of code, how many tests are required for 100% decision coverage? \nif width > length then biggest_dimension = width \nif height > width then biggest_dimension = height \nend_if \nelse biggest_dimension = length \nif height > length then biggest_dimension = height \nend_if \nend_if",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "1"
+    ],
+    "correctAnswer": "4",
+    "explanation": ""
+  },
+  {
+    "id": "q413",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "If you are using error guessing to target your testing, which type of testing are you doing?",
+    "options": [
+      "Specification-based",
+      "Structure-based",
+      "Experience-based",
+      "Reference-based"
+    ],
+    "correctAnswer": "Experience-based",
+    "explanation": ""
+  },
+  {
+    "id": "q414",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "How is statement coverage determined?",
+    "options": [
+      "Number of test decision points divided by the number of test cases",
+      "Number of decision outcomes tested divided by the total number of executable statements",
+      "Number of possible test case outcomes divided by the total number of function points",
+      "Number of executable statements tested divided by the total number of executable statements"
+    ],
+    "correctAnswer": "Number of executable statements tested divided by the total number of executable statements",
+    "explanation": ""
+  },
+  {
+    "id": "q415",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "What is error guessing?",
+    "options": [
+      "A testing technique used to guess where a developer is likely to have made a mistake",
+      "A technique used for assessing defect metrics",
+      "A development technique to verify that all error paths have been coded",
+      "A planning technique used to anticipate likely schedule variances due to faults"
+    ],
+    "correctAnswer": "A testing technique used to guess where a developer is likely to have made a mistake",
+    "explanation": ""
+  },
+  {
+    "id": "q416",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "When exploratory testing is conducted using time-boxing and test charters, what is it called?",
+    "options": [
+      "Schedule-based testing",
+      "Session-based testing",
+      "Risk-based testing",
+      "Formal chartering"
+    ],
+    "correctAnswer": "Session-based testing",
+    "explanation": ""
+  },
+  {
+    "id": "q417",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "You are testing an e-commerce transaction that has the following states and transitions: \n1. Login (invalid) > Login \n2. Login > Search \n3. Search > Search \n4. Search > Shopping Cart \n5. Shopping Cart > Search \n6. Shopping Cart > Checkout \n7. Checkout > Search \n8. Checkout > Logout \nFor a state transition diagram, how many transitions should be shown?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "correctAnswer": "8",
+    "explanation": ""
+  },
+  {
+    "id": "q418",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "You are testing a banking application that allows a customer to withdraw 20, 100 or 500 dollars in a single transaction. The values are chosen from a drop-down list and no other values may be entered. How many equivalence partitions need to be tested to achieve 100% equivalence partition coverage?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "4",
+    "explanation": ""
+  },
+  {
+    "id": "q419",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "An automated air-conditioner is programmed to turn its heating unit on when the temperature falls below 17 and to turn its refrigeration unit on when the temperature exceeds 26. The air- conditioner is designed to operate at temperatures between -10 and +40. Given the above specification, which of the following sets of values shows that the equivalence partition test design technique has been used correctly?",
+    "options": [
+      "-11, -1, 18, 27, 51",
+      "-11, -1,12,18, 27, 51",
+      "-11, 18, 51",
+      "-1, 12, 18, 27"
+    ],
+    "correctAnswer": "-11, -1, 18, 27, 51",
+    "explanation": ""
+  },
+  {
+    "id": "q420",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "If you are testing a module of code, how do you determine the level of decision coverage you have achieved?",
+    "options": [
+      "By taking the number of decisions you have tested and dividing that by the total number of executable statements in the module",
+      "By taking the number of decisions you have tested and dividing that by the total number of decisions in the module",
+      "By taking the number of decisions you have tested and dividing that by the total lines of code in the module",
+      "By taking the number of decision outcomes you have tested and dividing that by the total number of decision outcomes in the module"
+    ],
+    "correctAnswer": "By taking the number of decision outcomes you have tested and dividing that by the total number of decision outcomes in the module",
+    "explanation": ""
+  },
+  {
+    "id": "q421",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "(V4.0 bỏ câu này) Which of the following best describes the behaviors defined in a use case that should be covered by tests?",
+    "options": [
+      "Positive path and negative path",
+      "Basic, exception and error",
+      "Normal, error, data, and integration",
+      "Control flow, data flow and decision paths"
+    ],
+    "correctAnswer": "Basic, exception and error",
+    "explanation": ""
+  },
+  {
+    "id": "q422",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "You are testing a machine that scores exam papers and assigns grades. Based on the score achieved the grades are as follows: 1-49 = F, 50-59 = D-, 60-69 = D, 70-79 = C, 80-89 = B, 90-100=A If you apply equivalence partitioning, how many test cases will you need to achieve minimum test coverage?",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "correctAnswer": "8",
+    "explanation": ""
+  },
+  {
+    "id": "q423",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "You are testing a machine that scores exam papers and assigns grades. Based on the score achieved the grades are as follows: 1-49 = F, 50-59 = D-, 60-69 = D, 70-79 = C, 80-89 = B, 90-100=A If you apply two-value boundary value analysis, how many test cases will you need to achieve minimum test coverage?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "correctAnswer": "14",
+    "explanation": ""
+  },
+  {
+    "id": "q424",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "A program validates a numeric field as follows: \nvalues less than 10 are rejected, \nvalues between 10 and 21 are accepted, \nvalues greater than or equal to 22 are rejected.\n Which of the following input values cover Most of the difference equivalence partitions?",
+    "options": [
+      "10,11,21",
+      "3,20,21",
+      "3,10,22",
+      "10,21,22"
+    ],
+    "correctAnswer": "3,10,22",
+    "explanation": ""
+  },
+  {
+    "id": "q425",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "You have been given the following requirement: A user must log in to the system with a valid username and password. If they fail to enter the correct combination three times, they will receive an error and will have to wait 10 minutes before trying again. The test terminates when the user successfully logs in. How many test cases are needed to provide 100% state transition coverage?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "2",
+    "explanation": ""
+  },
+  {
+    "id": "q426",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "You have been given the following conditions and results from those condition combinations. You can only have one form of payment. A PIN is only needed for a debit card. Given this information, using the decision table technique, what is the minimum number of test cases you would need to test these conditions?",
+    "options": [
+      "7",
+      "13",
+      "15",
+      "18"
+    ],
+    "correctAnswer": "15",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4.png"
+  },
+  {
+    "id": "q427",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "You are testing a thermostat for a heating/air conditioning system. You have been given the following requirements: \n• When the temperature is below 70 degrees, turn on the heating system \n• When the temperature is above 75 degrees, turn on the air conditioning system \n• When the temperature is between 70 and 75 degrees, inclusive, turn on fan only \nWhich of the following is the minimum set of test temperature values to achieve 100% two-value boundary value analysis coverage?",
+    "options": [
+      "70, 75",
+      "65, 72, 80",
+      "69, 70, 75, 76",
+      "70, 71, 74, 75, 76"
+    ],
+    "correctAnswer": "69, 70, 75, 76",
+    "explanation": ""
+  },
+  {
+    "id": "q428",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Consider the following test cases that are used to test an accounting system: Given this information, what is the proper order in which to execute these test cases?",
+    "options": [
+      "5, 1, 3, 2, 4",
+      "1, 2, 4, 5, 3",
+      "1, 3, 2, 4, 5",
+      "3, 4, 5, 1, 2"
+    ],
+    "correctAnswer": "1, 2, 4, 5, 3",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_2.png"
+  },
+  {
+    "id": "q429",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following represents an INVALID transition (N)?",
+    "options": [
+      "Off from Display Channel 1",
+      "Channel 2 from Display Channel 1",
+      "Stby from Live",
+      "Channel 2 from Live"
+    ],
+    "correctAnswer": "Off from Display Channel 1",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_3.png"
+  },
+  {
+    "id": "q430",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following test cases and expected results is VALID?",
+    "options": [
+      "23 year old in insurance class A Premium is 90 and excess is 2,500",
+      "51 year old in insurance class C Premium is 70 and excess is 500",
+      "31 year old in insurance class B Premium is 70 and excess is 1,500",
+      "43 year old in insurance class C Premium is 90 and excess is 1,000"
+    ],
+    "correctAnswer": "23 year old in insurance class A Premium is 90 and excess is 2,500",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_4.png"
+  },
+  {
+    "id": "q431",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "The digital rainbow Thermometer uses 7 colours to show the ambient temperature. Each colour spans a range of just 5, with an operating minimum and maximum of minus 5 and 30. Which of the following values is LEAST likely to have been identified when applying the boundary value test design technique?",
+    "options": [
+      "30",
+      "0",
+      "8",
+      "15"
+    ],
+    "correctAnswer": "8",
+    "explanation": ""
+  },
+  {
+    "id": "q432",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "You have been given the following set of test cases to run. You have been instructed to run them in order by risk and to accomplish the testing as quickly as possible to provide feedback to the developers as soon as possible. Given this information, what is the best order in which to run these tests?",
+    "options": [
+      "2, 4, 5, 6, 1, 3",
+      "4, 3, 2, 5, 6, 1",
+      "2, 5, 6, 4, 1, 3",
+      "6, 1, 3, 2, 4, 5"
+    ],
+    "correctAnswer": "2, 4, 5, 6, 1, 3",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_5.png"
+  },
+  {
+    "id": "q433",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "The decision table above reflects a golf club's pricing structure for green fees and buggy/cart hire. What is the expected result (actions) for each of the following two test cases (TC1 and TC2)? \n* TC 1 - Paul is not a full member, is a Loyalty Card holder and requests to play 18 holes with a buggy/cart \n* TC 2 - Cheryl is not at full member, doesn't have a Loyalty Card and requests to play 9 holes with a buggy/cart",
+    "options": [
+      "TC1 - £23 total charges including buggy hire; TC2 - £21 total charge including buggy hire",
+      "TC1 - £18 total charges including buggy hire; TC2 - £16 total charge but no buggy allowed",
+      "TC1 - £23 total charges including buggy hire; TC2 - £16 total charge but no buggy allowed",
+      "TC1 - £17 total charges but no buggy allowed; TC2 - £21 total charge including buggy hire"
+    ],
+    "correctAnswer": "TC1 - £23 total charges including buggy hire; TC2 - £16 total charge but no buggy allowed",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_6.png"
+  },
+  {
+    "id": "q434",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "You are testing a mobile app that allows users to find a nearby restaurant, based on the type of food they want to eat. Consider the following list of test cases, priorities (smaller number is high priority), and dependencies, in the following format:(refer picture)\nWhich of the following is a possible test execution schedule that considers both priorities and dependencies?",
+    "options": [
+      "01.001, 01.002, 01.003, 01.005, 01.004",
+      "01.001, 01.002, 01.004, 01.003, 01.005",
+      "01.003, 01.004, 01 .002, 01.001, 01.002",
+      "01.001, 01.002, 01.004, 01.005, 01.003"
+    ],
+    "correctAnswer": "01.001, 01.002, 01.004, 01.003, 01.005",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_7.png"
+  },
+  {
+    "id": "q435",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "What is decision coverage?",
+    "options": [
+      "The percentage of condition outcomes that have been exercised by a test suite",
+      "Decision coverage is a synonym for statement coverage",
+      "The percentage of executable statements that have been exercised by a test suite",
+      "The percentage of decision outcomes that have been exercised by a test suite"
+    ],
+    "correctAnswer": "The percentage of decision outcomes that have been exercised by a test suite",
+    "explanation": ""
+  },
+  {
+    "id": "q436",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Prior to an iteration planning session, you are studying a user story and its acceptance criteria, deriving test conditions and associated test cases from the user story as a way of applying the principle of early QA and test. What test technique are you applying?",
+    "options": [
+      "White-box",
+      "Black-box",
+      "Experience-based",
+      "Error guessing"
+    ],
+    "correctAnswer": "Black-box",
+    "explanation": ""
+  },
+  {
+    "id": "q437",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following is a true statement about exploratory testing?",
+    "options": [
+      "More experienced testers who have tested similar applications and technologies are likely to do better than less experienced testers at exploratory testing",
+      "Exploratory testing does not identify any additional tests beyond those that would result from formal test techniques",
+      "The time required to complete an exploratory testing session cannot be predicted in advance",
+      "Exploratory testing can involve the use of black-box techniques but not white-box techniques"
+    ],
+    "correctAnswer": "More experienced testers who have tested similar applications and technologies are likely to do better than less experienced testers at exploratory testing",
+    "explanation": ""
+  },
+  {
+    "id": "q438",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "You are testing a mobile app that allows customers to access and manage their bank accounts. You are running a test suite that involves evaluating each screen and each field on each screen against a general list of user interface best practices, derived from a popular book on the topic, that maximize attractiveness, ease-of-use, and accessibility for such apps. Which of the following options BEST categorizes the test technique you are using?",
+    "options": [
+      "Specification-based",
+      "Exploratory",
+      "Checklist-based",
+      "Error guessing"
+    ],
+    "correctAnswer": "Checklist-based",
+    "explanation": ""
+  },
+  {
+    "id": "q439",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Consider a mobile app that allows customers to access and manage their bank accounts. A user story has just been added to the set of features that checks customers’ social media accounts and bank records to give personalized greetings on birthdays and other personal milestones. Which of the following test techniques could a PROGRAMMER use during a unit test of the code to ensure that coverage of situations when the greetings ARE supposed to occur and when the greetings ARE NOT supposed to occur?",
+    "options": [
+      "Statement testing",
+      "Exploratory testing",
+      "State transition testing",
+      "Decision testing"
+    ],
+    "correctAnswer": "Decision testing",
+    "explanation": ""
+  },
+  {
+    "id": "q440",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following test techniques would most likely have been able to detect the underlying defect?",
+    "options": [
+      "Decision testing",
+      "Statement testing",
+      "Checklist-based testing",
+      "Error guessing"
+    ],
+    "correctAnswer": "Decision testing",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_8.png"
+  },
+  {
+    "id": "q441",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "You are testing an unattended gasoline pump that only accepts credit cards. \nOnce the credit card is validated, the pump nozzle placed into the tank, and the desired grade selected, the customer enters the desired amount of fuel in gallons using the keypad. \nThe keypad only allows the entry of digits. Fuel is sold in tenths (0.1) of a gallon, up to 50.0 gallons. \nWhich of the following is a minimum set of desired amounts that covers the equivalence partitions for this input?",
+    "options": [
+      "0.0, 20.0, 60.0",
+      "0.0, 0.1, 50.0",
+      "0.0, 0.1, 50.0, 70.0",
+      "-0.1, 0.0, 0.1, 49.9, 50.0, 50.1"
+    ],
+    "correctAnswer": "0.0, 20.0, 60.0",
+    "explanation": ""
+  },
+  {
+    "id": "q442",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "You are testing an e-commerce system that sells cooking supplies such as spices, flour, and other items in bulk. \nThe units in which the items are sold are either grams (for spices and other expensive items) or kilograms (for flour and other inexpensive items). \nRegardless of the units, the smallest valid order amount is 0.5 units (e.g., half a gram of cardamom pods) and the largest valid order amount is 25.0 units (e.g., 25 kilograms of sugar). \nThe precision of the units field is 0.1 units. \nWhich of the following is a set of input values that cover the boundary values with two-point boundary values for this field?",
+    "options": [
+      "0.3, 10.0, 28.0",
+      "0.4, 0.5, 0.6, 24,9,25,0, 25.1",
+      "0.4, 0.5, 25.0 25.1",
+      "0.5, 0.6, 24.9, 25.0"
+    ],
+    "correctAnswer": "0.4, 0.5, 25.0 25.1",
+    "explanation": ""
+  },
+  {
+    "id": "q443",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "If you want to design tests to cover the equivalence partitions for Account/password okay and also for this portion of the decision table, what is the minimum number of tests required?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "9"
+    ],
+    "correctAnswer": "4",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_9.png"
+  },
+  {
+    "id": "q444",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Assume that you want to develop the minimum number of tests to cover each transition in the state transition diagram. \nAssume further that each test must start at the beginning state, Waiting for customer, and each test ends when a transition arrives at the beginning state. \nHow many tests do you need?",
+    "options": [
+      "4",
+      "7",
+      "1",
+      "Infinite"
+    ],
+    "correctAnswer": "4",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_10.png"
+  },
+  {
+    "id": "q445",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "You are testing an e-commerce system that sells cooking supplies such as spices, flour, and other items in bulk. \nThe units in which the items are sold are either grams (for spices and other expensive items) or kilograms (for flour and other inexpensive items). \nRegardless of the units, the smallest valid order amount is 0.5 units (e.g., half a gram of cardamom pods) and the largest valid order amount is 25.0 units (e.g., 25 kilograms of sugar). \nThe precision of the units field is 0.1 units. \nWhich of the following is a MINIMAL set of input values that cover the equivalence partitions for this field?",
+    "options": [
+      "10.0, 28.0",
+      "0.4, 0.5, 25.0, 25.1",
+      "0.2, 0.9, 29.5",
+      "12.3"
+    ],
+    "correctAnswer": "0.2, 0.9, 29.5",
+    "explanation": ""
+  },
+  {
+    "id": "q446",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "You are working as a tester on an online banking system. \nAvailability is considered one of the top product (quality) risks for the system. \nYou find a reproducible failure that results in customers losing their connections to the bank Web site when transferring funds between common types of accounts and being unable to reconnect for between three and five minutes. \nWhich of the following would be a good summary for a defect report for this failure, one that captures both the essence of the failure and its impact on stakeholders?",
+    "options": [
+      "Web server logs show error 0x44AB27 when running test 07.005, which is not an expected error message in /tmp filesystem",
+      "Developers have introduced major availability defect which will seriously upset our customers",
+      "Performance is slow and reliability flaky under load",
+      "Typical funds-transfer transaction results in termination of customer session, with a delay in availability when attempting to reconnect"
+    ],
+    "correctAnswer": "Typical funds-transfer transaction results in termination of customer session, with a delay in availability when attempting to reconnect",
+    "explanation": ""
+  },
+  {
+    "id": "q447",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "You are testing a mobile app that allows users to find a nearby restaurant, based on the type of food they want to eat. Consider the following list of test cases, priorities (smaller number is high priority), and dependencies, in the following format:(refer picture)\nWhich of the following is a possible test execution schedule that considers both priorities and dependencies?",
+    "options": [
+      "01.001, 01.002, 01.003, 01.005, 01.004",
+      "01.001, 01.002, 01.004, 01.003, 01.005",
+      "01.003, 01.004, 01.002, 01.001, 01.002",
+      "01.001, 01.002, 01.004, 01.005, 01.003"
+    ],
+    "correctAnswer": "01.001, 01.002, 01.004, 01.003, 01.005",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_11.png"
+  },
+  {
+    "id": "q448",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following test execution schedules BEST considers the priorities and technical and logical dependencies?",
+    "options": [
+      "TC1 – TC3 – TC4 – TC6 – TC2 – TC5",
+      "TC4 – TC3 – TC1 – TC2 – TC5 – TC6",
+      "TC4 – TC1 – TC3 – TC5 – TC6 – TC2",
+      "TC4 – TC2 – TC5 – TC1 – TC3 – TC6"
+    ],
+    "correctAnswer": "TC4 – TC3 – TC1 – TC2 – TC5 – TC6",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_12.png"
+  },
+  {
+    "id": "q449",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following provides the BEST description of exploratory testing?",
+    "options": [
+      "A testing practice in which an in-depth investigation of the background of the test object is used to identify potential weaknesses that are examined by test cases.",
+      "An approach to testing whereby the testers dynamically design and execute tests based on their knowledge, exploration of the test item and the results of previous tests.",
+      "An approach to test design in which test activities are planned as uninterrupted sessions of test analysis and design, often used in conjunction with checklist-based testing.",
+      "Testing based on the tester's experience, knowledge and intuition."
+    ],
+    "correctAnswer": "An approach to testing whereby the testers dynamically design and execute tests based on their knowledge, exploration of the test item and the results of previous tests.",
+    "explanation": ""
+  },
+  {
+    "id": "q450",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following BEST matches the descriptions with the different categories of test techniques? \n1. Coverage is measured based on a selected structure of the test object. \n2. The processing within the test object is checked. \n3. Tests are based on defects’ likelihood and their distribution. \n4. Deviations from the requirements are checked. \n5. User stories are used as the test basis.\n Black - Black-box test techniques \nWhite - White-box test techniques \nExperience - Experience-based test techniques",
+    "options": [
+      "Black – 4, 5 White – 1, 2 Experience – 3",
+      "Black – 3 White – 1, 2 Experience – 4, 5",
+      "Black – 4 White – 1, 2 Experience – 3, 5",
+      "Black – 1, 3, 5 White – 2 Experience – 4"
+    ],
+    "correctAnswer": "Black – 4, 5 White – 1, 2 Experience – 3",
+    "explanation": ""
+  },
+  {
+    "id": "q451",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "A fitness app measures the number of steps that are walked each day and provides feedback to encourage the user to keep fit. \nThe feedback for different numbers of steps should be: \nUp to 1000 - Couch Potato! \nAbove 1000, up to 2000 - Lazy Bones! \nAbove 2000, up to 4000 - Getting There! \nAbove 4000, up to 6000 - Not Bad! \nAbove 6000 - Way to Go! \nWhich of the following sets of test inputs would achieve the highest equivalence partition coverage?",
+    "options": [
+      "0, 1000, 2000, 3000, 4000",
+      "1000, 2001, 4000, 4001, 6000",
+      "123, 2345, 3456, 4567, 5678",
+      "666, 999, 2222, 5555, 6666"
+    ],
+    "correctAnswer": "666, 999, 2222, 5555, 6666",
+    "explanation": ""
+  },
+  {
+    "id": "q452",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "What is the minimum number of additional test cases that are needed to ensure full coverage of all valid INPUT equivalence partitions?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "2",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_13.png"
+  },
+  {
+    "id": "q453",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "A smart home app measures the average temperature in the house over the previous week and provides feedback to the occupants on their environmental-friendliness based on this temperature. The feedback for different average temperature ranges (to the nearest °C) should be: \nUp to 10°C - Icy Cool! \n11°C to 15°C - Chilled Out! \n16°C to 19°C - Cool Man! \n20°C to 22°C - Too Warm! \nAbove 22°C - Hot & Sweaty! \nUsing two-point BVA, which of the following sets of test inputs provides the highest level of boundary coverage?",
+    "options": [
+      "0°C, 11°C, 20°C, 22°C, 23°C",
+      "9°C, 15°C, 19°C, 23°C, 100°C",
+      "10°C, 16°C, 19°C, 22°C, 23°C",
+      "14°C, 15°C, 18°C, 19°C, 21°C, 22°C"
+    ],
+    "correctAnswer": "10°C, 16°C, 19°C, 22°C, 23°C",
+    "explanation": ""
+  },
+  {
+    "id": "q454",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which two of the additional test cases would achieve full coverage of the complete decision table (when combined with the test cases that have already been generated for rules 1 and 4)?",
+    "options": [
+      "DT1, DT2",
+      "DT2, DT3",
+      "DT2, DT4",
+      "DT3, DT4"
+    ],
+    "correctAnswer": "DT2, DT4",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_14.png"
+  },
+  {
+    "id": "q455",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following sequences of transitions provides the highest level of transition coverage for the model?",
+    "options": [
+      "OFF → WAIT → OFF → WAIT → TRICKLE → CHARGE → HIGH → CHARGE → LOW",
+      "WAIT → TRICKLE → WAIT → OFF → WAIT → TRICKLE → CHARGE → LOW → CHARGE",
+      "HIGH → CHARGE → LOW → CHARGE → TRICKLE → WAIT → TRICKLE → WAIT → TRICKLE",
+      "WAIT → TRICKLE → CHARGE → HIGH → CHARGE → TRICKLE → WAIT → OFF → WAIT"
+    ],
+    "correctAnswer": "WAIT → TRICKLE → CHARGE → HIGH → CHARGE → TRICKLE → WAIT → OFF → WAIT",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_15.png"
+  },
+  {
+    "id": "q456",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "(V4.0 bỏ câu này) Which of the following statements BEST describes how test cases are derived from a use case?",
+    "options": [
+      "Test cases are created to exercise defined basic, exceptional and error behaviors performed by the system under test in collaboration with actors.",
+      "Test cases are derived by identifying the components included in the use case and creating integration tests that exercise the interactions of these components.",
+      "Test cases are generated by analyzing the interactions of the actors with the system to ensure the user interfaces are easy to use.",
+      "Test cases are derived to exercise each of the decision points in the business process flows of the use case, to achieve 100% decision coverage of these flows."
+    ],
+    "correctAnswer": "Test cases are created to exercise defined basic, exceptional and error behaviors performed by the system under test in collaboration with actors.",
+    "explanation": ""
+  },
+  {
+    "id": "q457",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following descriptions of statement coverage is CORRECT?",
+    "options": [
+      "Statement coverage is a measure of the number of lines of source code (minus comments) exercised by tests.",
+      "Statement coverage is a measure of the proportion of executable statements in the source code exercised by tests.",
+      "Statement coverage is a measure of the percentage of lines of source code exercised by tests.",
+      "Statement coverage is a measure of the number of executable statements in the source code exercised by tests."
+    ],
+    "correctAnswer": "Statement coverage is a measure of the proportion of executable statements in the source code exercised by tests.",
+    "explanation": ""
+  },
+  {
+    "id": "q458",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following descriptions of decision coverage is CORRECT?",
+    "options": [
+      "Decision coverage is a measure of the percentage of possible paths through the source code exercised by tests.",
+      "Decision coverage is a measure of the percentage of business flows through the component exercised by tests.",
+      "Decision coverage is a measure of the ‘if’ statements in the code that are exercised with both the true and false outcomes.",
+      "Decision coverage is a measure of the proportion of decision outcomes in the source code exercised by tests."
+    ],
+    "correctAnswer": "Decision coverage is a measure of the proportion of decision outcomes in the source code exercised by tests.",
+    "explanation": ""
+  },
+  {
+    "id": "q459",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which one of the following options is categorized as a black-box test technique?",
+    "options": [
+      "A technique based on analysis of the architecture.",
+      "A technique checking that the test object is working according to the technical design.",
+      "A technique based on the knowledge of past faults, or general knowledge of failures.",
+      "A technique based on formal requirements."
+    ],
+    "correctAnswer": "A technique based on formal requirements.",
+    "explanation": ""
+  },
+  {
+    "id": "q460",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "The following statement refers to decision coverage: \n“When the code contains only a single ‘if’ statement and no loops or CASE statements, and its execution is not nested within the test, any single test case we run will result in 50% decision \ncoverage.” \nWhich of the following statement is correct?",
+    "options": [
+      "The statement is true. Any single test case provides 100% statement coverage and therefore 50% decision coverage.",
+      "The statement is true. Any single test case would cause the outcome of the “if” statement to be either true or false.",
+      "The statement is false. A single test case can only guarantee 25% decision coverage in this case.",
+      "The statement is false. The statement is too broad. It may be correct or not, depending on the tested software."
+    ],
+    "correctAnswer": "The statement is true. Any single test case would cause the outcome of the “if” statement to be either true or false.",
+    "explanation": ""
+  },
+  {
+    "id": "q461",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which one of the following is the description of statement coverage?",
+    "options": [
+      "It is a metric, which is the percentage of test cases that have been executed.",
+      "It is a metric, which is the percentage of statements in the source code that have been executed.",
+      "It is a metric, which is the number of statements in the source code that have been executed by test cases that are passed.",
+      "It is a metric, that gives a true/false confirmation if all statements are covered or not."
+    ],
+    "correctAnswer": "It is a metric, which is the percentage of statements in the source code that have been executed.",
+    "explanation": ""
+  },
+  {
+    "id": "q462",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which statement about the relationship between statement coverage and decision coverage is true?",
+    "options": [
+      "100% decision coverage also guarantees 100% statement coverage.",
+      "100% statement coverage also guarantees 100% decision coverage.",
+      "50% decision coverage also guarantees 50% statement coverage.",
+      "Decision coverage can never reach 100%."
+    ],
+    "correctAnswer": "100% decision coverage also guarantees 100% statement coverage.",
+    "explanation": ""
+  },
+  {
+    "id": "q463",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "For which of the following situations is explorative testing suitable?",
+    "options": [
+      "When time pressure requires speeding up the execution of tests already specified.",
+      "When the system is developed incrementally and no test charter is available.",
+      "When testers are available who have sufficient knowledge of similar applications and technologies.",
+      "When an advanced knowledge of the system already exists and evidence is to be provided that it should be tested intensively."
+    ],
+    "correctAnswer": "When testers are available who have sufficient knowledge of similar applications and technologies.",
+    "explanation": ""
+  },
+  {
+    "id": "q464",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "An employee’s bonus is to be calculated. It cannot be negative, but it can be calculated down to \nzero. The bonus is based on the length of employment: \n• less than or equal to 2 years, \n• more than 2 years but less than 5 years, \n• 5 to 10 years inclusively or longer than 10 years. \nWhat is the minimum number of test cases required to cover all valid equivalence partitions for calculating the bonus?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "4",
+    "explanation": ""
+  },
+  {
+    "id": "q465",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "A speed control and reporting system has the following characteristics: \nIf you drive 50 km/h or less, nothing will happen. \nIf you drive faster than 50 km/h, but no more than 55 km/h, you will be warned.\n If you drive faster than 55 km/h but not more than 60 km/h, you will be fined. \nIf you drive faster than 60 km/h, your driving license will be suspended. \nThe speed in km/h is available to the system as an integer value. Which would be the most likely set of values (km/h) identified by applying the boundary value \nanalysis, where only the boundary values on the boundaries of the equivalence classes are relevant?",
+    "options": [
+      "0, 49, 50, 54, 59, 60.",
+      "50, 55, 60.",
+      "49, 50, 54, 55, 60, 62.",
+      "50, 51, 55, 56, 60, 61."
+    ],
+    "correctAnswer": "50, 51, 55, 56, 60, 61.",
+    "explanation": ""
+  },
+  {
+    "id": "q466",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following test cases represents a situation that can happen in real life,and is missing \nin the above decision table?",
+    "options": [
+      "Condition1 = YES, Condition2 = NO, Condition3 = YES, Action= NO",
+      "Condition1 = YES, Condition2 = YES, Condition3 = NO, Action= YES",
+      "Condition1 = NO, Condition2 = NO, Condition3 = YES, Action= NO",
+      "Condition1 = NO, Condition2 = YES, Condition3 = NO, Action= NO"
+    ],
+    "correctAnswer": "Condition1 = NO, Condition2 = YES, Condition3 = NO, Action= NO",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_16.png"
+  },
+  {
+    "id": "q467",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following statements about the given state transition diagram and table of test cases is TRUE?",
+    "options": [
+      "The given test cases cover both valid and invalid transitions in the state transition diagram.",
+      "The given test cases represent all possible valid transitions in the state transition diagram.",
+      "The given test cases represent some of the valid transitions in the state transition diagram.",
+      "The given test cases represent pairs of transitions in the state transition diagram."
+    ],
+    "correctAnswer": "The given test cases represent all possible valid transitions in the state transition diagram.",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_17.png"
+  },
+  {
+    "id": "q468",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "A video application has the following requirement: The application shall allow playing a video on the following display resolution:\n 1. 640x480. \n2. 1280x720. \n3. 1600x1200. \n4. 1920x1080. \nWhich of the following list of test cases is a result of applying the equivalence partitioning test technique to test this requirement?",
+    "options": [
+      "Verify that the application can play a video on a display of size 1920x1080 (1 test case).",
+      "Verify that the application can play a video on a display of size 640x480 and 1920x1080 (2 test cases).",
+      "Verify that the application can play a video on each of the display sizes in the requirement (4 test cases).",
+      "Verify that the application can play a video on any one of the display sizes in the requirement (1 test case)."
+    ],
+    "correctAnswer": "Verify that the application can play a video on each of the display sizes in the requirement (4 test cases).",
+    "explanation": ""
+  },
+  {
+    "id": "q469",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following is an approach that can be used for exploratory testing?",
+    "options": [
+      "A tester analyses, designs and implements tests based on external rules and standards.",
+      "A tester methodically executes tests from a list of possible failures, based on experience, defect and failure data.",
+      "Time-boxed test sessions are created, during which a tester uses a test charter containing test objectives to guide the testing.",
+      "Tests are designed based on the guidance of stakeholders and experts outside the test team."
+    ],
+    "correctAnswer": "Time-boxed test sessions are created, during which a tester uses a test charter containing test objectives to guide the testing.",
+    "explanation": ""
+  },
+  {
+    "id": "q470",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "A car insurance policy has 3 rates of insurance depending on the age of the driver. For drivers aged between\n17 and 25 inclusive they are charged at rate A, drivers aged between 26 and 50 inclusive are charged at rate B and those drivers aged over 50 are charged at rate C.\nYou are designing test cases, which of the following three ages would test all valid equivalence partitions and therefore test rate A, B and C?",
+    "options": [
+      "17, 25, 50.",
+      "10, 21, 55.",
+      "20, 35, 65.",
+      "26, 45, 50."
+    ],
+    "correctAnswer": "20, 35, 65.",
+    "explanation": ""
+  },
+  {
+    "id": "q471",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "A holiday club restricts those booking the holiday, to people between the ages of 18 and 30 inclusive.\nUsing two-point boundary values, what ages would be required to test the lower and upper boundary?",
+    "options": [
+      "17, 18, 29, 30",
+      "18, 19, 29, 30.",
+      "17, 18, 30, 31.",
+      "16, 17, 18, 30, 31, 32."
+    ],
+    "correctAnswer": "17, 18, 30, 31.",
+    "explanation": ""
+  },
+  {
+    "id": "q472",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following is NOT a valid use of decision coverage?",
+    "options": [
+      "Checking that all decisions are based on a numeric value.",
+      "Checking that all decisions have been exercised in a business process.",
+      "Checking that at least 100% decision coverage has been achieved, as this guarantees 100% statement coverage.",
+      "Checking that all decisions have been exercised in a single program."
+    ],
+    "correctAnswer": "Checking that all decisions are based on a numeric value.",
+    "explanation": ""
+  },
+  {
+    "id": "q473",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "A student needs to score at least 50 points to pass. If they score at least 100 points they will achieve a merit and if they score at least 150 points they will achieve a distinction.\nWhich two values are in the same partition?",
+    "options": [
+      "55 and 120.",
+      "50 and 60.",
+      "45 and 170.",
+      "45 and 55."
+    ],
+    "correctAnswer": "50 and 60.",
+    "explanation": ""
+  },
+  {
+    "id": "q474",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Given the following decision tables, what is the expected result for the test case listed below?\nTest Case: Purchase a Toaster weighing 9kg for £10.",
+    "options": [
+      "No need to pay in cash, no free delivery.",
+      "Must pay in cash, no free delivery.",
+      "No need to pay in cash, free delivery.",
+      "Must pay in cash, free delivery"
+    ],
+    "correctAnswer": "No need to pay in cash, no free delivery.",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_18.png"
+  },
+  {
+    "id": "q475",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following BEST describes a methodical approach to the Error Guessing test technique?",
+    "options": [
+      "A tester dynamically designs and executes tests based on their knowledge, exploration of the test item and the results of previous tests.",
+      "An experienced tester makes a list of potential defects and failures, and designs and runs tests to generate these failures should the defects be present in the code.",
+      "A tester designs, implements and executes tests to cover test conditions found in checklists that are based on what is important for the user.",
+      "An inexperienced tester is asked to attempt to guess errors that may have been missed by experienced testers during formal test design"
+    ],
+    "correctAnswer": "An experienced tester makes a list of potential defects and failures, and designs and runs tests to generate these failures should the defects be present in the code.",
+    "explanation": ""
+  },
+  {
+    "id": "q476",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following BEST describes the concept behind error guessing?",
+    "options": [
+      "Error guessing requires you to imagine you are the user of the test object and guess mistakes the user could make interacting with it.",
+      "Error guessing involves using your personal experience of development and the mistakes you made as a developer.",
+      "Error guessing involves using your knowledge and experience of defects found in the past and typical mistakes made by developers.",
+      "Error guessing requires you to rapidly duplicate the development task to identify the sort of mistakes a developer might make."
+    ],
+    "correctAnswer": "Error guessing involves using your knowledge and experience of defects found in the past and typical mistakes made by developers.",
+    "explanation": ""
+  },
+  {
+    "id": "q477",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "An input field takes the year of birth between 1900 and 2004. The two boundary values for testing this field are:",
+    "options": [
+      "0,1900,2004,2005",
+      "1900, 2004",
+      "1899,1900,2004,2005",
+      "1899, 1900, 1901,2003,2004,2005"
+    ],
+    "correctAnswer": "1899,1900,2004,2005",
+    "explanation": ""
+  },
+  {
+    "id": "q478",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "A system is designed to accept values of examination marks as follows:\n\nFail :0-39 inclusive\nPass :40-59 inclusive\nMerit :60-79 inclusive\nDistinction :80-100 inclusive\n\nIn which of the following sets of values are all values in different equivalence partitions?",
+    "options": [
+      "25, 40, 60, 75",
+      "0, 45, 79, 87",
+      "35, 40, 59, 69",
+      "25, 39, 60, 81"
+    ],
+    "correctAnswer": "0, 45, 79, 87",
+    "explanation": ""
+  },
+  {
+    "id": "q479",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "A washing machine has three temperature bands for different kinds of fabrics: fragile fabrics are washed at temperatures between 15 and 30 degrees Celsius; normal fabrics are washed at temperatures between 31 and 60 degrees Celsius; heavily soiled and tough fabrics are washed at temperatures between 61 and 100 degrees Celsius.\n\nWhich of the following contains only values that are in different equivalence partitions?",
+    "options": [
+      "15, 30, 60",
+      "20, 35, 60",
+      "25, 45, 75",
+      "12, 35, 55"
+    ],
+    "correctAnswer": "25, 45, 75",
+    "explanation": ""
+  },
+  {
+    "id": "q480",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Consider the following pseudo code:\n\n1 Begin\n2 Read Time\n3 If Time < 12 Then\n4 Print(Time, \"am\")\n5 Endif\n6 If Time > 12 Then\n7 Print(Time −12, \"pm\")\n8 Endif\n9 If Time = 12 Then\n10 Print (Time, \"noon\")\n11 Endif\n12 End\n\nHow many test cases are needed to achieve 100 per cent decision coverage?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "3",
+    "explanation": ""
+  },
+  {
+    "id": "q481",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Consider the following pseudo code:\n\n1 Begin\n2 Read Time\n3 If Time < 12 Then\n4 Print(Time, \"am\")\n5 Endif\n6 If Time > 12 Then\n7 Print(Time −12, \"pm\")\n8 Endif\n9 If Time = 12 Then\n10 Print (Time, \"noon\")\n11 Endif\n12 End\n\nIf the test cases Time = 11 and Time = 15 were input, what level of decision coverage would be achieved?",
+    "options": [
+      "100% or 6/6",
+      "50% or 3/6",
+      "67% or 4/6",
+      "83% or 5/6"
+    ],
+    "correctAnswer": "83% or 5/6",
+    "explanation": ""
+  },
+  {
+    "id": "q482",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "A software component has the code shown below:\n\nProgram BiggestA,\nBiggest: Integer\nBegin\nRead A\nBiggest = 10\nWhile A > 0\nDo\nIf A > Biggest\nThen Biggest = A\nEndif\nRead A\nEnddo\nEnd\n\nThe component has exit criteria for component testing that include 100% statement coverage. Which of the following test cases will satisfy this criterion?",
+    "options": [
+      "0",
+      "10, 0",
+      "10, 5, 0",
+      "10, 11, 0"
+    ],
+    "correctAnswer": "10, 11, 0",
+    "explanation": ""
+  },
+  {
+    "id": "q483",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following describes structure-based (white-box) test case design techniques?",
+    "options": [
+      "Test cases are derived systematically from models of the system.",
+      "Test cases are derived systematically from the tester's experience.",
+      "Test cases are derived systematically from the delivered code.",
+      "Test cases are derived from the developers' experience."
+    ],
+    "correctAnswer": "Test cases are derived systematically from the delivered code.",
+    "explanation": ""
+  },
+  {
+    "id": "q484",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following is a structure-based (white-box) technique?",
+    "options": [
+      "Decision table testing",
+      "State transition testing",
+      "Statement testing",
+      "Boundary value analysis"
+    ],
+    "correctAnswer": "Statement testing",
+    "explanation": ""
+  },
+  {
+    "id": "q485",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following are most characteristic of structure-based testing?\n\n(i) Information about how the software is constructed is used to derive test cases.\n\n(ii) Statement coverage and/or decision coverage can be measured for existing test cases.\n\n(iii) The knowledge and experience of people are used to derive test cases.\n\n(iv) Test cases are derived from a model or specification of the system",
+    "options": [
+      "(i) and (ii)",
+      "(ii) and (iii)",
+      "(ii) and (iv)",
+      "(i) and (iii)"
+    ],
+    "correctAnswer": "(i) and (ii)",
+    "explanation": ""
+  },
+  {
+    "id": "q486",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Arrive-and-Go airline wants to clarify its baggage handling policy, whilst maximizing revenues, and will introduce the following tariffs for all baggage per individual customer (weights are rounded up to the nearest 0.1Kg): \nThe first 2Kg will be carried free of charge. \nThe next 10 Kg will be carried for a flat charge of $20. \nAn additional 15Kg will be charged a total charge of $27. \nLuggage over this amount will be charged at $5 per Kg, up to a maximum of 150Kg per person. \nNo passenger may take more that 150Kg with them. \nWhich of the following would constitute boundary values for baggage weights in the price calculation?",
+    "options": [
+      "1.9, 12.0, 14.9, 150.0",
+      "2.0, 9.9, 15.0, 26.9",
+      "0, 5.0, 10.0, 17.0",
+      "2.0, 12.1, 27.0, 150.1"
+    ],
+    "correctAnswer": "2.0, 12.1, 27.0, 150.1",
+    "explanation": ""
+  },
+  {
+    "id": "q487",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Company ABC is going to provide their employees with a bonus which will be based on the employee’s length of service in the company. The bonus calculation will be zero if they have been with the company for less than two years, 10% of their salary for more than two but less than five years, and 25% for five to ten years, 35% for ten years or more. The interface will not allow a negative value to be input, but it will allow a zero to be input. \nHow many equivalence partitions are needed to test the calculation of the bonus?",
+    "options": [
+      "4",
+      "2",
+      "3",
+      "5"
+    ],
+    "correctAnswer": "5",
+    "explanation": ""
+  },
+  {
+    "id": "q488",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "A wholesaler sells printer cartridges. The minimum order quantity is 5. There is a 20% discount for orders of 100 or more printer cartridges. You have been asked to prepare test cases using various values for the number of printer cartridges ordered. Which of the following groups contain three test inputs that would be generated using Boundary Value Analysis?",
+    "options": [
+      "5, 6, 20",
+      "4, 5, 99",
+      "4, 5, 80",
+      "1, 20, 0100"
+    ],
+    "correctAnswer": "4, 5, 99",
+    "explanation": ""
+  },
+  {
+    "id": "q489",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following test techniques is structure-based?",
+    "options": [
+      "Control flow testing",
+      "Use case testing",
+      "State transition testing",
+      "Decision table testing"
+    ],
+    "correctAnswer": "Control flow testing",
+    "explanation": ""
+  },
+  {
+    "id": "q490",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following is an example of black-box dynamic testing?",
+    "options": [
+      "Code inspection",
+      "Checking memory leaks for a program by executing it",
+      "Functional Testing",
+      "Coverage analysis"
+    ],
+    "correctAnswer": "Functional Testing",
+    "explanation": ""
+  },
+  {
+    "id": "q491",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "When testing a mission critical system, a high coverage should be achieved. Which of the following techniques should be implemented as a structural based coverage technique in order to achieve the highest coverage?",
+    "options": [
+      "multiple condition coverage",
+      "decision table",
+      "use case testing",
+      "statement coverage"
+    ],
+    "correctAnswer": "multiple condition coverage",
+    "explanation": ""
+  },
+  {
+    "id": "q492",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following is NOT a valid use of decision coverage?",
+    "options": [
+      "Checking that all decisions have been exercised in a single program",
+      "Checking that all decisions have been exercised in a business process",
+      "Checking that all calls from one program module to another have been made correctly",
+      "Checking that at least 50% of decisions have been exercised by a test case suite"
+    ],
+    "correctAnswer": "Checking that at least 50% of decisions have been exercised by a test case suite",
+    "explanation": ""
+  },
+  {
+    "id": "q493",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following BEST describes checklist-based testing?",
+    "options": [
+      "An approach to testing whereby the testers dynamically design and execute tests based on their knowledge, exploration of the test item and the results of previous tests.",
+      "An experience-based test technique whereby the experienced tester uses a high-level list of items to be noted, checked or remembered, or a set of rules or criteria against which a product has to be verified.",
+      "A procedure to derive and/or select test cases based on an analysis of the specification, either functional or non-functional, of a component or system without reference to its internal structure.",
+      "A test design technique which ensures that test cases are checked for consistency and completeness against an organisation's list of formatting rules and best practices."
+    ],
+    "correctAnswer": "An experience-based test technique whereby the experienced tester uses a high-level list of items to be noted, checked or remembered, or a set of rules or criteria against which a product has to be verified.",
+    "explanation": ""
+  },
+  {
+    "id": "q494",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following is a key difference between black box and white box test design techniques?",
+    "options": [
+      "Black box techniques use software code to derive test cases, white box techniques do not.",
+      "White box techniques use functional design specifications to derive test cases, black box techniques do not.",
+      "White box techniques can measure the extent of code coverage, black box techniques can not.",
+      "White box techniques derive test cases from models of the software, black box techniques do not."
+    ],
+    "correctAnswer": "White box techniques can measure the extent of code coverage, black box techniques can not.",
+    "explanation": ""
+  },
+  {
+    "id": "q495",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "A car insurance policy has 3 rates of insurance depending on the age of the driver. For drivers aged between 17 and 25 inclusive they are charged at rate A, drivers aged between 26 and 50 inclusive are charged at rate B and those drivers aged over 50 are charged at rate C.\nYou are designing test cases, which of the following three ages would test all valid equivalence partitions and therefore test rate A, B and C?",
+    "options": [
+      "26, 45, 50.",
+      "10, 21, 55.",
+      "20, 35, 65.",
+      "17, 25, 50."
+    ],
+    "correctAnswer": "20, 35, 65.",
+    "explanation": ""
+  },
+  {
+    "id": "q496",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "A student needs to score at least 50 points to pass. If they score at least 100 points they will achieve a merit and if they score at least 150 points they will achieve a distinction.\nWhich two values are in the same partition?",
+    "options": [
+      "45 and 55.",
+      "55 and 120.",
+      "50 and 60.",
+      "45 and 170."
+    ],
+    "correctAnswer": "50 and 60.",
+    "explanation": ""
+  },
+  {
+    "id": "q497",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following is an approach that can be used for exploratory testing?",
+    "options": [
+      "Time-boxed test sessions are created, during which a tester uses a test charter containing test objectives to guide the testing.",
+      "A tester methodically executes tests from a list of possible failures, based on experience, defect and failure data.",
+      "A tester analyses, designs and implements tests based on external rules and standards",
+      "Tests are designed based on the guidance of stakeholders and experts outside the test team."
+    ],
+    "correctAnswer": "Time-boxed test sessions are created, during which a tester uses a test charter containing test objectives to guide the testing.",
+    "explanation": ""
+  },
+  {
+    "id": "q498",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Given the following state transition diagram where SS is the start state:\nWhich of the following answers describes a test case that only uses valid transitions to exercise all states, using the minimum number of transitions?",
+    "options": [
+      "SS-S3-SS-S1-S3-S2",
+      "SS-S3-S2-S1.",
+      "SS-S1-S2-S3",
+      "SS-S1-S3-S2."
+    ],
+    "correctAnswer": "SS-S1-S3-S2.",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_19.png"
+  },
+  {
+    "id": "q499",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following is a key difference between black box and white box test design techniques?",
+    "options": [
+      "Black box techniques use software code to derive test cases, white box techniques do not.",
+      "White box techniques use functional design specifications to derive test cases, black box techniques do not.",
+      "White box techniques can measure the extent of code coverage, black box techniques can not.",
+      "White box techniques derive test cases from models of the software, black box techniques do not"
+    ],
+    "correctAnswer": "White box techniques can measure the extent of code coverage, black box techniques can not.",
+    "explanation": ""
+  },
+  {
+    "id": "q500",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "A booking system for a city bus service prices its fares according to the time of travel: Peak-time tariff starts at 06:00 and finishes at 10:00 am Off-peak tariff applied during all other times of services. The bus service does not operate between 23:00 and the start of the next day’s peak service. Note that all times mentioned are inclusive. When applying the equivalence partitioning test design technique, which of the following options shows test case inputs that each fall into a same equivalence partition?",
+    "options": [
+      "06:00, 10:00, 12:00",
+      "10:01, 13:00, 22:59",
+      "01:00, 08:00, 22:00",
+      "24:00, 10:00, 23:01"
+    ],
+    "correctAnswer": "10:01, 13:00, 22:59",
+    "explanation": ""
+  },
+  {
+    "id": "q501",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "In the above State Table, which of the following represents an invalid transition?",
+    "options": [
+      "Event C from S3",
+      "Event E from S4",
+      "Event B from S2",
+      "Event D from S4"
+    ],
+    "correctAnswer": "Event D from S4",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_20.png"
+  },
+  {
+    "id": "q502",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following would be a good test technique to use when you have only some days to test before release product?",
+    "options": [
+      "Exploratory testing",
+      "Structure based testing",
+      "Specification based testing",
+      "Use Case testing"
+    ],
+    "correctAnswer": "Exploratory testing",
+    "explanation": ""
+  },
+  {
+    "id": "q503",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following are most characteristic of structure-based testing?\n (i) Information about how the software is constructed is used to derive test cases. \n(ii) Statement coverage and/or decision coverage can be measured for existing test cases. \n(iii) The knowledge and experience of people are used to derive test cases. \n(iv) Test cases are derived from a model or specification of the system.",
+    "options": [
+      "(i) and (ii)",
+      "(ii) and (iii)",
+      "(ii) and (iv)",
+      "(i) and (iii)"
+    ],
+    "correctAnswer": "(i) and (ii)",
+    "explanation": ""
+  },
+  {
+    "id": "q504",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Boundary value testing:",
+    "options": [
+      "Is the same as equivalence partitioning tests",
+      "Test boundary conditions on, below and above the edges of input and output equivalence classes",
+      "Tests combinations of input circumstances",
+      "Is used in white box testing strategy"
+    ],
+    "correctAnswer": "Test boundary conditions on, below and above the edges of input and output equivalence classes",
+    "explanation": ""
+  },
+  {
+    "id": "q505",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "How   many   test   cases   are   required   to   cover   100%  0 – switch",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctAnswer": "7",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_21.png"
+  },
+  {
+    "id": "q506",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "How   many   test   cases   are   required   to   cover   100%  1– switch from X4?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": "3",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_22.png"
+  },
+  {
+    "id": "q507",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following is a characteristic of experience-based test techniques?",
+    "options": [
+      "Test cases are created based on detailed design information",
+      "Items tested within the interface code section are used to measure coverage",
+      "The techniques heavily rely on the tester’s knowledge of the software and the business domain",
+      "The test cases are used to identify deviations from the requirements"
+    ],
+    "correctAnswer": "The techniques heavily rely on the tester’s knowledge of the software and the business domain",
+    "explanation": ""
+  },
+  {
+    "id": "q508",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "You are testing a simplified apartment search form which has only two search criteria:\n• floor (with three possible options: ground floor; first floor; second or higher floor)\n• garden type (with three possible options: no garden; small garden; large garden)\nOnly apartments on the ground floor may have gardens. The form has a built-in validation mechanism that will not allow you to use the search criteria which violate this rule.\nEach test has two input values: floor and garden type. You want to apply equivalence partitioning (EP) to cover each floor and each garden type in your tests.\nWhat is the minimal number of test cases to achieve 100% EP coverage?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctAnswer": "4",
+    "explanation": ""
+  },
+  {
+    "id": "q509",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "You are testing a system that calculates the final course grade for a given student.\nThe final grade is assigned based on the final result, according to the following rules:\n• 0 – 50 points: failed\n• 51 – 60 points: fair\n• 61 – 70 points: satisfactory\n• 71 – 80 points: good\n• 81 – 90 points: very good\n• 91 – 100 points: excellent\nYou have prepared the following set of test cases ( image)\nWhat is the 2-value Boundary Value Analysis (BVA) coverage for the final result that is achieved with the existing test cases?",
+    "options": [
+      "50%",
+      "60%",
+      "33.3%",
+      "100%"
+    ],
+    "correctAnswer": "50%",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_23.png"
+  },
+  {
+    "id": "q510",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Your favorite bicycle daily rental store has just introduced a new Customer Relationship Management system and asked you, one of their most loyal members, to test it.\nThe implemented features are as follows:\n• Anyone can rent a bicycle, but members receive a 20% discount\n• However, if the return deadline is missed, the discount is no longer available\n• After 15 rentals, members get a gift: a T-Shirt\nDecision table describing the implemented features looks as image\nBased ONLY on the feature description of the Customer Relationship Management system, which of the above rules describes an impossible situation?",
+    "options": [
+      "R4",
+      "R2",
+      "R6",
+      "R8"
+    ],
+    "correctAnswer": "R8",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_24.png"
+  },
+  {
+    "id": "q511",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "You test a system whose lifecycle is modeled by the state transition diagram shown below. The system starts in the INIT state and ends its operation in the OFF state.\nWhat is the MINIMAL number of test cases to achieve valid transitions coverage?",
+    "options": [
+      "4",
+      "2",
+      "7",
+      "3"
+    ],
+    "correctAnswer": "3",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_25.png"
+  },
+  {
+    "id": "q512",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Your test suite achieved 100% statement coverage. What is the consequence of this fact?",
+    "options": [
+      "Each instruction in the code that contains a defect has been executed at least once",
+      "Any test suite containing more test cases than your test suite will also achieve 100% statement coverage",
+      "Each path in the code has been executed at least once",
+      "Every combination of input values has been tested at least once"
+    ],
+    "correctAnswer": "Each instruction in the code that contains a defect has been executed at least once",
+    "explanation": ""
+  },
+  {
+    "id": "q513",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "In your project there has been a delay in the release of a brand-new application and test execution started late, but you have very detailed domain knowledge and good analytical skills. The full list of requirements has not yet been shared with the team, but management is asking for some test results to be presented.\nWhich test technique fits BEST in this situation?",
+    "options": [
+      "Checklist-based testing",
+      "Error guessing",
+      "Exploratory testing",
+      "Branch testing"
+    ],
+    "correctAnswer": "Exploratory testing",
+    "explanation": ""
+  },
+  {
+    "id": "q514",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following BEST describes the concept behind error guessing?",
+    "options": [
+      "Error guessing involves using your knowledge and experience of defects found in the past and typical errors made by developers",
+      "Error guessing involves using your personal experience of development and the errors you made as a developer",
+      "Error guessing requires you to imagine that you are the user of the test object and to guess errors the user could make interacting with it",
+      "Error guessing requires you to rapidly duplicate the development task to identify the sort of errors a developer might make"
+    ],
+    "correctAnswer": "Error guessing involves using your knowledge and experience of defects found in the past and typical errors made by developers",
+    "explanation": ""
+  },
+  {
+    "id": "q515",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following is NOT true for white-box testing?",
+    "options": [
+      "During white-box testing the entire software implementation is considered",
+      "White-box coverage metrics can help identify additional tests to increase code coverage",
+      "White-box test techniques can be used in static testing",
+      "White-box testing can help identify gaps in requirements implementation"
+    ],
+    "correctAnswer": "White-box testing can help identify gaps in requirements implementation",
+    "explanation": ""
+  },
+  {
+    "id": "q516",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "A functional requirement states that pressure values must always be positive and stay within a range of 100 to 200 pounds for a particular tank (100 and 200 are valid within the range).\nWhich of the following is the minimum set of values that would achieve coverage using the equivalence partitioning technique?",
+    "options": [
+      "A series of tests where pressure is set to 98, 110, and 201 pounds",
+      "A series of tests where pressure is set to 98, 100, and 200 pounds",
+      "A series of tests where pressure is set to 100, 110, and 200 pounds",
+      "A series of tests where pressure is set to -1, 0, 175, and 297 pounds"
+    ],
+    "correctAnswer": "A series of tests where pressure is set to 98, 110, and 201 pounds",
+    "explanation": ""
+  },
+  {
+    "id": "q517",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "A daily radiation recorder for plants produces a sunshine score based on a combination of the number of hours a plant is exposed to the sun (below  2 hours, 2 to 4 hours, above 4 to 6 hours, above 6 to 8 hours, above 8) and the average intensity of the sunshine (very low, low, medium, high).\nGiven the following test case (image). What is the minimum number of additional test cases that are needed to ensure full coverage of all valid INPUT equivalence partitions?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": "3",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter4_26.png"
+  },
+  {
+    "id": "q518",
+    "chapter": 4,
+    "difficulty": "normal",
+    "questionText": "Which of the following statements about branch testing is CORRECT?",
+    "options": [
+      "If a program includes only unconditional branches, then 100% branch coverage can be achieved without executing any test cases",
+      "If the test cases exercise all unconditional branches in the code, then 100% branch coverage is achieved",
+      "If 100% statement coverage is achieved, then 100% branch coverage is also achieved",
+      "If 100% branch coverage is achieved, then all decision outcomes in each decision statement in the code are exercised"
+    ],
+    "correctAnswer": "If 100% branch coverage is achieved, then all decision outcomes in each decision statement in the code are exercised",
+    "explanation": ""
   }
 ]
