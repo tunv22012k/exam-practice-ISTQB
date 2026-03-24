@@ -1,30 +1,44 @@
 [
   {
-    "id": "q12",
+    "id": "q6001",
     "chapter": 6,
-    "difficulty": "easy",
-    "questionText": "What is a main benefit of using a test execution tool?",
+    "difficulty": "normal",
+    "questionText": "Which of the following is most likely to be performed by developers?",
     "options": [
-      "It automatically generates perfect test cases without human input.",
-      "It reduces the time required for repetitive tasks like regression testing.",
-      "It guarantees that no defects remain in the code.",
-      "It removes the need for manual exploratory testing completely."
+      "Technical review of a functional specification.",
+      "Walkthrough of a requirements document.",
+      "Informal review of a program specification.",
+      "Static analysis of a software model."
     ],
-    "correctAnswer": "It reduces the time required for repetitive tasks like regression testing.",
-    "explanation": "Test execution tools automate the running of tests, saving enormous amounts of time for repetitive suites like regression tests. They do not eliminate the need for human thought or manual tests."
+    "correctAnswer": "Static analysis of a software model.",
+    "explanation": ""
   },
   {
-    "id": "q13",
+    "id": "q6002",
     "chapter": 6,
-    "difficulty": "hard",
-    "questionText": "Which type of tool is most likely to be used by developers rather than testers?",
+    "difficulty": "normal",
+    "questionText": "Which of the following pairs of test tools are likely to be most useful during the test analysis and design stage of the fundamental test process?\n\n(i) Test execution tool\n(ii) Test data preparation tool\n(iii) Test management tool\n(iv) Requirements management tool",
     "options": [
-      "Defect management tool",
-      "Requirements management tool",
-      "Static analysis tool",
-      "Test execution tool"
+      "(i) and (ii)",
+      "(i) and (iv)",
+      "(ii) and (iii)",
+      "(iii) and (iv)"
     ],
-    "correctAnswer": "Static analysis tool",
-    "explanation": "Static analysis tools are often used by developers during the coding phase to catch syntax and standard violations before the code is even run."
+    "correctAnswer": "(iii) and (iv)",
+    "explanation": ""
+  },
+  {
+    "id": "q6003",
+    "chapter": 6,
+    "difficulty": "normal",
+    "questionText": "Which of the following benefits are MOST likely to be achieved by using test tools? \ni) Easy to access information about tests and testing. \nii) Reduced maintenance of testware. \niii) Easy and cheap to implement. \niv) Greater consistency of tests.",
+    "options": [
+      "i and iii",
+      "i and iv",
+      "ii and iii",
+      "ii and iv"
+    ],
+    "correctAnswer": "i and iv",
+    "explanation": ""
   }
 ]

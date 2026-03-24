@@ -1,30 +1,425 @@
 [
   {
-    "id": "q10",
+    "id": "q5001",
     "chapter": 5,
     "difficulty": "normal",
-    "questionText": "Which of the following is a primary task of a Test Manager?",
+    "questionText": "Which of the following would NOT typically be covered in a test summary report?",
     "options": [
-      "Writing detailed test scripts",
-      "Writing test summary reports based on gathered metrics",
-      "Executing automated tests",
-      "Fixing defects found during testing"
+      "Any features of the system that were not tested along with reasons.",
+      "Whether there is any economic benefit in continuing testing beyond the planned date.",
+      "The risks associated with unresolved defects found during testing.",
+      "An analysis of lessons learned to determine changes for future projects."
     ],
-    "correctAnswer": "Writing test summary reports based on gathered metrics",
-    "explanation": "The Test Manager focuses on planning, monitoring, and controlling the testing activities, which includes writing summary reports. The Test Analyst usually writes and executes scripts, and developers fix defects."
+    "correctAnswer": "Whether there is any economic benefit in continuing testing beyond the planned date.",
+    "explanation": ""
   },
   {
-    "id": "q11",
+    "id": "q5002",
     "chapter": 5,
     "difficulty": "normal",
-    "questionText": "In risk-based testing, what two factors are typically used to assess the level of risk?",
+    "questionText": "Which of the following are product risks?\na) Failure prone software delivered.\nb) Software does not perform its intended functions.\nc) Insufficient staff available for testing.\nd) Test environment not ready on time.\ne) Poor data integrity and quality.",
     "options": [
-      "Likelihood and Impact",
-      "Cost and Schedule",
-      "Defect density and Test coverage",
-      "Complexity and Usability"
+      "b, c and d.",
+      "b, d and e.",
+      "a, b and e.",
+      "b, c and e."
     ],
-    "correctAnswer": "Likelihood and Impact",
-    "explanation": "Risk is typically evaluated by assessing the Likelihood (probability of the risk occurring) and the Impact (the severity of the consequences if it occurs)."
+    "correctAnswer": "a, b and e.",
+    "explanation": ""
+  },
+  {
+    "id": "q5003",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "Tests have been specified for the latest software release and users have prioritised these.\nHowever, there are some dependencies between tests as shown in the table below (e.g. Test ID. ‘123’ cannot be run until Test ID. ‘456’ has been successfully completed).\nWhich test execution schedule best meets the prioritisation and dependency conditions?",
+    "options": [
+      "3, 5, 7, 10, 2, 4, 6, 8, 9, 1",
+      "5, 7, 4, 3, 9, 10, 1, 6, 8, 2",
+      "6, 1, 2, 9, 4, 3, 5, 7, 8, 10.",
+      "1, 4, 3, 5, 2, 7, 9, 10, 6, 8"
+    ],
+    "correctAnswer": "1, 4, 3, 5, 2, 7, 9, 10, 6, 8",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter5_1.png"
+  },
+  {
+    "id": "q5004",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "Which one of the following statements about techniques for estimating test effort is correct?",
+    "options": [
+      "The metrics-based technique finds the most similar former project and uses its original estimate for the current project",
+      "The expert-based approach is based on the experience of the owners of the testing tasks or by subject matter experts.",
+      "The metrics-based technique uses metrics supplied by the current test team based on their subjective feel for effort required",
+      "In an expert-based approach, the test lead with the most years in the role is chosen to produce the estimate"
+    ],
+    "correctAnswer": "The expert-based approach is based on the experience of the owners of the testing tasks or by subject matter experts.",
+    "explanation": ""
+  },
+  {
+    "id": "q5005",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "You are testing a mobile app that allows users to find a nearby restaurant, based on the type of food they want to eat. Consider the following list of test cases, priorities (smaller number is high priority), and dependencies, in the following format:(refer picture)\nWhich of the following is a possible test execution schedule that considers both priorities and dependencies?",
+    "options": [
+      "01.001, 01.002, 01.003, 01.005, 01.004",
+      "01.001, 01.002, 01.004, 01.003, 01.005",
+      "01.003, 01.004, 01 .002, 01.001, 01.002",
+      "01.001, 01.002, 01.004, 01.005, 01.003"
+    ],
+    "correctAnswer": "01.001, 01.002, 01.004, 01.003, 01.005",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter5_2.png"
+  },
+  {
+    "id": "q5006",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "Which of the TOW following statements about test estimation approaches are CORRECT?",
+    "options": [
+      "With the expert-based approach, a group of expert users identified by the client recommends the necessary testing budget.",
+      "With the expert-based approach, the test managers responsible for the different testing activities predict the expected testing effort.",
+      "With the metrics-based approach, an average of the testing effort recorded from several past projects is used",
+      "With the metrics-based approach, the estimate is based on test measures from the project and so this estimate is only available after the testing starts."
+    ],
+    "correctAnswer": [
+      "With the expert-based approach, the test managers responsible for the different testing activities predict the expected testing effort.",
+      "With the metrics-based approach, an average of the testing effort recorded from several past projects is used"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "q5007",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "Which of the following is a product risk?",
+    "options": [
+      "Poor system reliability",
+      "Poor communication between developers and testers",
+      "Poor quality of test data",
+      "Lack of needed tester training"
+    ],
+    "correctAnswer": "Poor system reliability",
+    "explanation": ""
+  },
+  {
+    "id": "q5008",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "During system testing phase of a word processor, a tester finds that on opening a file from a particular set of files ,which are part of a critical workflow, the word processor crashes .which of the following is the next step the tester should prior to recording the deviation?",
+    "options": [
+      "Send an email to the developers and not report the bug",
+      "Report the bug as is without any further action",
+      "Try to identify the code fragment causing the problem",
+      "Try to recreate the incident before reporting"
+    ],
+    "correctAnswer": "Try to recreate the incident before reporting",
+    "explanation": ""
+  },
+  {
+    "id": "q5009",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "Which of the following is a project risk?",
+    "options": [
+      "System too costly to operate",
+      "Skill and/or staff shortage",
+      "Poor system performance",
+      "Vital function not implemented"
+    ],
+    "correctAnswer": "Skill and/or staff shortage",
+    "explanation": ""
+  },
+  {
+    "id": "q5010",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "When is testing complete?",
+    "options": [
+      "When time and budget are exhausted.",
+      "When there is enough information for sponsors to make an informed decision about release.",
+      "When there are no remaining high priority defects outstanding.",
+      "When every data combination has been exercised successfully."
+    ],
+    "correctAnswer": "When there are no remaining high priority defects outstanding.",
+    "explanation": ""
+  },
+  {
+    "id": "q5011",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "What can a risk-based approach to testing provide?",
+    "options": [
+      "The types of test techniques to be employed.",
+      "The total tests needed to provide 100 per cent coverage.",
+      "An estimation of the total cost of development.",
+      "Only that test execution is effective at reducing risk."
+    ],
+    "correctAnswer": "The types of test techniques to be employed.",
+    "explanation": ""
+  },
+  {
+    "id": "q5012",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "A new system is about to be developed. Which of the following functions has the highest level of risk?",
+    "options": [
+      "Likelihood of failure = 20%; impact value = $100,000",
+      "Likelihood of failure = 10%; impact value = $150,000",
+      "Likelihood of failure = 1%; impact value = $500,000",
+      "Likelihood of failure = 2%; impact value = $200,000"
+    ],
+    "correctAnswer": "Likelihood of failure = 20%; impact value = $100,000",
+    "explanation": ""
+  },
+  {
+    "id": "q5013",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "Which of the following is the most important difference between the metrics-based approach and the expert-based approach to test estimation?",
+    "options": [
+      "The metrics-based approach uses calculations from historical data while the expert based approach relies on team wisdom.",
+      "The metrics-based approach can be used to verify an estimate created using the expert-based approach, but not vice versa",
+      "The expert-based approach takes longer than the metrics-based approach.",
+      "The metrics-based approach is more accurate than the expert-based approach."
+    ],
+    "correctAnswer": "The metrics-based approach uses calculations from historical data while the expert based approach relies on team wisdom.",
+    "explanation": ""
+  },
+  {
+    "id": "q5014",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "How would you estimate the amount of re-testing likely to be required?",
+    "options": [
+      "Metrics from previous similar projects",
+      "Discussions with the development team",
+      "Time allocated for regression testing",
+      "a & b"
+    ],
+    "correctAnswer": "a & b",
+    "explanation": ""
+  },
+  {
+    "id": "q5015",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "As part of the test strategy, entry and exit criteria will be defined for each test level. Which is NOT a valid reason for using entry and exit criteria?",
+    "options": [
+      "The expectation is that development testing is not adequate.",
+      "Exit criteria are used to decide on when to stop testing.",
+      "Entry and exit criteria are a principal way for getting adequate resources.",
+      "Using entry and exit criteria will prevent software that is not or poorly tested from going to the next test level."
+    ],
+    "correctAnswer": "Entry and exit criteria are a principal way for getting adequate resources.",
+    "explanation": ""
+  },
+  {
+    "id": "q5016",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "which of the following topics would you need to address in detail in the master test plan?",
+    "options": [
+      "An approach to regression testing",
+      "A list of boundary values for “advance amount”",
+      "A description of dependencies between test cases",
+      "A logical collection of test cases"
+    ],
+    "correctAnswer": "An approach to regression testing",
+    "explanation": ""
+  },
+  {
+    "id": "q5017",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "Which option BEST describes how the level of risk is determined?",
+    "options": [
+      "The likelihood of an adverse event happening multiplied by the cost of preventing it.",
+      "The consequences of potential problem multiplied by the cost of possible legal action.",
+      "The impact of an adverse event multiplied by the likelihood of that event occurring.",
+      "The likelihood and the probability of a hazard occurring"
+    ],
+    "correctAnswer": "The impact of an adverse event multiplied by the likelihood of that event occurring.",
+    "explanation": ""
+  },
+  {
+    "id": "q5018",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "Which of the following BEST describes how configuration management supports the test process?",
+    "options": [
+      "It enables the tester to reproduce the tested item through unique identification and version control",
+      "It enables the tester to systematically design test conditions, cases and data",
+      "It enables incidents to be tracked from discovery and classification to correction and  confirmation of the solution",
+      "It helps the test manager to decide how best to integrate and coordinate the testing activities into the software life cycle."
+    ],
+    "correctAnswer": "It enables the tester to reproduce the tested item through unique identification and version control",
+    "explanation": ""
+  },
+  {
+    "id": "q5019",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "Which one of the following statements about techniques for estimating test effort is correct?",
+    "options": [
+      "The metrics-based technique finds the most similar former project and uses its original estimate for the current project.",
+      "The expert-based approach is based on the experience of the owners of the testing tasks or by subject matter experts.",
+      "The metrics-based technique uses metrics supplied by the current test team based on their subjective feel for effort required.",
+      "In an expert-based approach, the test lead with the most years in the role is chosen to produce the estimate."
+    ],
+    "correctAnswer": "The expert-based approach is based on the experience of the owners of the testing tasks or by subject matter experts.",
+    "explanation": ""
+  },
+  {
+    "id": "q5020",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "Which of the following activities is appropriate to the test planning stage?",
+    "options": [
+      "Analyzing the test basis",
+      "Assigning resources for the planned activities",
+      "Designing the test environments",
+      "Writing a test execution schedule"
+    ],
+    "correctAnswer": "Assigning resources for the planned activities",
+    "explanation": ""
+  },
+  {
+    "id": "q5021",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "Which of the following would you expect to see in the master test plan?",
+    "options": [
+      "A description of how the test cases are cross-referenced to requirements in the test management tool.",
+      "A detailed identification of the resources that will carry out structural testing in the first iteration.",
+      "The test approach that will be applied at system integration testing",
+      "A list of the names of the testers who will carry out the performance testing for the final iteration."
+    ],
+    "correctAnswer": "The test approach that will be applied at system integration testing",
+    "explanation": ""
+  },
+  {
+    "id": "q5022",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "Which of the following would be the TWO most appropriate examples of entry criteria documented in the system integration test plan?",
+    "options": [
+      "The percentage of decision coverage achieved during unit testing.",
+      "The availability of the latest version of the capture-replay tool (for testing the interface with the newly developed test management tool)",
+      "The sign-off of a performance test software release note (test item transmittal report) by both development and testing showing that system performance meets the specified acceptance criteria.",
+      "The percentage of acceptance test procedures scheduled for execution.",
+      "The percentage of requirements coverage achieved during system integration test"
+    ],
+    "correctAnswer": [
+      "The percentage of decision coverage achieved during unit testing.",
+      "The availability of the latest version of the capture-replay tool (for testing the interface with the newly developed test management tool)"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "q5023",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "The following Test Cases have been created for a simple web-based airline booking system. \nTest Case 1: Search for an item: Available Flights \nTest Case 2: View selected item in My Flights \nTest Case 3: Login to the system: Login is accepted \nTest Case 4: Select an available flight: item added to My Flights \nTest Case 5: Print confirmation receipt, then exit \nTest Case 6: In My Flights, confirm details and book flight \nWhich of the following is the correct logical order for the test cases?",
+    "options": [
+      "6, 3, 1, 4, 2, 5",
+      "3, 4, 1, 2, 5, 6",
+      "3, 2, 1, 4, 6, 5",
+      "3, 1, 4, 2, 6, 5"
+    ],
+    "correctAnswer": "3, 1, 4, 2, 6, 5",
+    "explanation": ""
+  },
+  {
+    "id": "q5024",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "Which of the following is NOT part of configuration management?",
+    "options": [
+      "Status accounting of configuration items",
+      "Auditing conformance to ISO9001",
+      "Identification of test versions",
+      "Record of changes to documentation over time"
+    ],
+    "correctAnswer": "Auditing conformance to ISO9001",
+    "explanation": ""
+  },
+  {
+    "id": "q5025",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "Which TWO of the following options are the exit criteria for testing a system?",
+    "options": [
+      "Test environment readiness",
+      "The ability to log in to the test object by the tester",
+      "Estimated defect density is reached",
+      "Requirements are translated into given/when/then format",
+      "Regression tests are automated"
+    ],
+    "correctAnswer": [
+      "Estimated defect density is reached",
+      "Regression tests are automated"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "q5026",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "You are testing a mobile application that allows users to find a nearby restaurant based on the type\nof food they want to eat. Consider the following list of test cases, priorities (i.e., a smaller number\nmeans a higher priority), and dependencies (IMAGE)\nWhich of the following test cases should be executed as the third one?",
+    "options": [
+      "TC 003",
+      "TC 005",
+      "TC 002",
+      "TC 001"
+    ],
+    "correctAnswer": "TC 003",
+    "explanation": "",
+    "imageUrl": "/images/quiz_chapter5_3.png"
+  },
+  {
+    "id": "q5027",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "How can a risk assessment influence the thoroughness testing?",
+    "options": [
+      "The types of test techniques to be employed",
+      "The total tests needed to provide 100 percent coverage.",
+      "An estimation of the total cost of fixing.",
+      "Only that test execution is effective at reducing risk."
+    ],
+    "correctAnswer": "The types of test techniques to be employed",
+    "explanation": ""
+  },
+  {
+    "id": "q5028",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "You are engaged in planning a test effort for a new mobile banking application. As part of estimation, you first meet with the proposed testers and others on the project. The team is well-coordinated and has already worked on similar projects. To verify the resulting estimate, you then refer to some industry averages for testing effort and costs on similar projects, published by a reputable consultant. Which TWO statement describes your estimation approach?",
+    "options": [
+      "A simultaneous expert-based and metrics-based approach",
+      "Primarily an expert-based approach, augmented with a metrics-based approach",
+      "Primarily a metrics-based approach, augmented with an expert-based approach",
+      "Primarily planning poker, checked by velocity from burndown charts."
+    ],
+    "correctAnswer": [
+      "A simultaneous expert-based and metrics-based approach",
+      "Primarily an expert-based approach, augmented with a metrics-based approach"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "q5029",
+    "chapter": 5,
+    "difficulty": "normal",
+    "questionText": "Which of the following statements about risks is most accurate?",
+    "options": [
+      "Project risks rarely affect product risk.",
+      "Product risks rarely affect project risk.",
+      "A risk-based approach is more likely to be used to mitigate product rather than project risks.",
+      "A risk-based approach is more likely to be used to mitigate project rather than product risks."
+    ],
+    "correctAnswer": "A risk-based approach is more likely to be used to mitigate product rather than project risks.",
+    "explanation": ""
   }
 ]
