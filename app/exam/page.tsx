@@ -226,6 +226,11 @@ export default function ExamPage() {
           </div>
 
           {/* Question Text */}
+          {currentQuestion?.reference && (
+            <div className="mb-4 text-amber-400/90 text-sm italic animate-fade-in-up">
+              Tương ứng với câu <span className="font-bold">{currentQuestion.reference.questionNumber}</span> của bài tập <span className="font-bold">{currentQuestion.reference.examName}</span>
+            </div>
+          )}
           <h1 className="text-xl md:text-1xl font-medium leading-relaxed mb-6 animate-fade-in-up whitespace-pre-wrap">
             {currentQuestion?.questionText}
           </h1>

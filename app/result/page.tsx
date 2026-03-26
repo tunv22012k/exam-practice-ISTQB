@@ -146,6 +146,11 @@ export default function ResultPage() {
                 </span>
               </div>
               
+              {q.reference && (
+                <div className="mb-4 text-amber-400/90 text-sm italic">
+                  Tương ứng với câu <span className="font-bold">{q.reference.questionNumber}</span> của bài tập <span className="font-bold">{q.reference.examName}</span>
+                </div>
+              )}
               <h3 className="text-xl md:text-2xl font-medium mb-8 leading-relaxed text-slate-100">{q.questionText}</h3>
               
               <div className="space-y-3 mb-8">

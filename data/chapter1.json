@@ -11,7 +11,11 @@
       "Test Planning."
     ],
     "correctAnswer": "Test Analysis.",
-    "explanation": ""
+    "explanation": "Refer 1.4.1 đánh giá khả năng test của requirement là của Analysis",
+    "reference": {
+      "questionNumber": 1,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q102",
@@ -25,7 +29,11 @@
       "A source to determine expected results to compare with the actual result of the system under test."
     ],
     "correctAnswer": "A set of preconditions, inputs, actions, expected results and postconditions developed based on test conditions.",
-    "explanation": ""
+    "explanation": "Glossary tra test case ra đáp án C. A là của test condition, B là test plan, D là test oracle",
+    "reference": {
+      "questionNumber": 2,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q103",
@@ -39,7 +47,11 @@
       "Contractual requirements have not been met by testing."
     ],
     "correctAnswer": "If the defect is executed, the system may fail.",
-    "explanation": ""
+    "explanation": "Refer 1.2.3 Hậu quả cuối cùng của Mistake là gì? ta hiểu là Failure. Nhưng A đúng vì có may fail. B sai ko liên quan đến tiền, C sai vì will fail là chắc chắn sẽ fail ( hiểu là không phải tất cả các defect đều làm cho hệ thống fail, ví dụ như lỗi sai conding convention). D sai vì ko liên quan đến contract",
+    "reference": {
+      "questionNumber": 3,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q104",
@@ -53,7 +65,11 @@
       "c and d are benefits, a and b are drawbacks."
     ],
     "correctAnswer": "a and d are benefits, b and c are drawbacks.",
-    "explanation": ""
+    "explanation": "Refer 1.5.3",
+    "reference": {
+      "questionNumber": 4,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q105",
@@ -67,7 +83,11 @@
       "The degree to which a component, system or process meets specified requirements..."
     ],
     "correctAnswer": "Part of quality management focused on providing confidence that quality requirements will be fulfilled.",
-    "explanation": ""
+    "explanation": "Refer 1.2.2 và Glossary tra quality assurance ra C là đúng, A sai vì là cost of quality, B sai vì protects information and data là của security, D sai là định nghĩa của quality",
+    "reference": {
+      "questionNumber": 5,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q106",
@@ -81,7 +101,11 @@
       "Work products produced during the test process for use in planning, designing, executing, evaluating and reporting on testing"
     ],
     "correctAnswer": "Work products produced during the test process for use in planning, designing, executing, evaluating and reporting on testing",
-    "explanation": ""
+    "explanation": "Refer 1.4.3 và Glossary để tra từ. D là đúng, A là của test scripts, B là test case, C là non-functional",
+    "reference": {
+      "questionNumber": 6,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q107",
@@ -95,7 +119,11 @@
       "Having the developer write tests for his own code"
     ],
     "correctAnswer": "Having the developer write tests for his own code",
-    "explanation": ""
+    "explanation": "refer 1.5.3 Mức độc lập thấp nhất là D",
+    "reference": {
+      "questionNumber": 7,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q108",
@@ -109,7 +137,11 @@
       "Analysing lessons learnt for future releases."
     ],
     "correctAnswer": "Comparing actual and expected results",
-    "explanation": ""
+    "explanation": "Refer 1.4 tìm ra B. A là của Design, C là của Monitoring, D là của Completion test",
+    "reference": {
+      "questionNumber": 8,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q109",
@@ -123,7 +155,11 @@
       "A technique that has found no defects is not useful."
     ],
     "correctAnswer": "Different testing is needed depending upon the application.",
-    "explanation": ""
+    "explanation": "Refer 1.3 nói về 7 nguyên lý test thì A là nguyên lý 6 Test phụ thuộc vào ngữ cảnh và phần mềm khác nhau. B sai All, C sai kỹ thuật tìm ra lỗi luôn luôn ( always) tìm ra lỗi là sai, D sai \"kỹ thuật không tìm ra lỗi là không hữu ích\"",
+    "reference": {
+      "questionNumber": 9,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q110",
@@ -137,7 +173,11 @@
       "The result of a failure, which may lead to an error?"
     ],
     "correctAnswer": "The result of an error or mistake;",
-    "explanation": ""
+    "explanation": "Refer 1.2.3 sơ đồ Error- Defect- Failure thì tìm ra là C. Defect là kết quả của 1 error",
+    "reference": {
+      "questionNumber": 10,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q111",
@@ -151,7 +191,11 @@
       "Checking that no unintended consequences have occurred as a result of a fix."
     ],
     "correctAnswer": "Identifying the cause of a defect, repairing the code and checking the fix is correct.",
-    "explanation": ""
+    "explanation": "Refer 1.1.2 Debugging. D sai vì là định nghĩa của regression test, A là hoạt động test, B là retest",
+    "reference": {
+      "questionNumber": 11,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q112",
@@ -165,7 +209,11 @@
       "Tests designed by someone from a different department...; tests designed by someone from a different company..."
     ],
     "correctAnswer": "Tests designed by someone from a different company; tests designed by someone from a different department...; tests designed by another member...",
-    "explanation": ""
+    "explanation": "Refer 1.5.3 thứ tự của test independence đúng tứ mức độc lập cao nhất trở xuống, C là đúng nhất",
+    "reference": {
+      "questionNumber": 12,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q113",
@@ -179,7 +227,11 @@
       "Test condition"
     ],
     "correctAnswer": "Test case",
-    "explanation": ""
+    "explanation": "Glossary tra cứu định nghĩa Test case, có chứa thông tin về expected result của 1 cái test",
+    "reference": {
+      "questionNumber": 13,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q114",
@@ -193,7 +245,11 @@
       "A contract tester who has never worked for the organization before."
     ],
     "correctAnswer": "A contract tester who has never worked for the organization before.",
-    "explanation": ""
+    "explanation": "Refer1.5.3 các mức độ độc lập thì D là cao nhất vì contract tester là thuê ngoài về",
+    "reference": {
+      "questionNumber": 14,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q115",
@@ -207,7 +263,11 @@
       "(i) and (iv) are part of analysis and design, (ii), (iii) and (v) are part of test implementation and execution."
     ],
     "correctAnswer": "(i) and (iii) , (iv) are part of analysis and design...",
-    "explanation": ""
+    "explanation": "Refer 1.4.1",
+    "reference": {
+      "questionNumber": 15,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q116",
@@ -221,7 +281,11 @@
       "Public: Certified software testers shall consider the wider public interest in their actions. Profession: Certified software testers shall advance the integrity and reputation of their industry consistent with the public interest."
     ],
     "correctAnswer": "Public: Certified software testers shall consider the wider public interest in their actions. Profession: Certified software testers shall advance the integrity and reputation of their industry consistent with the public interest.",
-    "explanation": ""
+    "explanation": "Theo 1 tài liệu trên mạng chúng tôi đọc đc thì \"the code of ethics\" được coi là 1 \"set of rules or regulary about good and bad behavior\" cần phải được tuân thủ theo khi phát triển và test phần mềm ( confidential information là 1 ví dụ rất rõ về cái này)  , các rules này xuất phát từ nhiều nguồn khác nhau: The benefit and interest of public (consider act in the interest of public là xem xét đến các mối quan tâm của cộng đồng), Professional ( tester should follow the set of values, principles, standards and advance the integrity of their profession tester nên tuân theo các rules, standards, principles mà team đưa ra để đảm bảo tính toàn vẹn và chuyên nghiệp)",
+    "reference": {
+      "questionNumber": 16,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q117",
@@ -235,7 +299,11 @@
       "(iii) and (iv)"
     ],
     "correctAnswer": "(i) and (ii)",
-    "explanation": ""
+    "explanation": "Refer 1.5.3 câu hỏi là giải thích về việc developer thực hiện unit test trên code của anh ta thì là i đúng vì thiếu độc lập ( khách quan) nên cần phải có tester độc lập test ở phase sau, ii đúng vì developer hiểu biết về code, tìm lỗi và sửa lỗi nhanh hơn. iii sai vì developer không thể hiểu requirement hơn tester độc lập, iv sai vì \"unnecessary incident reports\"",
+    "reference": {
+      "questionNumber": 17,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q118",
@@ -249,7 +317,11 @@
       "It allows testers to become involved early in the project."
     ],
     "correctAnswer": "It reduces defect multiplication.",
-    "explanation": ""
+    "explanation": "Refer 1.1.1 và 1.2.3 chú ý vào từ \"verification early\" tìm sớm lỗi sẽ ko phát sinh nhiều vào trong các tài liệu khác",
+    "reference": {
+      "questionNumber": 18,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q119",
@@ -263,7 +335,11 @@
       "Early testing"
     ],
     "correctAnswer": "Tests wear out",
-    "explanation": ""
+    "explanation": "refer 1.3. chú ý \"no new test cases have been created\"",
+    "reference": {
+      "questionNumber": 19,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q120",
@@ -277,7 +353,11 @@
       "Prevent defects through early involvement"
     ],
     "correctAnswer": "Show that the system works before we ship it.",
-    "explanation": ""
+    "explanation": "Refer 1.3 Test ko chứng minh được hệ thống làm việc hay không vì thế mà \"test objectives\" và test mindset có thể bị mâu thuẫn với nhau",
+    "reference": {
+      "questionNumber": 20,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q121",
@@ -291,7 +371,11 @@
       "Although faults are most expensive to find during early development phases, they are cheapest to fix then."
     ],
     "correctAnswer": "They are cheapest to find in the early development phases and the most expensive to fix in the latest test phases.",
-    "explanation": ""
+    "explanation": "Refer 1.1.1 đặc điểm của chi phí về lỗi?",
+    "reference": {
+      "questionNumber": 21,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q122",
@@ -305,7 +389,11 @@
       "Test closure"
     ],
     "correctAnswer": "Implementation and execution",
-    "explanation": ""
+    "explanation": "refer 1.4.1 chú ý \"creates test suites\"",
+    "reference": {
+      "questionNumber": 22,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q123",
@@ -319,7 +407,11 @@
       "d, a, c, b, e"
     ],
     "correctAnswer": "c, a, e, b, d",
-    "explanation": ""
+    "explanation": "Refer 1.4.1 Thứ tự nào diễn ra là đúng? chọn c là task của test plan, a là của test design, e là test execution, b là evaluate exit criteria trong giai đoạn chạy test, d là của test completion",
+    "reference": {
+      "questionNumber": 23,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q124",
@@ -333,7 +425,11 @@
       "c and d."
     ],
     "correctAnswer": "b and c.",
-    "explanation": ""
+    "explanation": "refer 1.1.2 Kiểm tra và gỡ lỗi là các hoạt động chính trong vòng đời phát triển phần mềm. Hoạt động nào sau đây là hoạt động DEBUGGING? chọn b c",
+    "reference": {
+      "questionNumber": 24,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q125",
@@ -347,7 +443,11 @@
       "c and d."
     ],
     "correctAnswer": "a and d",
-    "explanation": ""
+    "explanation": "refer 1.1.2 Kiểm tra và gỡ lỗi là các hoạt động chính trong vòng đời phát triển phần mềm. Hoạt động nào sau đây là hoạt động THỬ NGHIỆM? chọn a, d là của testing",
+    "reference": {
+      "questionNumber": 25,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q126",
@@ -361,7 +461,11 @@
       "Testing, like spraying pesticide, is an effective bug/defect removal activity"
     ],
     "correctAnswer": "If we do not regularly review and revise our tests, we'll stop finding defects.",
-    "explanation": ""
+    "explanation": "refer 1.3 (Pesticide Paradox) If we do not regularly review and revise our tests, we’ll stop finding defects.",
+    "reference": {
+      "questionNumber": 26,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q127",
@@ -375,7 +479,11 @@
       "The redundancy of testing the same objects in both black and white box techniques"
     ],
     "correctAnswer": "Reduced effectiveness of test cases that are repeated and focused on the same scenarios",
-    "explanation": ""
+    "explanation": "refer 1.3 Thuật ngữ “Thử nghiệm hao mòn” ám chỉ điều gì? chú ý chọn C vì 'Repeated and focused on the same scenarios'",
+    "reference": {
+      "questionNumber": 27,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q128",
@@ -389,7 +497,11 @@
       "With automated testing you can make statements with more confidence about the quality of a product than with manual testing"
     ],
     "correctAnswer": "For a software system, it is not possible, under normal conditions, to test all input and output combinations",
-    "explanation": ""
+    "explanation": "refer 1.3 Câu nào sau đây mô tả một trong những nguyên tắc cơ bản này? chú ý vào 'it is not possible' chọn B",
+    "reference": {
+      "questionNumber": 28,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q129",
@@ -403,7 +515,11 @@
       "Providing information for stakeholders' decision making"
     ],
     "correctAnswer": "Investigating and fixing defects in the software under test",
-    "explanation": ""
+    "explanation": "refer 1.1.1 chọn B vì là của debug",
+    "reference": {
+      "questionNumber": 29,
+      "examName": "FL2024- chuong 1 exam 23-24-25"
+    }
   },
   {
     "id": "q130",
@@ -417,7 +533,11 @@
       "Test project closure"
     ],
     "correctAnswer": "Test project closure",
-    "explanation": ""
+    "explanation": "refer 1.4.1 Giai đoạn nào sau đây trong quy trình kiểm thử cơ bản được coi là cung cấp một tài liệu có thể được sử dụng làm đầu vào chính để cải tiến quy trình kiểm thử? chọn D vì câu hỏi nhắc đến\"test process improvement\"",
+    "reference": {
+      "questionNumber": 1,
+      "examName": "FL2024_chuong 1 Exam 26-27-28"
+    }
   },
   {
     "id": "q131",
@@ -431,7 +551,11 @@
       "Minimising contact between testers and developers during test design to avoid bias."
     ],
     "correctAnswer": "Outsourcing test design and execution to a different company.",
-    "explanation": ""
+    "explanation": "refer 1.5.3 Điều nào sau đây sẽ đạt được mức độ độc lập kiểm tra CAO NHẤT đối với cấp độ kiểm tra hệ thống của dự án? chọn D vì \"Outsourcing\" là cao nhất",
+    "reference": {
+      "questionNumber": 2,
+      "examName": "FL2024_chuong 1 Exam 26-27-28"
+    }
   },
   {
     "id": "q132",
@@ -445,7 +569,11 @@
       "Independent testers will become a bottleneck and introduce problems in incident management."
     ],
     "correctAnswer": "Developers loose the sense of responsibility and independent testers may become a bottleneck.",
-    "explanation": ""
+    "explanation": "refer 1.5.3 Điều nào sau đây là nhược điểm hợp lý của thử nghiệm độc lập? chọn B đúng sách",
+    "reference": {
+      "questionNumber": 3,
+      "examName": "FL2024_chuong 1 Exam 26-27-28"
+    }
   },
   {
     "id": "q133",
@@ -459,7 +587,11 @@
       "Review tests developed by others"
     ],
     "correctAnswer": "Write test summary reports",
-    "explanation": ""
+    "explanation": "refer 1.4.5 nhiệm vụ nào sau đây thường KHÔNG được tester thực hiện? chọn C vì của Leader",
+    "reference": {
+      "questionNumber": 4,
+      "examName": "FL2024_chuong 1 Exam 26-27-28"
+    }
   },
   {
     "id": "q134",
@@ -473,7 +605,11 @@
       "Tests designed by someone from a different department within the company; tests designed by someone from a different company; tests designed by the author."
     ],
     "correctAnswer": "Tests designed by someone from a different company; tests designed by someone from a different department within the company; tests designed by another member of the development team.",
-    "explanation": ""
+    "explanation": "refer 1.4.5. Danh sách các cấp độ độc lập của người thử nghiệm được sắp xếp theo đúng thứ tự, bắt đầu từ mức độ độc lập cao nhất trước tiên? chọn C",
+    "reference": {
+      "questionNumber": 5,
+      "examName": "FL2024_chuong 1 Exam 26-27-28"
+    }
   },
   {
     "id": "q135",
@@ -487,7 +623,11 @@
       "Evaluating exit criteria and reporting"
     ],
     "correctAnswer": "Test Closure Activities",
-    "explanation": ""
+    "explanation": "refer 1.4.1 \"Hand over of Testware\" của phase nào? xem sách chọn C",
+    "reference": {
+      "questionNumber": 6,
+      "examName": "FL2024_chuong 1 Exam 26-27-28"
+    }
   },
   {
     "id": "q136",
@@ -501,7 +641,11 @@
       "Evaluating exit criteria and reporting"
     ],
     "correctAnswer": "Test Implementation and execution",
-    "explanation": ""
+    "explanation": "refer 1.4.1 Báo cáo sự khác biệt do sự cố là một phần của giai đoạn nào: \"Discrepancies\" xem sách thì là của execution test",
+    "reference": {
+      "questionNumber": 7,
+      "examName": "FL2024_chuong 1 Exam 26-27-28"
+    }
   },
   {
     "id": "q137",
@@ -515,7 +659,11 @@
       "To give information to stakeholders of the risk of releasing the system at a given time"
     ],
     "correctAnswer": "To cause as many failures as possible so that defects in the software are identified and can be fixed",
-    "explanation": ""
+    "explanation": "refer 1.1.1 Mục tiêu CHÍNH trong quá trình thử nghiệm phát triển là gì? chọn A tìm đc nhiều lỗi nhất có thể, B thì là mục tiêu của Acceptance test, C đánh giá chất lượng ko nằm trong mục tiêu của test, D là cung cấp thông tin cho các bên ở thời điểm Release ko phải Development test nên ko chọn D",
+    "reference": {
+      "questionNumber": 8,
+      "examName": "FL2024_chuong 1 Exam 26-27-28"
+    }
   },
   {
     "id": "q138",
@@ -529,7 +677,11 @@
       "Designing the Tests"
     ],
     "correctAnswer": "Designing the Tests",
-    "explanation": ""
+    "explanation": "refer 1.4.1 Cái nào ko đúng thuộc giai đoạn Test Implementation and Execution? chọn D đúng, vì A của implementation, B C là của execution",
+    "reference": {
+      "questionNumber": 9,
+      "examName": "FL2024_chuong 1 Exam 26-27-28"
+    }
   },
   {
     "id": "q139",
@@ -543,7 +695,11 @@
       "The purpose of testing is to demonstrate the absence of defects."
     ],
     "correctAnswer": "It is normally impossible to test all input / output combinations for a software system.",
-    "explanation": ""
+    "explanation": "refer 1.3 Câu nào sau đây mô tả TỐT NHẤT một trong bảy nguyên tắc chính của kiểm thử phần mềm? chọn C đúng nhất, Loại A vì so sánh này ko có căn cứ, Loại B vì \"Exhaustive testing\" test tất cả không thể xảy ra cho tất cả phần mềm, Loại D vì  \"demonstrate the absence of defects\" là sai vì Test ko thể chứng minh sự vắng mặt của lỗi",
+    "reference": {
+      "questionNumber": 10,
+      "examName": "FL2024_chuong 1 Exam 26-27-28"
+    }
   },
   {
     "id": "q140",
@@ -557,7 +713,11 @@
       "Independent testers reduce the bottleneck in the incident management process"
     ],
     "correctAnswer": "Independent testers tend to be unbiased and find different defects than the developers",
-    "explanation": ""
+    "explanation": "refer 1.5.3 như sách rồi",
+    "reference": {
+      "questionNumber": 11,
+      "examName": "FL2024_chuong 1 Exam 26-27-28"
+    }
   },
   {
     "id": "q141",
@@ -571,7 +731,11 @@
       "Verifying that the test environment has been set up correctly."
     ],
     "correctAnswer": "Checking test logs against the exit criteria specified in test planning.",
-    "explanation": ""
+    "explanation": "refer 1.4.1 Chọn C vì của test monitoring and control",
+    "reference": {
+      "questionNumber": 12,
+      "examName": "FL2024_chuong 1 Exam 26-27-28"
+    }
   },
   {
     "id": "q142",
@@ -585,7 +749,11 @@
       "Debugging defects"
     ],
     "correctAnswer": "Debugging defects",
-    "explanation": ""
+    "explanation": "refer 1.1.1 và 1.1.2, Debug là hoạt động gỡ lỗi ko phải mục tiêu test",
+    "reference": {
+      "questionNumber": 13,
+      "examName": "FL2024_chuong 1 Exam 26-27-28"
+    }
   },
   {
     "id": "q143",
@@ -599,7 +767,11 @@
       "A contract tester who has never worked for the organization before"
     ],
     "correctAnswer": "A contract tester who has never worked for the organization before",
-    "explanation": ""
+    "explanation": "refer 1.5.3 điều nào sau đây có mức độ độc lập kiểm tra cao nhất? nhìn vào sơ đồ chọn D vì \"A contract tester\" là tester thuê bên ngoài",
+    "reference": {
+      "questionNumber": 14,
+      "examName": "FL2024_chuong 1 Exam 26-27-28"
+    }
   },
   {
     "id": "q144",
@@ -613,7 +785,11 @@
       "(i) and (iv) are part of analysis and design, (ii), (iii) and (v) are part of test implementation and execution."
     ],
     "correctAnswer": "(i) and (iii) are part of analysis and design, (ii), (iv) and (v) are part of test implementation and execution.",
-    "explanation": ""
+    "explanation": "refer 1.4. Câu này rõ ràng là i là của test analysis, iii, iv là của test design còn lại là của implement và execution. Vì thế các bạn lăn tăn giữa đáp án B và D đều có khả năng đúng. Tuy nhiên Đúng nhất là B vì iii là design test environment ko thể để đến giai đoạn test implementation đc, còn iii. Design and priorityTC là hoạt động làm cả ở giai đoạn test design, đến test implement vẫn làm ( bạn nhớ là automation test cũng là Test case còn gọi là test case tự động)",
+    "reference": {
+      "questionNumber": 15,
+      "examName": "FL2024_chuong 1 Exam 26-27-28"
+    }
   },
   {
     "id": "q145",
@@ -627,7 +803,11 @@
       "A test report showing requirements coverage"
     ],
     "correctAnswer": "A requirements review meeting",
-    "explanation": ""
+    "explanation": "refer 1.4.1. Điều nào sau đây là ví dụ về thử nghiệm như một phần của giai đoạn đặc tả yêu cầu? chọn A vì có review, loại B vì đây \"eliciting requirements\" là  task của BA, C là của \"acceptance tests\", D là \"A test report showing requirements coverage\" là sản phẩm của giai đoạn chạy test",
+    "reference": {
+      "questionNumber": 16,
+      "examName": "FL2024_chuong 1 Exam 26-27-28"
+    }
   },
   {
     "id": "q146",
@@ -641,7 +821,11 @@
       "test cases designed to execute combinations of conditions and actions resulting from them"
     ],
     "correctAnswer": "A testable aspect of a component or system identified as a basis for testing",
-    "explanation": ""
+    "explanation": "Refer 1.4.1 hoặc tra glossary từ test condition",
+    "reference": {
+      "questionNumber": 17,
+      "examName": "FL2024_chuong 1 Exam 26-27-28"
+    }
   },
   {
     "id": "q147",
@@ -655,7 +839,11 @@
       "The percentage of all single condition outcomes that independently affect a decision outcome that have been exercised by a test case suite."
     ],
     "correctAnswer": "An aspect of the test basis that is relevant to achieve specific test objectives.",
-    "explanation": ""
+    "explanation": "Refer 1.4. hoặc refer lên glossary để tra định nghĩa của test condition bạn thấy nó là 1 \"aspect of test basis\"",
+    "reference": {
+      "questionNumber": 18,
+      "examName": "FL2024_chuong 1 Exam 26-27-28"
+    }
   },
   {
     "id": "q148",
@@ -669,7 +857,11 @@
       "The computation algorithm used the wrong input variables."
     ],
     "correctAnswer": "The computation algorithm used the wrong input variables.",
-    "explanation": ""
+    "explanation": "Refer 1.2.3. Mô tả nào về defect là đúng. ở đây thì A là failure rồi, B C là Error chỉ còn D là defect",
+    "reference": {
+      "questionNumber": 19,
+      "examName": "FL2024_chuong 1 Exam 26-27-28"
+    }
   },
   {
     "id": "q149",
@@ -683,7 +875,11 @@
       "The design specification for the system wrongly states speeds in km/h."
     ],
     "correctAnswer": "The design specification for the system wrongly states speeds in km/h.",
-    "explanation": ""
+    "explanation": "Refer 1.2.3. chọn D là lỗi sai trong tài liệu Design. ( nếu câu này đc chọn 2 đáp án thì chọn B, D, nhưng nếu chỉ đc chọn 1 thì D là đúng nhất vì wrongly của D là sai hơn Unnecessary của B)",
+    "reference": {
+      "questionNumber": 20,
+      "examName": "FL2024_chuong 1 Exam 26-27-28"
+    }
   },
   {
     "id": "q150",
@@ -697,6 +893,10 @@
       "A defect"
     ],
     "correctAnswer": "A defect",
-    "explanation": ""
+    "explanation": "Refer 1.2.3 chú ý vào câu hỏi đang hỏi từ nào mô tả về cái incorrectly code",
+    "reference": {
+      "questionNumber": 21,
+      "examName": "FL2024_chuong 1 Exam 26-27-28"
+    }
   }
 ]

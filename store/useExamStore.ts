@@ -9,6 +9,11 @@ export type ExamConfig = {
   chapterDistribution?: Record<number, number>; // Maps chapter to question count for custom cumulative
 };
 
+export type QuestionReference = {
+  questionNumber: number | string;
+  examName: string;
+};
+
 export type Question = {
   id: string;
   chapter: number;
@@ -19,6 +24,7 @@ export type Question = {
   explanation: string;
   imageUrl?: string;
   type?: 'single' | 'multiple';
+  reference?: QuestionReference;
 };
 
 export type ExamState = 'idle' | 'running' | 'submitted';
