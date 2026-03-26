@@ -11,7 +11,11 @@
       "State transition testing"
     ],
     "correctAnswer": "Boundary value analysis",
-    "explanation": ""
+    "explanation": "Refer 4.2.1 và 4.2.2",
+    "reference": {
+      "questionNumber": 1,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q402",
@@ -25,7 +29,11 @@
       "Behavior-based"
     ],
     "correctAnswer": "White-box",
-    "explanation": ""
+    "explanation": "Refer 4.1.2 nhìn cái bảng so sánh đó và chú ý vào \"from looking at the code\"",
+    "reference": {
+      "questionNumber": 2,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q403",
@@ -39,7 +47,11 @@
       "Equivalence Partitioning"
     ],
     "correctAnswer": "Equivalence Partitioning",
-    "explanation": ""
+    "explanation": "Refer 4.1.2",
+    "reference": {
+      "questionNumber": 3,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q404",
@@ -53,7 +65,11 @@
       "Use Case testing"
     ],
     "correctAnswer": "Exploratory testing",
-    "explanation": ""
+    "explanation": "Refer 4.4.2 và chú ý vào \"under severe time pressure- dưới áp lực về thời gian\" thì test nào nhanh và hiệu quả nhất sẽ áp dụng",
+    "reference": {
+      "questionNumber": 4,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q405",
@@ -67,7 +83,11 @@
       "16, 26, and 32"
     ],
     "correctAnswer": "15, 19 and 25",
-    "explanation": ""
+    "explanation": "Refer 4.2.2. Tự vẽ ra sơ đồ nhé",
+    "reference": {
+      "questionNumber": 5,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q406",
@@ -81,7 +101,11 @@
       "e and d"
     ],
     "correctAnswer": "b and e",
-    "explanation": ""
+    "explanation": "Refer 4.1.2",
+    "reference": {
+      "questionNumber": 6,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q407",
@@ -95,7 +119,11 @@
       "Frequency 0, 1, 2, 5, 6; Duration 0, 1, 30, 60, 61"
     ],
     "correctAnswer": "Frequency 0, 1, 5, 6; Duration 59 seconds, 1 minute, 60 minutes, 60 minutes 1 second",
-    "explanation": ""
+    "explanation": "Refer 4.2.2 BVA, thực chất là xác định BVA của 2 cái input, trong đó duration tính theo minute nhưng dưới minute là second nữa",
+    "reference": {
+      "questionNumber": 7,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q408",
@@ -109,7 +137,11 @@
       "Exhaustive testing"
     ],
     "correctAnswer": "Error guessing",
-    "explanation": ""
+    "explanation": "Refer 4.1.2",
+    "reference": {
+      "questionNumber": 8,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q409",
@@ -123,7 +155,11 @@
       "Exploratory"
     ],
     "correctAnswer": "Black-box",
-    "explanation": ""
+    "explanation": "Refer 4.1.2 chú ý \"uses the requirements specifications\"",
+    "reference": {
+      "questionNumber": 9,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q410",
@@ -137,7 +173,11 @@
       "It is supported by strong tools and can be automated"
     ],
     "correctAnswer": "You can find defects that might be missed by more formal techniques",
-    "explanation": ""
+    "explanation": "Refer 4.1.2 chọn A vì \"might be missed by more formal techniques\" có trong sách, kỹ thuật theo kinh nghiệm giúp tìm các lỗi bỏ sót bởi các kỹ thuật khác",
+    "reference": {
+      "questionNumber": 10,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q411",
@@ -151,7 +191,11 @@
       "One more test case will be required for 100% statement coverage."
     ],
     "correctAnswer": "None, existing test cases can be used.",
-    "explanation": ""
+    "explanation": "Refer 4.3.1. Cái này vẽ sơ đồ ra, chú ý là họ đã có Test case và bao phủ \"100% statement and 100% decision coverage\", giờ họ viết thêm 2 dòng code vào phần cuối của chương trình thì nó vẫn là lệnh khẳng định nên các TC đã có vẫn đi qua hết các lệnh này nên ta ko cần thêm TC nữa",
+    "reference": {
+      "questionNumber": 11,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q412",
@@ -165,7 +209,11 @@
       "1"
     ],
     "correctAnswer": "4",
-    "explanation": ""
+    "explanation": "Refer 4.2.2 vẽ ra để xác định",
+    "reference": {
+      "questionNumber": 12,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q413",
@@ -179,7 +227,11 @@
       "Reference-based"
     ],
     "correctAnswer": "Experience-based",
-    "explanation": ""
+    "explanation": "Refer 4.1.2 và chú ý \"using error guessing\"",
+    "reference": {
+      "questionNumber": 13,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q414",
@@ -193,7 +245,11 @@
       "Number of executable statements tested divided by the total number of executable statements"
     ],
     "correctAnswer": "Number of executable statements tested divided by the total number of executable statements",
-    "explanation": ""
+    "explanation": "Refer 4.3.1 định nghĩa công thức tính statement coverage",
+    "reference": {
+      "questionNumber": 14,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q415",
@@ -207,7 +263,11 @@
       "A planning technique used to anticipate likely schedule variances due to faults"
     ],
     "correctAnswer": "A testing technique used to guess where a developer is likely to have made a mistake",
-    "explanation": ""
+    "explanation": "Refer 4.4.1 và chọn A vì \"a mistake\" dựa vào sai sót chung của LTV. Loại D vì \"A planning technique\" là kỹ thuật lập kế hoạch ko phải của test, loại C vì \"A development technique\" là kỹ thuật của LTV ko phải test, Loại B vì cũng ko phải kỹ thuật test",
+    "reference": {
+      "questionNumber": 15,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q416",
@@ -221,7 +281,11 @@
       "Formal chartering"
     ],
     "correctAnswer": "Session-based testing",
-    "explanation": ""
+    "explanation": "Refer 4.4.2 và chú ý vào \"using time-boxing and test charters\" để tìm ra trong sách",
+    "reference": {
+      "questionNumber": 16,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q417",
@@ -235,7 +299,11 @@
       "16"
     ],
     "correctAnswer": "8",
-    "explanation": ""
+    "explanation": "Refer 4.2.4 state transition testing, nên vẽ sơ đồ ra rồi đếm số transition.",
+    "reference": {
+      "questionNumber": 17,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q418",
@@ -249,7 +317,11 @@
       "4"
     ],
     "correctAnswer": "4",
-    "explanation": ""
+    "explanation": "Refer 4.2.1 EP, và \"a drop-down list and no other values\" nên ta có 3 value của drop down list và 1 giá trị là ko nhập gì mà ấn enter luôn là tổng 4 value",
+    "reference": {
+      "questionNumber": 18,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q419",
@@ -263,7 +335,11 @@
       "-1, 12, 18, 27"
     ],
     "correctAnswer": "-11, -1, 18, 27, 51",
-    "explanation": ""
+    "explanation": "Refer 4.2.1 EP bạn phải vẽ đúng sơ đồ",
+    "reference": {
+      "questionNumber": 19,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q420",
@@ -277,7 +353,11 @@
       "By taking the number of decision outcomes you have tested and dividing that by the total number of decision outcomes in the module"
     ],
     "correctAnswer": "By taking the number of decision outcomes you have tested and dividing that by the total number of decision outcomes in the module",
-    "explanation": ""
+    "explanation": "Refer 4.3.2 định nghĩa của decision coverage",
+    "reference": {
+      "questionNumber": 20,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q421",
@@ -291,7 +371,11 @@
       "Control flow, data flow and decision paths"
     ],
     "correctAnswer": "Basic, exception and error",
-    "explanation": ""
+    "explanation": "Refer 4.2.5 xem định nghĩa của use case chọn B. Loại D vì của whitebox test, A là category của test case, test data, Loại C vì ko có cái nào liên quan đến use case",
+    "reference": {
+      "questionNumber": 21,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q422",
@@ -305,7 +389,11 @@
       "12"
     ],
     "correctAnswer": "8",
-    "explanation": ""
+    "explanation": "Refer 4.2.1 EP, vẽ ra ta có 6 EP valid và thêm 2 EP invalid là nhỏ hơn 1 và lớn hơn 100 nữa",
+    "reference": {
+      "questionNumber": 22,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q423",
@@ -319,7 +407,11 @@
       "14"
     ],
     "correctAnswer": "14",
-    "explanation": ""
+    "explanation": "Refer 4.2.2 BVA, vẽ ra và xác định BVA",
+    "reference": {
+      "questionNumber": 23,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q424",
@@ -333,7 +425,11 @@
       "10,21,22"
     ],
     "correctAnswer": "3,10,22",
-    "explanation": ""
+    "explanation": "Refer 4.2.1 vẽ ra",
+    "reference": {
+      "questionNumber": 24,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q425",
@@ -347,7 +443,11 @@
       "5"
     ],
     "correctAnswer": "2",
-    "explanation": ""
+    "explanation": "Câu này phải vẽ sơ đồ state transition ra nhé (nhìn vào hình mình vẽ cho rồi đó), nó là dạng login trên trình duyệt, nhiều bạn đọc đề cứ thế lấy hình của ATM là không đúng đâu. Xem video chữa đề <br /><iframe width=\"600\" height=\"300\" src=\"https://www.youtube.com/embed/Y4pdJZbngnU\" frameborder=\"0\" allowfullscreen=\"\"></iframe>",
+    "reference": {
+      "questionNumber": 25,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q426",
@@ -361,8 +461,12 @@
       "18"
     ],
     "correctAnswer": "15",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4.png"
+    "explanation": "Refer 4.2.3 tự vẽ ra bảng thu gọn Decision table <br /><iframe width=\"600\" height=\"300\" src=\"https://www.youtube.com/embed/7sCW5hV1Tm8\" frameborder=\"0\" allowfullscreen=\"\"></iframe>",
+    "imageUrl": "/images/quiz_chapter4.png",
+    "reference": {
+      "questionNumber": 26,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q427",
@@ -376,7 +480,11 @@
       "70, 71, 74, 75, 76"
     ],
     "correctAnswer": "69, 70, 75, 76",
-    "explanation": ""
+    "explanation": "Refer 4.2.2 BVA",
+    "reference": {
+      "questionNumber": 27,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q428",
@@ -390,8 +498,12 @@
       "3, 4, 5, 1, 2"
     ],
     "correctAnswer": "1, 2, 4, 5, 3",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_2.png"
+    "explanation": "Câu này cả 2 đáp án B và C đều chạy phù hợp với Dependency, priority thì đều chưa đúng lắm, nhưng trên astqb.org exam 2 chọn đáp án B vì phù hợp hơn",
+    "imageUrl": "/images/quiz_chapter4_2.png",
+    "reference": {
+      "questionNumber": 28,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q429",
@@ -405,8 +517,12 @@
       "Channel 2 from Live"
     ],
     "correctAnswer": "Off from Display Channel 1",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_3.png"
+    "explanation": "Nhìn vào bảng đối chiếu xem vào ô nào (ô nào mà đánh dấu là N (Not) là invalid)",
+    "imageUrl": "/images/quiz_chapter4_3.png",
+    "reference": {
+      "questionNumber": 29,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q430",
@@ -420,8 +536,12 @@
       "43 year old in insurance class C Premium is 90 and excess is 1,000"
     ],
     "correctAnswer": "23 year old in insurance class A Premium is 90 and excess is 2,500",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_4.png"
+    "explanation": "Refer 4.2.3 nhìn vào bảng tím ra các input họ cho thì ứng với cột nào thì tìm đc output tương ứng",
+    "imageUrl": "/images/quiz_chapter4_4.png",
+    "reference": {
+      "questionNumber": 30,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q431",
@@ -435,7 +555,11 @@
       "15"
     ],
     "correctAnswer": "8",
-    "explanation": ""
+    "explanation": "Refer 4.2.2 BVA. Vẽ sơ đồ ra và câu hỏi nó hỏi \"values is LEAST likely- là ít đúng nhất\" thì ta vẽ sơ đồ từ -5 đến 30, mỗi vùng cách nhau 5 giá trị \"spans a range of just 5\"",
+    "reference": {
+      "questionNumber": 31,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q432",
@@ -449,8 +573,12 @@
       "6, 1, 3, 2, 4, 5"
     ],
     "correctAnswer": "2, 4, 5, 6, 1, 3",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_5.png"
+    "explanation": "Thứ tự chạy test case",
+    "imageUrl": "/images/quiz_chapter4_5.png",
+    "reference": {
+      "questionNumber": 32,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q433",
@@ -464,8 +592,12 @@
       "TC1 - £17 total charges but no buggy allowed; TC2 - £21 total charge including buggy hire"
     ],
     "correctAnswer": "TC1 - £23 total charges including buggy hire; TC2 - £16 total charge but no buggy allowed",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_6.png"
+    "explanation": "Refer 4.2.3 nhìn vào bảng và đối chiếu xem TC1 và TC2 tương ứng với cột nào thì đọc expected result ra",
+    "imageUrl": "/images/quiz_chapter4_6.png",
+    "reference": {
+      "questionNumber": 33,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q434",
@@ -479,8 +611,12 @@
       "01.001, 01.002, 01.004, 01.005, 01.003"
     ],
     "correctAnswer": "01.001, 01.002, 01.004, 01.003, 01.005",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_7.jpg"
+    "explanation": "Thứ tự chạy test case",
+    "imageUrl": "/images/quiz_chapter4_7.jpg",
+    "reference": {
+      "questionNumber": 34,
+      "examName": "FL2021-chapter 4"
+    }
   },
   {
     "id": "q435",
