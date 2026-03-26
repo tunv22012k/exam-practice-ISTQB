@@ -630,7 +630,11 @@
       "The percentage of decision outcomes that have been exercised by a test suite"
     ],
     "correctAnswer": "The percentage of decision outcomes that have been exercised by a test suite",
-    "explanation": ""
+    "explanation": "Refer 4.3.2 xem định nghĩa của Decision coverage chọn D, C sai vì là của statement coverage, B sai vì nó bảo Decision coverage và statement coverage là đồng nghĩa với nhau, A sai vì condition outcomes là công thức của condition coverage",
+    "reference": {
+      "questionNumber": 1,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q436",
@@ -644,7 +648,11 @@
       "Error guessing"
     ],
     "correctAnswer": "Black-box",
-    "explanation": ""
+    "explanation": "Refer 4.2.1 cái bảng so sánh 3 kỹ thuật thì bạn chú ý vào câu hỏi có đoạn dẫn test condition và test case từ \"the user story\" đây là tài liệu nên ta chọn B",
+    "reference": {
+      "questionNumber": 2,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q437",
@@ -658,7 +666,11 @@
       "Exploratory testing can involve the use of black-box techniques but not white-box techniques"
     ],
     "correctAnswer": "More experienced testers who have tested similar applications and technologies are likely to do better than less experienced testers at exploratory testing",
-    "explanation": ""
+    "explanation": ", Refer 4.4.2 hỏi về exploratory testing, chọn A vì tester có nhiều kinh nghiệm trên các dự án tương tự thì test khám phá là tốt hơn người ít kinh nghiệm, loại B vì nó bảo \"not identify any additional tests- ko xác định đc thêm test case\", loại C vì nó bảo test khám phá theo session ko dự đoán đc thời gian là sai, Loại D vì nó bảo test khám phá dùng cho black box thôi ko dùng đc cho white box là sai, thực tế là dùng đc cho cả 2",
+    "reference": {
+      "questionNumber": 3,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q438",
@@ -672,7 +684,11 @@
       "Error guessing"
     ],
     "correctAnswer": "Checklist-based",
-    "explanation": ""
+    "explanation": "Refer 4.4 Checklist vì Test được dẫn ra từ a popular book  một cuốn sách nổi tiếng nào đó chứ ko phải từ Requirement",
+    "reference": {
+      "questionNumber": 4,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q439",
@@ -686,7 +702,11 @@
       "Decision testing"
     ],
     "correctAnswer": "Decision testing",
-    "explanation": ""
+    "explanation": "Refer 4.3.2. Câu hỏi nó hỏi kỹ thuật nào cho Unit test để Dev test thì chỉ dùng Whitebox test đc thôi. Để test được trường hợp xảy ra đúng và trường hợp xảy ra sai thì chỉ có Decision testing",
+    "reference": {
+      "questionNumber": 5,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q440",
@@ -700,8 +720,12 @@
       "Error guessing"
     ],
     "correctAnswer": "Decision testing",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_8.jpg"
+    "explanation": "Refer 4.3.2. Để ý và tìm trên mạng để hiểu Nested loop structure là gì, ở đề này có 3 cấu trúc vòng For lồng nhau",
+    "imageUrl": "/images/quiz_chapter4_8.jpg",
+    "reference": {
+      "questionNumber": 6,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q441",
@@ -715,7 +739,11 @@
       "-0.1, 0.0, 0.1, 49.9, 50.0, 50.1"
     ],
     "correctAnswer": "0.0, 20.0, 60.0",
-    "explanation": ""
+    "explanation": "Refer 4.2.1 equivalence partitions. Cái này tự vẽ ra nhé",
+    "reference": {
+      "questionNumber": 7,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q442",
@@ -729,7 +757,11 @@
       "0.5, 0.6, 24.9, 25.0"
     ],
     "correctAnswer": "0.4, 0.5, 25.0 25.1",
-    "explanation": ""
+    "explanation": "Refer 4.2.2 BVA",
+    "reference": {
+      "questionNumber": 8,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q443",
@@ -743,8 +775,12 @@
       "9"
     ],
     "correctAnswer": "4",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_9.jpg"
+    "explanation": "Refer 4.2.3 Câu hỏi yêu cầu số test case bao phủ hết bảng decision table thì cần 3 case cho 3 cột, nhưng cột một TH mà Account/ pass okay là N xảy ra 2 trường hợp nên cần có 2 test case. Tổng là 4 case",
+    "imageUrl": "/images/quiz_chapter4_9.jpg",
+    "reference": {
+      "questionNumber": 9,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q444",
@@ -758,8 +794,12 @@
       "Infinite"
     ],
     "correctAnswer": "4",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_10.jpg"
+    "explanation": "Refer 4.2.4 state transition testing, nó đang hỏi là cần bao nhiêu test để bao phủ, mỗi test case phải đi từ điểm bắt đầu là Waiting for customer và kết thúc cũng phải trở về điểm này",
+    "imageUrl": "/images/quiz_chapter4_10.jpg",
+    "reference": {
+      "questionNumber": 10,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q445",
@@ -773,7 +813,11 @@
       "12.3"
     ],
     "correctAnswer": "0.2, 0.9, 29.5",
-    "explanation": ""
+    "explanation": "Refer 4.2.1 equivalence partitions",
+    "reference": {
+      "questionNumber": 11,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q446",
@@ -787,7 +831,11 @@
       "Typical funds-transfer transaction results in termination of customer session, with a delay in availability when attempting to reconnect"
     ],
     "correctAnswer": "Typical funds-transfer transaction results in termination of customer session, with a delay in availability when attempting to reconnect",
-    "explanation": ""
+    "explanation": "Chương 5, nhưng ở đây nó hỏi đáp án nào phù hợp để mô tả \"summary for a defect report\" cái này chính là Title của defect, vì thế loại A vì nó chứa các mã code và test case quá detail chỉ nên cho vào mục descrition, loại B vì nó ko có thông tin nào liên quan đến lỗi này cả, loại C vì Performance càng ko liên quan đến defect này. Chọn D là phù hợp",
+    "reference": {
+      "questionNumber": 12,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q447",
@@ -801,8 +849,12 @@
       "01.001, 01.002, 01.004, 01.005, 01.003"
     ],
     "correctAnswer": "01.001, 01.002, 01.004, 01.003, 01.005",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_11.jpg"
+    "explanation": "Xét thứ tự để chạy Test case bao giờ cũng phải xét Dependency trước. Đầu tiên xem các case có Dependency ở dạng None ( tức là ko phụ thuộc vào case nào) là có thể chạy đc luôn, Có case số 1 chạy đầu tiên, case số 2 phụ thuộc vào case 1 nên chọn chạy thứ 2, case 3,4,5 đều phụ thuộc vào 2 nên lúc này xem đến cột priority, vì đầu bài có đoạn là \"priorities (smaller number is high priority)- tức là số nhỏ thì ưu tiên cao\" nên case 3,4 ưu tiên cao hơn case 5. nên case 3,4 sẽ chạy trước 5. đáp án B là hợp lý. Loại C vì case 3,4,2 chạy trước case 1 là sai, Loại A và D vì case 5 ưu tiên thấp nhưng lại đc chạy trước case 3, case 4",
+    "imageUrl": "/images/quiz_chapter4_11.jpg",
+    "reference": {
+      "questionNumber": 13,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q448",
@@ -816,8 +868,12 @@
       "TC4 – TC2 – TC5 – TC1 – TC3 – TC6"
     ],
     "correctAnswer": "TC4 – TC3 – TC1 – TC2 – TC5 – TC6",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_12.jpg"
+    "explanation": "Xét thứ tự để chạy Test case bao giờ cũng phải xét Dependency trước ( Technical Dependency và Logical Dependency đều quan trọng như nhau) nên các case có Dependency là None là TC2 và TC4, xét về priority thì TC4 cao hơn nên chạy đầu tiên, TC4 chạy xong thì có thể chạy đc TC2, TC1, TC3, trong 3 case này thì TC1 và TC3 ưu tiên cao hơn TC 2 nên cho TC1 hoặc TC3 chạy trước, sau khi TC1, TC3 chạy xong thì chỉ còn TC2 nên cho TC2 chạy tiếp sau, sau đó đến TC5 vì TC5 phụ thuộc vào 2, cuối cùng là TC6 vì phụ thuộc vào TC5. chọn đáp án B. Ta loại A vì TC1 chạy trước là ko thể vì nó phụ thuộc vào TC4, loại C vì TC5 chạy trước TC2 là vô lý, loại D vì nó có thể là ko vi phạm về Dependency nhưng nó lại ko theo thứ tự ưu tiên",
+    "imageUrl": "/images/quiz_chapter4_12.jpg",
+    "reference": {
+      "questionNumber": 14,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q449",
@@ -831,7 +887,11 @@
       "Testing based on the tester's experience, knowledge and intuition."
     ],
     "correctAnswer": "An approach to testing whereby the testers dynamically design and execute tests based on their knowledge, exploration of the test item and the results of previous tests.",
-    "explanation": ""
+    "explanation": "Refer 4.4.2. exploratory testing. Chọn B vì đúng định nghĩa và có từ dynamically design, loại A vì \"the background of the test object- nền tảng của đối tượng test\" là định nghĩa của white box test, loại C vì nó ko phải định nghĩa của kỹ thuật nào cả, loại D vì nó chỉ là định nghĩa chung chung của experience base thôi không chính xác như B ( nếu câu này bắt chọn 2 đáp án thì có thể chọn thêm D)",
+    "reference": {
+      "questionNumber": 15,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q450",
@@ -845,7 +905,11 @@
       "Black – 1, 3, 5 White – 2 Experience – 4"
     ],
     "correctAnswer": "Black – 4, 5 White – 1, 2 Experience – 3",
-    "explanation": ""
+    "explanation": "Refer 4.1.2 dựa vào bảng so sánh để khớp",
+    "reference": {
+      "questionNumber": 16,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q451",
@@ -859,7 +923,11 @@
       "666, 999, 2222, 5555, 6666"
     ],
     "correctAnswer": "666, 999, 2222, 5555, 6666",
-    "explanation": ""
+    "explanation": "Refer 4.2.1 equivalence partition. Tính xem đáp án nào có độ bao phủ cao nhất về EP, nhớ là 2 value nằm trong cùng 1 EP thì chỉ tính EP đó 1 lần đã đc tested thôi.",
+    "reference": {
+      "questionNumber": 17,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q452",
@@ -873,8 +941,12 @@
       "4"
     ],
     "correctAnswer": "2",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_13.jpg"
+    "explanation": "Refer 4.2.1 xem cái bảng compose test case đó, tính số test case tối thiếu dựa vào trường nào có nhiều value nhất. Ở đây Hour có 3 EP, Intensity là có 4 EP, nhưng mà T1,T2,T3 là các test case có trong bảng đã cho đã test đc một số Value rồi, Hour còn 1 EP là \"3 to 6 hours\" chưa có test case, Intesity là còn 2 EP là Low và High. Nên tối thiểu là cần 2 Test case nữa mới bao phủ đc hết",
+    "imageUrl": "/images/quiz_chapter4_13.jpg",
+    "reference": {
+      "questionNumber": 18,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q453",
@@ -888,7 +960,11 @@
       "14°C, 15°C, 18°C, 19°C, 21°C, 22°C"
     ],
     "correctAnswer": "10°C, 16°C, 19°C, 22°C, 23°C",
-    "explanation": ""
+    "explanation": "Refer 4.2.2 BVA. vẽ cái trục ra rồi xác định các BVA thì tìm đc 10,11,15,16,19,20,22,23 là các giá trị biên là tổng có 8 BVA. xem các đáp án thì thấy C có độ bao phủ cao nhất 5/8",
+    "reference": {
+      "questionNumber": 19,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q454",
@@ -902,8 +978,12 @@
       "DT3, DT4"
     ],
     "correctAnswer": "DT2, DT4",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_14.jpg"
+    "explanation": "Refer 4.2.3 đầu tiên vẽ cái bảng full decision table cho 2 cái input là Speed >50 và School Zoon, có 2 input nên bảng có 4 cột T1,T2,T3,T4. Sau đó đánh dấu xem R1 và R4 trong bảng trùng với cột nào rồi thì đánh dấu để ko cho Test case vào nữa vì họ đã có rồi. Rồi xem tiếp bảng dưới xem các DT từ 1-4 cái nào phù hợp cho vào 2 cột còn lại chưa có test case thì tìm đc đáp án C",
+    "imageUrl": "/images/quiz_chapter4_14.jpg",
+    "reference": {
+      "questionNumber": 20,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q455",
@@ -917,8 +997,12 @@
       "WAIT → TRICKLE → CHARGE → HIGH → CHARGE → TRICKLE → WAIT → OFF → WAIT"
     ],
     "correctAnswer": "WAIT → TRICKLE → CHARGE → HIGH → CHARGE → TRICKLE → WAIT → OFF → WAIT",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_15.jpg"
+    "explanation": "Refer 4.2.3 state transition coverage. nó hỏi transition coverage nào cao nhất. Nhìn sơ đồ thấy có 10 cái mũi tên. giờ xem các đáp án xem cái nào đi đc nhiều mũi tên nhất ( lưu ý chạy qua chạy lại 2 lần trên cũng 1 mũi tên chỉ đc tính là 1 ( tức là vẫn là giao dịch đó đc test rồi)",
+    "imageUrl": "/images/quiz_chapter4_15.jpg",
+    "reference": {
+      "questionNumber": 21,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q456",
@@ -932,7 +1016,11 @@
       "Test cases are derived to exercise each of the decision points in the business process flows of the use case, to achieve 100% decision coverage of these flows."
     ],
     "correctAnswer": "Test cases are created to exercise defined basic, exceptional and error behaviors performed by the system under test in collaboration with actors.",
-    "explanation": ""
+    "explanation": "Refer 4.2.5 use case, xem định nghĩa của use case thì chọn đc A vì có \"basic, exceptional and error\". Loại B vì \"the components\" nhớ là use case chỉ test từ system test trở nên, ko test ở Unit test và component integration test, Loại C vì \"easy to use\" cái này là usability test của non-functional, loại D vì \"100% decision coverage\" là của white box test",
+    "reference": {
+      "questionNumber": 22,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q457",
@@ -946,7 +1034,11 @@
       "Statement coverage is a measure of the number of executable statements in the source code exercised by tests."
     ],
     "correctAnswer": "Statement coverage is a measure of the proportion of executable statements in the source code exercised by tests.",
-    "explanation": ""
+    "explanation": "Refer 4.3.1 xem định nghĩa của Statement coverage, nhớ cái từ \"proportion tỷ lệ\" nên tương tự như percentage",
+    "reference": {
+      "questionNumber": 23,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q458",
@@ -960,7 +1052,11 @@
       "Decision coverage is a measure of the proportion of decision outcomes in the source code exercised by tests."
     ],
     "correctAnswer": "Decision coverage is a measure of the proportion of decision outcomes in the source code exercised by tests.",
-    "explanation": ""
+    "explanation": "Refer 4.3.2 xem định nghĩa của Decision coverage, nhớ cái từ \"proportion tỷ lệ\" nên tương tự như percentage",
+    "reference": {
+      "questionNumber": 24,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q459",
@@ -974,7 +1070,11 @@
       "A technique based on formal requirements."
     ],
     "correctAnswer": "A technique based on formal requirements.",
-    "explanation": ""
+    "explanation": "Refer 4.1.2 nhìn bảng so sánh. Chọn D là black box test dựa vào requirements. Loại A và B vì là của White box test, loại C vì của experience based",
+    "reference": {
+      "questionNumber": 25,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q460",
@@ -988,7 +1088,11 @@
       "The statement is false. The statement is too broad. It may be correct or not, depending on the tested software."
     ],
     "correctAnswer": "The statement is true. Any single test case would cause the outcome of the “if” statement to be either true or false.",
-    "explanation": ""
+    "explanation": "Refer 4.3.2 Câu hỏi nó hỏi câu nào là đúng nhé ( đừng nhầm với statement coverage). bạn tự vẽ ra một cái sơ đồ có 1 hàm If vì dụ If (T>0) then print \"dương\" end. vẽ sơ đồ này ra. Thế bạn cho 1 test case chạy qua thì có phải nó hoặc là chạy TH true hoặc là TH false ko, tức là chỉ chạy đc 1 trong 2 trường hợp T hoặc F thôi",
+    "reference": {
+      "questionNumber": 26,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q461",
@@ -1002,7 +1106,11 @@
       "It is a metric, that gives a true/false confirmation if all statements are covered or not."
     ],
     "correctAnswer": "It is a metric, which is the percentage of statements in the source code that have been executed.",
-    "explanation": ""
+    "explanation": "Refer 4.3.1 statement coverage",
+    "reference": {
+      "questionNumber": 27,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q462",
@@ -1016,7 +1124,11 @@
       "Decision coverage can never reach 100%."
     ],
     "correctAnswer": "100% decision coverage also guarantees 100% statement coverage.",
-    "explanation": ""
+    "explanation": "Refer 4.3 nhìn vào mấy cái vòng tròn là đc",
+    "reference": {
+      "questionNumber": 28,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q463",
@@ -1030,7 +1142,11 @@
       "When an advanced knowledge of the system already exists and evidence is to be provided that it should be tested intensively."
     ],
     "correctAnswer": "When testers are available who have sufficient knowledge of similar applications and technologies.",
-    "explanation": ""
+    "explanation": "Refer 4.4.2 explorative testing chọn C vì khi tester có kinh nghiệm về dự án tương tự thì test khám phá là tốt, loại A vì \"tests already specified\" là yêu cầu tăng tốc độ chạy các test case đã đc viết ( nhớ trong test khám phá ko viết test case). loại B vì nó bảo dùng cho hệ thống phát triển gia tăng ( iterative) và ko có charter ( cái này là sản phẩm test khám phá viết ra mà) nên B ko đung. D thì nó bảo dùng Test khám phá khi hệ thống có đầy đủ kiến thức và đã đc test sâu rồi \"intensively\" là sai",
+    "reference": {
+      "questionNumber": 29,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q464",
@@ -1044,7 +1160,11 @@
       "5"
     ],
     "correctAnswer": "4",
-    "explanation": ""
+    "explanation": "Refer 4.2.1 họ hỏi là \"all valid equivalence partitions\" nhé. Vẽ ra ta có 5 phân vùng vì đề có câu \"It cannot be negative\" nên có vùng invalid là <0, các vùng valid là >0 và <=2, >2 và <5, >=5 và <=10, >10. Như vậy là có 4 vùng valid EP",
+    "reference": {
+      "questionNumber": 30,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q465",
@@ -1058,7 +1178,11 @@
       "50, 51, 55, 56, 60, 61."
     ],
     "correctAnswer": "50, 51, 55, 56, 60, 61.",
-    "explanation": ""
+    "explanation": "Refer 4.2.2 BVA tự vẽ ra",
+    "reference": {
+      "questionNumber": 31,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q466",
@@ -1072,8 +1196,12 @@
       "Condition1 = NO, Condition2 = YES, Condition3 = NO, Action= NO"
     ],
     "correctAnswer": "Condition1 = NO, Condition2 = YES, Condition3 = NO, Action= NO",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_16.jpg"
+    "explanation": "Refer 4.2.3 decision table. Đầu tiên bạn vẽ cái full decision table cho 3 conditions thì đc bảng có 8 cột, bạn đánh dấu các cột mà trùng với các cột của cái bảng họ đã cho thì đc 4 cột loại đi, giờ dựa vào \" can happen in real life\" là có thể xảy ra trong thực tế thì bạn loại đi đc các cột mà Agreed targer = NO mà Actual target =YES là ko xảy ra trong thực tế dc ( vì ko lập kế hoạch thì ko thể biết thực tế có đạt đc hay ko) loại các cột này, ta còn vài cột và đưa các đáp án ABCD vào thì thấy có D là đáp án vì TH này có thể xảy ra và đang bị thiếu trong bảng mà họ cho",
+    "imageUrl": "/images/quiz_chapter4_16.jpg",
+    "reference": {
+      "questionNumber": 32,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q467",
@@ -1087,8 +1215,12 @@
       "The given test cases represent pairs of transitions in the state transition diagram."
     ],
     "correctAnswer": "The given test cases represent all possible valid transitions in the state transition diagram.",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_17.jpg"
+    "explanation": "Refer 4.2.3 state transition. Nhìn vào cái sơ đồ và bảng từ cột 1 đến cột 5, bạn đánh dấu các mũi tên đã chạy qua. Ví dụ cột 1 điểm bắt đầu S1 và input (event) là Power On là sự kiện bật TV lên thì nó sang S2 là điểm expected result. chạy hết 5 cột ta thấy đi hết các mũi tên theo chiều đúng valid nên ta kết luận đc B",
+    "imageUrl": "/images/quiz_chapter4_17.jpg",
+    "reference": {
+      "questionNumber": 33,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q468",
@@ -1102,7 +1234,11 @@
       "Verify that the application can play a video on any one of the display sizes in the requirement (1 test case)."
     ],
     "correctAnswer": "Verify that the application can play a video on each of the display sizes in the requirement (4 test cases).",
-    "explanation": ""
+    "explanation": "Refer 4.2.1. bạn mở vào phần Resoulution của desktop thì thấy có trường sổ xuống chọn kích thước màn hình có 4 giá trị này nên cần test 4 case thôi. Chọn C",
+    "reference": {
+      "questionNumber": 34,
+      "examName": "FL2020-chapter 4"
+    }
   },
   {
     "id": "q469",
