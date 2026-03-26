@@ -1667,7 +1667,11 @@
       "Checking that at least 50% of decisions have been exercised by a test case suite"
     ],
     "correctAnswer": "Checking that at least 50% of decisions have been exercised by a test case suite",
-    "explanation": ""
+    "explanation": "refer 4.3.2 chọn D vì \"least 50% of decisions\" ko có yêu cầu này  at least 50% là sai vì ko phải phần mềm nào cũng yêu cầu cái này",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 1
+    }
   },
   {
     "id": "q493",
@@ -1681,7 +1685,11 @@
       "A test design technique which ensures that test cases are checked for consistency and completeness against an organisation's list of formatting rules and best practices."
     ],
     "correctAnswer": "An experience-based test technique whereby the experienced tester uses a high-level list of items to be noted, checked or remembered, or a set of rules or criteria against which a product has to be verified.",
-    "explanation": ""
+    "explanation": "refer 4.4.3 Điều nào sau đây TỐT NHẤT mô tả thử nghiệm dựa trên checklist? Chọn B đúng \"uses a high-level list of items to be noted, checked or remembered, or a set of rules or criteria- sử dụng danh sách ở mức cao các mục cần ghi chú, kiểm tra hoặc ghi nhớ hoặc một bộ quy tắc hoặc tiêu chí\" loại A vì \"dynamically\" là của exploratory testing, loại C vì \"analysis of the specification\" của black box,  loại D vì \"ensures that test cases are checked for consistency and completeness against - cái này là kỹ thuật dùng checklist để review của chương 3 ko phải checklist để test",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 2
+    }
   },
   {
     "id": "q494",
@@ -1695,7 +1703,11 @@
       "White box techniques derive test cases from models of the software, black box techniques do not."
     ],
     "correctAnswer": "White box techniques can measure the extent of code coverage, black box techniques can not.",
-    "explanation": ""
+    "explanation": "refer 4.1.1 Điều nào sau đây là điểm khác biệt chính giữa kỹ thuật thiết kế kiểm thử hộp đen và hộp trắng? theo sách",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 3
+    }
   },
   {
     "id": "q495",
@@ -1709,7 +1721,11 @@
       "17, 25, 50."
     ],
     "correctAnswer": "20, 35, 65.",
-    "explanation": ""
+    "explanation": "Refer 4.2.1, họ hỏi về EP thôi, các bạn vẽ ra 3 phân vùng 17-25 là rate A, 26-50 là rate B, trên 50 là Rate C. Ở đây bạn chú ý họ nói 3 độ tuổi nào để test đc tất cả các valid EP của 3 rate A, B,C nhé, đừng cho vùng invalid vào làm gì.  Xem video chữa đề của Exam 26 câu 8",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 4
+    }
   },
   {
     "id": "q496",
@@ -1723,7 +1739,11 @@
       "45 and 170."
     ],
     "correctAnswer": "50 and 60.",
-    "explanation": ""
+    "explanation": "Refer 4.2.1, 2 giá trị nào rơi vào cùng 1 phân vùng? xem video chữa Exam 26 câu 9",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 5
+    }
   },
   {
     "id": "q497",
@@ -1737,7 +1757,11 @@
       "Tests are designed based on the guidance of stakeholders and experts outside the test team."
     ],
     "correctAnswer": "Time-boxed test sessions are created, during which a tester uses a test charter containing test objectives to guide the testing.",
-    "explanation": ""
+    "explanation": "Refer 4.4.2. Phương pháp nào sau đây có thể được sử dụng cho thử nghiệm thăm dò? Chọn A vì đúng với  sách, loại B vì \"list of possible failures\" là của error guessing, loại C vì \"based on external rules and standards\" là của checklist, loại D vì \"based on the guidance of stakeholders\" test dựa vào hướng dẫn của các bên liên quan",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 6
+    }
   },
   {
     "id": "q498",
@@ -1751,8 +1775,12 @@
       "SS-S1-S3-S2."
     ],
     "correctAnswer": "SS-S1-S3-S2.",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_19.png"
+    "explanation": "Refer 4.2.4 xem video chữa đề Exam 26 câu 17",
+    "imageUrl": "/images/quiz_chapter4_19.png",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 7
+    }
   },
   {
     "id": "q499",
@@ -1766,7 +1794,11 @@
       "White box techniques derive test cases from models of the software, black box techniques do not"
     ],
     "correctAnswer": "White box techniques can measure the extent of code coverage, black box techniques can not.",
-    "explanation": ""
+    "explanation": "refer 4.1.1 Điều nào sau đây là điểm khác biệt chính giữa black box and white box? chọn C như sách, A sai vì \"Black box techniques use software code\" B sai vì \"White box techniques use functional design specifications\" cái white box phải dùng detail technical design chứ ko phải tài liệu này, loại D vì \"White box techniques derive test cases from models - dựa vào model là sai\"",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 8
+    }
   },
   {
     "id": "q500",
@@ -1780,7 +1812,11 @@
       "24:00, 10:00, 23:01"
     ],
     "correctAnswer": "10:01, 13:00, 22:59",
-    "explanation": ""
+    "explanation": "Refer 4.2.1. Xem video chữa đề Exam 26 câu 20",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 9
+    }
   },
   {
     "id": "q501",
@@ -1794,8 +1830,12 @@
       "Event D from S4"
     ],
     "correctAnswer": "Event D from S4",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_20.png"
+    "explanation": "Refer 4.2.4. Xem video hướng dẫn chữa đề Exam 26 câu 21",
+    "imageUrl": "/images/quiz_chapter4_20.png",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 10
+    }
   },
   {
     "id": "q502",
@@ -1809,7 +1849,11 @@
       "Use Case testing"
     ],
     "correctAnswer": "Exploratory testing",
-    "explanation": ""
+    "explanation": "refer 4.4.2 Kỹ thuật thử nghiệm nào sau đây sẽ là kỹ thuật tốt để sử dụng khi bạn chỉ có vài ngày để thử nghiệm trước khi tung ra sản phẩm? chú ý vào \"only some days\" nên chọn A",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 11
+    }
   },
   {
     "id": "q503",
@@ -1823,7 +1867,11 @@
       "(i) and (iii)"
     ],
     "correctAnswer": "(i) and (ii)",
-    "explanation": ""
+    "explanation": "refer 4.1.1",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 12
+    }
   },
   {
     "id": "q504",
@@ -1837,7 +1885,11 @@
       "Is used in white box testing strategy"
     ],
     "correctAnswer": "Test boundary conditions on, below and above the edges of input and output equivalence classes",
-    "explanation": ""
+    "explanation": "Refer 4.2.2",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 13
+    }
   },
   {
     "id": "q505",
@@ -1851,8 +1903,12 @@
       "8"
     ],
     "correctAnswer": "7",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_21.png"
+    "explanation": "Refer 4.2.1. Xem video chữa đề của Exam 27 câu 21",
+    "imageUrl": "/images/quiz_chapter4_21.png",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 14
+    }
   },
   {
     "id": "q506",
@@ -1866,8 +1922,12 @@
       "5"
     ],
     "correctAnswer": "3",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_22.png"
+    "explanation": "Refer 4.2.4. Xem video chữa đề của Exam 27 câu 22",
+    "imageUrl": "/images/quiz_chapter4_22.png",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 15
+    }
   },
   {
     "id": "q507",
@@ -1881,7 +1941,11 @@
       "The test cases are used to identify deviations from the requirements"
     ],
     "correctAnswer": "The techniques heavily rely on the tester’s knowledge of the software and the business domain",
-    "explanation": ""
+    "explanation": "Refer 4.4.2. Điều nào sau đây là đặc điểm của kỹ thuật kiểm tra dựa trên kinh nghiệm? chọn C vì test dựa vào \"tester’s knowledge of the software and the business domain\" A sai vì test dựa vào \"detailed design\" là của white box test, B sai vì \"the interface code\" cũng là white box test, D sai vì \"deviations from the requirements\" là của black box test",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 16
+    }
   },
   {
     "id": "q508",
@@ -1895,7 +1959,11 @@
       "6"
     ],
     "correctAnswer": "4",
-    "explanation": ""
+    "explanation": "Refer 4.2.1. Xem video hướng dẫn chữa đề Exam 27 câu 25",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 17
+    }
   },
   {
     "id": "q509",
@@ -1909,8 +1977,12 @@
       "100%"
     ],
     "correctAnswer": "50%",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_23.png"
+    "explanation": "Refer 4.2.2. Xem video hướng dẫn chữa đề Exam 27 câu 26",
+    "imageUrl": "/images/quiz_chapter4_23.png",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 18
+    }
   },
   {
     "id": "q510",
@@ -1924,8 +1996,12 @@
       "R8"
     ],
     "correctAnswer": "R8",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_24.png"
+    "explanation": "Refer 4.2.3. quy tắc nào ở trên mô tả một tình huống không thể xảy ra? Nhớ là \"members get a gift: a T-Shirt- chỉ có member mới đc tặng áo thôi\" nên cột R8 sai. Xem video hướng dẫn chữa đề Exam 27 câu 27",
+    "imageUrl": "/images/quiz_chapter4_24.png",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 19
+    }
   },
   {
     "id": "q511",
@@ -1939,8 +2015,12 @@
       "3"
     ],
     "correctAnswer": "3",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_25.png"
+    "explanation": "Refer 4.2.4. Xem video hướng dẫn chữa đề Exam 27 câu 28",
+    "imageUrl": "/images/quiz_chapter4_25.png",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 20
+    }
   },
   {
     "id": "q512",
@@ -1954,7 +2034,11 @@
       "Every combination of input values has been tested at least once"
     ],
     "correctAnswer": "Each instruction in the code that contains a defect has been executed at least once",
-    "explanation": ""
+    "explanation": "Refer 4.3.1. Bộ thử nghiệm của bạn đã đạt được mức độ bao phủ câu lệnh 100%. Hậu quả của thực tế này là gì? Chọn A đúng như định nghĩa \"Each instruction- là cách gọi khác của statement\" dịch nôm na là mỗi dòng lệnh trong code đã đc chạy ít nhất 1 lần. B loại vì \"Any test suite containing more test cases - Bất kỳ bộ thử nghiệm nào chứa nhiều trường hợp thử nghiệm hơn \" cái này ko so sánh đc vì bộ này đã coverage 100% rồi, C sai ở  \"Each path\", D sai ở \"Every combination of input values\" cái này là của bảng decision coverage",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 21
+    }
   },
   {
     "id": "q513",
@@ -1968,7 +2052,11 @@
       "Branch testing"
     ],
     "correctAnswer": "Exploratory testing",
-    "explanation": ""
+    "explanation": "Refer 4.4.2 Kỹ thuật nào tốt nhất ở tình huống này? Trong kịch bản bạn thấy là Release bị delay, test bắt đầu muộn, tài liệu requirement ko đầy đủ, bạn thì có kinh nghiệm và kiến thức về domain, vậy chỉ chọn đc C",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 22
+    }
   },
   {
     "id": "q514",
@@ -1982,7 +2070,11 @@
       "Error guessing requires you to rapidly duplicate the development task to identify the sort of errors a developer might make"
     ],
     "correctAnswer": "Error guessing involves using your knowledge and experience of defects found in the past and typical errors made by developers",
-    "explanation": ""
+    "explanation": "Refer 4.4.1 Điều nào sau đây TỐT NHẤT mô tả khái niệm đằng sau việc đoán lỗi? Chọn A đúng về error guessing, B sai vì \"experience of development- kinh nghiệm của LTV\" C sai vì \"imagine that you are the user- tưởng tượng người dùng dùng sai\", D sai vì \"rapidly duplicate the development task- nhanh chóng duplicate công việc của LTV\"",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 23
+    }
   },
   {
     "id": "q515",
@@ -1996,7 +2088,11 @@
       "White-box testing can help identify gaps in requirements implementation"
     ],
     "correctAnswer": "White-box testing can help identify gaps in requirements implementation",
-    "explanation": ""
+    "explanation": "Refer 4.1.1 Cái nào ko đúng về White box test? chọn D là đáp án của câu này. thì A đúng với mô tả của white box test vì dựa vào \"the entire software implementation- triển khai này là design và code đó\", B đúng vì nó có tính coverage để biết cần thêm bao nhiêu TC, C đúng trong sách có mục 4.3.3. Chỉ có D ko đúng và là đáp án của câu này vì White box test ko dựa vào requirement",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 24
+    }
   },
   {
     "id": "q516",
@@ -2010,7 +2106,11 @@
       "A series of tests where pressure is set to -1, 0, 175, and 297 pounds"
     ],
     "correctAnswer": "A series of tests where pressure is set to 98, 110, and 201 pounds",
-    "explanation": ""
+    "explanation": "Refer 4.2.1. Trong đề có nói là số đó phải positive, Nhưng mà vì là nó lại mô tả thêm là từ 100-200 là vùng valid, dưới 100 và trên 200 là vùng invalid nên ở đây chỉ cần 3 giá trị để test 3 phân vùng thôi ( ko cần tách vùng <0, từ 0 đến <100 nữa vì nó nằm chung ở 1 vùng invalid rồi)",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 25
+    }
   },
   {
     "id": "q517",
@@ -2024,8 +2124,12 @@
       "4"
     ],
     "correctAnswer": "3",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_26.png"
+    "explanation": "Refer 4.2.1 Equivalence partition, Việc ghép test case theo EP chỉ yêu cầu mỗi giá trị value được nhắc đến trong 1 test case, mà về hour thì các case đã có đã test đc 2 phân vùng còn thiếu 3 phân vùng chưa có test case, intensity cũng có 2 phân vùng đc test còn thiếu 2. Nên tối thiểu cần có 3 test case nữa để full coverage.,",
+    "imageUrl": "/images/quiz_chapter4_26.png",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 26
+    }
   },
   {
     "id": "q518",
@@ -2039,6 +2143,10 @@
       "If 100% branch coverage is achieved, then all decision outcomes in each decision statement in the code are exercised"
     ],
     "correctAnswer": "If 100% branch coverage is achieved, then all decision outcomes in each decision statement in the code are exercised",
-    "explanation": ""
+    "explanation": "Refer 4.3.2 theo định nghĩa của Decision coverage còn gọi là branch coverage",
+    "reference": {
+      "examName": "FL2024_chuong 4 Exam 26-27-28",
+      "questionNumber": 27
+    }
   }
 ]
