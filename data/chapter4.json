@@ -1252,7 +1252,11 @@
       "Tests are designed based on the guidance of stakeholders and experts outside the test team."
     ],
     "correctAnswer": "Time-boxed test sessions are created, during which a tester uses a test charter containing test objectives to guide the testing.",
-    "explanation": ""
+    "explanation": "Refer 4.4.2 Exploratory Testing thì ra đáp án C đúng. A sai vì \"external rules and standards\" là checklist based, B sai vì \"based on experience, defect and failure data\" là của error guessing, D sai vì \"guidance of stakeholders and experts outside\" là của Consultative mục 5.2.2",
+    "reference": {
+      "questionNumber": 1,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q470",
@@ -1266,7 +1270,11 @@
       "26, 45, 50."
     ],
     "correctAnswer": "20, 35, 65.",
-    "explanation": ""
+    "explanation": "Refer 4.2.1 xem video chữa đề này ở Exam 23 câu 3",
+    "reference": {
+      "questionNumber": 2,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q471",
@@ -1280,7 +1288,11 @@
       "16, 17, 18, 30, 31, 32."
     ],
     "correctAnswer": "17, 18, 30, 31.",
-    "explanation": ""
+    "explanation": "Refer 4.2.1 xem video chữa đề ở Exam 23 câu 8",
+    "reference": {
+      "questionNumber": 3,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q472",
@@ -1294,7 +1306,11 @@
       "Checking that all decisions have been exercised in a single program."
     ],
     "correctAnswer": "Checking that all decisions are based on a numeric value.",
-    "explanation": ""
+    "explanation": "Refer 4.3.2 white box test. A vì based on a numeric value, không phải lúc nào giá trị test cùng là số numberic",
+    "reference": {
+      "questionNumber": 4,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q473",
@@ -1308,7 +1324,11 @@
       "45 and 55."
     ],
     "correctAnswer": "50 and 60.",
-    "explanation": ""
+    "explanation": "Refer 4.2.1. Xem video chữa đề ở Exam 23 câu 13",
+    "reference": {
+      "questionNumber": 5,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q474",
@@ -1322,8 +1342,12 @@
       "Must pay in cash, free delivery"
     ],
     "correctAnswer": "No need to pay in cash, no free delivery.",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter4_18.png"
+    "explanation": "Refer 4.2.3 Gióng test case vào cái bảng và đọc đúng expected result. Xem video chữa đề này ở câu 20 của Exam 23",
+    "imageUrl": "/images/quiz_chapter4_18.png",
+    "reference": {
+      "questionNumber": 6,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q475",
@@ -1337,7 +1361,11 @@
       "An inexperienced tester is asked to attempt to guess errors that may have been missed by experienced testers during formal test design"
     ],
     "correctAnswer": "An experienced tester makes a list of potential defects and failures, and designs and runs tests to generate these failures should the defects be present in the code.",
-    "explanation": ""
+    "explanation": "Refer 4.4.1 thì là B đúng experienced tester makes a list of potential defects and failures, A sai vì dynamically designs and executes là của exploratory testing,C sai vì checklists , D sai vì inexperienced tester dự đoán lỗi của tester có kinh nghiệm",
+    "reference": {
+      "questionNumber": 7,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q476",
@@ -1351,7 +1379,11 @@
       "Error guessing requires you to rapidly duplicate the development task to identify the sort of mistakes a developer might make."
     ],
     "correctAnswer": "Error guessing involves using your knowledge and experience of defects found in the past and typical mistakes made by developers.",
-    "explanation": ""
+    "explanation": "Refer 4.4.1 C đúng vì dùng \"knowledge and experience of defects\" A sai vì ko có kỹ thuật nào tưởng tượng user dùng sai, B sai vì sử dụng experience of development là kinh nghiệm lập trình ko phải kinh nghiệm test, D sai vì duplicate the development task",
+    "reference": {
+      "questionNumber": 8,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q477",
@@ -1365,7 +1397,11 @@
       "1899, 1900, 1901,2003,2004,2005"
     ],
     "correctAnswer": "1899,1900,2004,2005",
-    "explanation": ""
+    "explanation": "Refer 4.2.2 vẽ ra. Xem video chữa đề câu này ở Exam 23 câu số 28",
+    "reference": {
+      "questionNumber": 9,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q478",
@@ -1379,7 +1415,11 @@
       "25, 39, 60, 81"
     ],
     "correctAnswer": "0, 45, 79, 87",
-    "explanation": ""
+    "explanation": "Refer 4.2, câu hỏi là xác định tất cả các giá trị test trong các phân vùng tương đương khác nhau. Xem video chữa đề này ở câu 3 của Exam 24",
+    "reference": {
+      "questionNumber": 10,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q479",
@@ -1393,7 +1433,11 @@
       "12, 35, 55"
     ],
     "correctAnswer": "25, 45, 75",
-    "explanation": ""
+    "explanation": "Refer 4.2.1 : Câu hỏi là đáp án nào chỉ chứa 1 giá trị trong các phân vùng tương đương khác nhau. Xem video chữa đề này ở câu 4 của Exam 24",
+    "reference": {
+      "questionNumber": 11,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q480",
@@ -1407,7 +1451,11 @@
       "4"
     ],
     "correctAnswer": "3",
-    "explanation": ""
+    "explanation": "Refer 4.3, vẽ sơ đồ ra và xác định số test case để bao phủ 100% decision coverage. Xem video chữa đề này ở câu 5 của Exam 24",
+    "reference": {
+      "questionNumber": 12,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q481",
@@ -1421,7 +1469,11 @@
       "83% or 5/6"
     ],
     "correctAnswer": "83% or 5/6",
-    "explanation": ""
+    "explanation": "Refer 4.3 , vẽ sơ đồ ra và xác định 2 test case Time = 11 and Time = 15 đã bao phủ được bao nhiêu % decision coverage. Xem video chữa đề này ở câu 6 của Exam 24",
+    "reference": {
+      "questionNumber": 13,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q482",
@@ -1435,7 +1487,11 @@
       "10, 11, 0"
     ],
     "correctAnswer": "10, 11, 0",
-    "explanation": ""
+    "explanation": "Refer 4.3 vẽ sơ đồ ra. Xem video chữa đề này ở Tab Bài học của Exam 24 câu số 7",
+    "reference": {
+      "questionNumber": 14,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q483",
@@ -1449,7 +1505,11 @@
       "Test cases are derived from the developers' experience."
     ],
     "correctAnswer": "Test cases are derived systematically from the delivered code.",
-    "explanation": ""
+    "explanation": "Refer 4.1.1 thì A là của Black box, B là Experience based, C là White box, D là Experience based",
+    "reference": {
+      "questionNumber": 15,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q484",
@@ -1463,7 +1523,11 @@
       "Boundary value analysis"
     ],
     "correctAnswer": "Statement testing",
-    "explanation": ""
+    "explanation": "Refer 4.1.1 thì C đúng, A, B,D sai là vì của black box test",
+    "reference": {
+      "questionNumber": 16,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q485",
@@ -1477,7 +1541,11 @@
       "(i) and (iii)"
     ],
     "correctAnswer": "(i) and (ii)",
-    "explanation": ""
+    "explanation": "Refer 4.1.1 chọn i và ii của white box test và loại trừ, iii là của experience based, iv là của black box",
+    "reference": {
+      "questionNumber": 17,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q486",
@@ -1491,7 +1559,11 @@
       "2.0, 12.1, 27.0, 150.1"
     ],
     "correctAnswer": "2.0, 12.1, 27.0, 150.1",
-    "explanation": ""
+    "explanation": "Refer 4.2.2. Xem video chữa đề Exam 25 câu 16",
+    "reference": {
+      "questionNumber": 18,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q487",
@@ -1505,7 +1577,11 @@
       "5"
     ],
     "correctAnswer": "5",
-    "explanation": ""
+    "explanation": "Refer 4.2.1. Xem video chữa đề Exam 25 câu 18",
+    "reference": {
+      "questionNumber": 19,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q488",
@@ -1519,7 +1595,11 @@
       "1, 20, 0100"
     ],
     "correctAnswer": "4, 5, 99",
-    "explanation": ""
+    "explanation": "Refer 4.2.2. Xem video chữa đề Exam 25 câu 19",
+    "reference": {
+      "questionNumber": 20,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q489",
@@ -1533,7 +1613,11 @@
       "Decision table testing"
     ],
     "correctAnswer": "Control flow testing",
-    "explanation": ""
+    "explanation": "refer 4.3.4 Kỹ thuật kiểm thử nào sau đây dựa trên cấu trúc? xem bảng summary của white box test",
+    "reference": {
+      "questionNumber": 21,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q490",
@@ -1547,7 +1631,11 @@
       "Coverage analysis"
     ],
     "correctAnswer": "Functional Testing",
-    "explanation": ""
+    "explanation": "refer 4.1.1 A là của static test, B là dynamic analysis bởi tool tìm ra lỗi về bộ nhớ ko phải kỹ thuật black-box ( xem thêm 3.1.3) , D là của white box test, còn C",
+    "reference": {
+      "questionNumber": 22,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q491",
@@ -1561,7 +1649,11 @@
       "statement coverage"
     ],
     "correctAnswer": "multiple condition coverage",
-    "explanation": ""
+    "explanation": "refer 4.3.4 nhìn vào bảng Summary của white box test sẽ thấy mức độ coverage cao nhất là A, B C loại vì của black box test, D thấp nhất",
+    "reference": {
+      "questionNumber": 23,
+      "examName": "FL2024- chuong 4 exam 23-24-25"
+    }
   },
   {
     "id": "q492",
