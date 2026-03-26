@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @media (min-width: 768px) {
+    html {
+      font-size: 80%;
+    }
+  }
+}
 @layer utilities {
   .custom-scrollbar::-webkit-scrollbar {
     width: 6px;

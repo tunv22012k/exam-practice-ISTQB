@@ -17,7 +17,7 @@
     "id": "q6002",
     "chapter": 6,
     "difficulty": "normal",
-    "questionText": "Which of the following pairs of test tools are likely to be most useful during the test analysis and design stage of the fundamental test process?\n\n(i) Test execution tool\n(ii) Test data preparation tool\n(iii) Test management tool\n(iv) Requirements management tool",
+    "questionText": "Which of the following pairs of test tools are likely to be most useful during the test analysis and design stage of the fundamental test process?\n(i) Test execution tool\n(ii) Test data preparation tool\n(iii) Test management tool\n(iv) Requirements management tool",
     "options": [
       "(i) and (ii)",
       "(i) and (iv)",

@@ -57,7 +57,7 @@
     "id": "q104",
     "chapter": 1,
     "difficulty": "normal",
-    "questionText": "Which of the following are benefits of an independent test team, and which are drawbacks?\n\na) Independent testers can find different defects.\nb) Developers may put less emphasis on quality.\nc) Independent testers can be seen as the reason for delayed projects.\nd) Independent testers can verify assumptions made during the specification of a system",
+    "questionText": "Which of the following are benefits of an independent test team, and which are drawbacks?\na) Independent testers can find different defects.\nb) Developers may put less emphasis on quality.\nc) Independent testers can be seen as the reason for delayed projects.\nd) Independent testers can verify assumptions made during the specification of a system",
     "options": [
       "a and b are benefits, c and d are drawbacks.",
       "b and c are benefits, a and d are drawbacks.",
@@ -255,7 +255,7 @@
     "id": "q115",
     "chapter": 1,
     "difficulty": "normal",
-    "questionText": "The following statements relate to activities that are part of the fundamental test process.\n\ni. Evaluating the testability of requirements.\nii. Repeating testing activities after changes.\niii. Designing the test environment set-up.\niv. Developing and prioritizing test cases.\nv. Verifying the environment is set up correctly.\n\nWhich statement below is TRUE?",
+    "questionText": "The following statements relate to activities that are part of the fundamental test process.\ni. Evaluating the testability of requirements.\nii. Repeating testing activities after changes.\niii. Designing the test environment set-up.\niv. Developing and prioritizing test cases.\nv. Verifying the environment is set up correctly.\nWhich statement below is TRUE?",
     "options": [
       "(i) and (ii) are part of analysis and design...",
       "(i) and (iii) , (iv) are part of analysis and design...",
@@ -291,7 +291,7 @@
     "id": "q117",
     "chapter": 1,
     "difficulty": "normal",
-    "questionText": "Which of the following are valid justifications for developers testing their own code during unit testing?\n\n(i) Their lack of independence is mitigated by independent testing during system and acceptance testing.\n(ii) A person with a good understanding of the code can find more defects more quickly using white-box techniques.\n(iii) Developers have a better understanding of the requirements than testers.\n(iv) Testers write unnecessary incident reports because they find minor differences between the way in which the system behaves and the way in which it is specified to work.",
+    "questionText": "Which of the following are valid justifications for developers testing their own code during unit testing?\n(i) Their lack of independence is mitigated by independent testing during system and acceptance testing.\n(ii) A person with a good understanding of the code can find more defects more quickly using white-box techniques.\n(iii) Developers have a better understanding of the requirements than testers.\n(iv) Testers write unnecessary incident reports because they find minor differences between the way in which the system behaves and the way in which it is specified to work.",
     "options": [
       "(i) and (ii)",
       "(i) and (iv)",
@@ -399,7 +399,7 @@
     "id": "q123",
     "chapter": 1,
     "difficulty": "normal",
-    "questionText": "The list below (a to e) describes one major task for each of the five main activities of the fundamental test process. Which option (A to D) places the tasks in the correct order, by time?\n\na) Create bi-directional traceability between test basis and test cases.\nb) Check test logs against exit criteria.\nc) Define the objectives of testing.\nd) Check planned deliverables have been delivered.\ne) Comparing actual results with expected results.",
+    "questionText": "The list below (a to e) describes one major task for each of the five main activities of the fundamental test process. Which option (A to D) places the tasks in the correct order, by time?\na) Create bi-directional traceability between test basis and test cases.\nb) Check test logs against exit criteria.\nc) Define the objectives of testing.\nd) Check planned deliverables have been delivered.\ne) Comparing actual results with expected results.",
     "options": [
       "a, c, b, e, d",
       "c, a, d, e, b",
@@ -417,7 +417,7 @@
     "id": "q124",
     "chapter": 1,
     "difficulty": "normal",
-    "questionText": "Which of the following are DEBUGGING activities?\n\na) Designing tests to find failures.\nb) Locating the cause of failures.\nc) Analysing and fixing the defects.\nd) Executing tests to show failures.",
+    "questionText": "Which of the following are DEBUGGING activities?\na) Designing tests to find failures.\nb) Locating the cause of failures.\nc) Analysing and fixing the defects.\nd) Executing tests to show failures.",
     "options": [
       "a and d.",
       "a and b.",
@@ -435,7 +435,7 @@
     "id": "q125",
     "chapter": 1,
     "difficulty": "normal",
-    "questionText": "Which of the following are TESTING activities?\n\na) Designing tests to find failures.\nb) Locating the cause of failures.\nc) Analysing and fixing the defects.\nd) Executing tests to show failures.",
+    "questionText": "Which of the following are TESTING activities?\na) Designing tests to find failures.\nb) Locating the cause of failures.\nc) Analysing and fixing the defects.\nd) Executing tests to show failures.",
     "options": [
       "a and d",
       "a and b.",
@@ -777,7 +777,7 @@
     "id": "q144",
     "chapter": 1,
     "difficulty": "normal",
-    "questionText": "The following statements relate to activities that are part of the fundamental test process. \n\ni. Evaluating the testability of requirements.\n\n ii. Repeating testing activities after changes.\n\n iii. Designing the test environment set-up. \n\niv. Developing and prioritizing test cases.\n\n v. Verifying the environment is set up correctly. \n\nWhich statement below is TRUE?",
+    "questionText": "The following statements relate to activities that are part of the fundamental test process. \ni. Evaluating the testability of requirements.\n ii. Repeating testing activities after changes.\n iii. Designing the test environment set-up. \niv. Developing and prioritizing test cases.\nv. Verifying the environment is set up correctly. \nWhich statement below is TRUE?",
     "options": [
       "(i) and (ii) are part of analysis and design, (iii), (iv) and (v) are part of test implementation and execution.",
       "(i) and (iii) are part of analysis and design, (ii), (iv) and (v) are part of test implementation and execution.",
@@ -885,7 +885,7 @@
     "id": "q150",
     "chapter": 1,
     "difficulty": "normal",
-    "questionText": "A phone ringing in a neighboring cubicle distracts a programmer causing him to improperly program the logic that checks the upper boundary of an input variable. Later, during system testing, a tester notices that this input field accepts invalid input values.\n\nWhich of the following correctly describes an incorrectly coded upper bound?",
+    "questionText": "A phone ringing in a neighboring cubicle distracts a programmer causing him to improperly program the logic that checks the upper boundary of an input variable. Later, during system testing, a tester notices that this input field accepts invalid input values.\nWhich of the following correctly describes an incorrectly coded upper bound?",
     "options": [
       "The root cause",
       "A failure",

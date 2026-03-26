@@ -211,7 +211,7 @@ export default function ExamPage() {
         <div className="max-w-4xl mx-auto mt-6">
 
           {/* Question header */}
-          <div className="flex flex-col md:flex-row md:items-center justify-between mb-8 pb-4 border-b border-white/10">
+          <div className="flex flex-col md:flex-row md:items-center justify-between mb-2 pb-4 border-b border-white/10">
             <span className="text-blue-400 font-bold uppercase tracking-widest text-sm mb-2 md:mb-0">
               Question {currentIndex + 1} of {examQuestions.length}
             </span>

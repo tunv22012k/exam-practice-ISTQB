@@ -11,7 +11,11 @@
       "c and e."
     ],
     "correctAnswer": "b and d.",
-    "explanation": ""
+    "explanation": "refer 2.2. e là của integration test, a, c là rõ ràng nhất của Acceptance test, b là system test, còn d khá khiên cưỡng cho vào đây vì lẽ ra là của acceptance test, nhưng system test để test the whole system nên có thể chấp nhận đc mục tiêu về establish confidence",
+    "reference": {
+      "questionNumber": 1,
+      "examName": "FL2024_chuong 2 Exam 26-27-28"
+    }
   },
   {
     "id": "q202",
@@ -25,7 +29,11 @@
       "All document reviews involve the development team."
     ],
     "correctAnswer": "Each test level has test objectives specific to that level",
-    "explanation": ""
+    "explanation": "refer 2.1.2 theo như sách nên chọn C",
+    "reference": {
+      "questionNumber": 2,
+      "examName": "FL2024_chuong 2 Exam 26-27-28"
+    }
   },
   {
     "id": "q203",
@@ -39,7 +47,11 @@
       "Usability testing"
     ],
     "correctAnswer": "Load testing",
-    "explanation": ""
+    "explanation": "refer 2.3. Bạn sẽ thực hiện loại thử nghiệm phi chức năng nào để xác minh các yêu cầu này? chọn đáp án là C. Cái này chưa đến mức stress test vì mới chỉ có 100 users thôi",
+    "reference": {
+      "questionNumber": 3,
+      "examName": "FL2024_chuong 2 Exam 26-27-28"
+    }
   },
   {
     "id": "q204",
@@ -54,7 +66,11 @@
       "Re-testing is done by developers, regression testing is done by independent testers"
     ],
     "correctAnswer": "Re-testing is running a test again; regression testing looks for unexpected side effects",
-    "explanation": ""
+    "explanation": "refer 2.2.3",
+    "reference": {
+      "questionNumber": 4,
+      "examName": "FL2024_chuong 2 Exam 26-27-28"
+    }
   },
   {
     "id": "q205",
@@ -68,7 +84,11 @@
       "To motivate better unit testing by the programmers."
     ],
     "correctAnswer": "To ensure that defects have not been introduced by a modification",
-    "explanation": ""
+    "explanation": "refer 2.2.3 mục đích của regression test? Chọn C vì có \"introduced\"",
+    "reference": {
+      "questionNumber": 5,
+      "examName": "FL2024_chuong 2 Exam 26-27-28"
+    }
   },
   {
     "id": "q206",
@@ -82,7 +102,11 @@
       "testing to maintain business advantage"
     ],
     "correctAnswer": "testing a released system that has been changed",
-    "explanation": ""
+    "explanation": "refer 2.3 chọn D nó đang hỏi định nghĩa của Maintenance test là .... nên chỉ chọn B",
+    "reference": {
+      "questionNumber": 6,
+      "examName": "FL2024_chuong 2 Exam 26-27-28"
+    }
   },
   {
     "id": "q207",
@@ -96,7 +120,11 @@
       "Integrating functions during the development of a new system."
     ],
     "correctAnswer": "Planned enhancements to an existing operational system.",
-    "explanation": ""
+    "explanation": "refer 2.3 Thử nghiệm bảo trì sẽ được sử dụng cho mục đích nào sau đây? chọn B vì \"enhancements\" là đúng, loại A vì sửa lỗi trong giai đoạn phát triển \"development phase\" ko phải của maintenance test, loại C vì \"Complaints\" phàn nàn của KH, D loại vì \"development of a new system\" là phát triển hệ thống mới",
+    "reference": {
+      "questionNumber": 7,
+      "examName": "FL2024_chuong 2 Exam 26-27-28"
+    }
   },
   {
     "id": "q208",
@@ -110,7 +138,11 @@
       "It is often automated."
     ],
     "correctAnswer": "It serves to demonstrate that the changed software works as intended.",
-    "explanation": ""
+    "explanation": "refer 2.2.3. chon B là đáp án vì \"the changed software works as intended\" là new test kiểm tra thay đổi đã làm việc như mong đợi chưa",
+    "reference": {
+      "questionNumber": 8,
+      "examName": "FL2024_chuong 2 Exam 26-27-28"
+    }
   },
   {
     "id": "q209",
@@ -124,7 +156,11 @@
       "Regression testing is checking that there are no additional problems in previously tested software, retesting is demonstrating that the reported defect has been fixed."
     ],
     "correctAnswer": "Regression testing is checking that there are no additional problems in previously tested software, retesting is demonstrating that the reported defect has been fixed.",
-    "explanation": ""
+    "explanation": "refer 2.2.3 chọn D đúng, A sai vì đang mô tả ngược của nhau, B sai về thứ 2 \"retesting enables developers to isolate the problem\" C sai vế đầu \"Regression testing involves running all tests\"",
+    "reference": {
+      "questionNumber": 9,
+      "examName": "FL2024_chuong 2 Exam 26-27-28"
+    }
   },
   {
     "id": "q210",
@@ -138,7 +174,11 @@
       "It enables test planning to start as early as possible."
     ],
     "correctAnswer": "It enables test planning to start as early as possible.",
-    "explanation": ""
+    "explanation": "refer 2.1.1 chọn đc D là đúng hoạt động lập kế hoạch test bắt đầu sớm, A sai vì waterfall và V model là khác nhau chúng chỉ thuộc cùng 1 nhóm các mô hình tuần tự, B và C là đặc điểm của mô hình theo giai đoạn và gia tăng ko phải của V-model",
+    "reference": {
+      "questionNumber": 10,
+      "examName": "FL2024_chuong 2 Exam 26-27-28"
+    }
   },
   {
     "id": "q211",
@@ -152,7 +192,11 @@
       "It is not suitable for developing websites."
     ],
     "correctAnswer": "It involves the users in the testing throughout",
-    "explanation": ""
+    "explanation": "refer 2.1. A sai vì fully, C sai vì change nào cũng cần recorded bất cứ model nào, D càng sai vì ko phù hợp cho website. Chọn B vì nó mô hình này cần sự tham gia nhiều của end user",
+    "reference": {
+      "questionNumber": 11,
+      "examName": "FL2024_chuong 2 Exam 26-27-28"
+    }
   },
   {
     "id": "q212",
@@ -166,7 +210,11 @@
       "User acceptance testing"
     ],
     "correctAnswer": "Integration testing",
-    "explanation": ""
+    "explanation": "refer 2.2 Chiến lược phát triển từ trên xuống ảnh hưởng đến cấp độ thử nghiệm nào nhiều nhất? nhìn sách bạn chọn đc B",
+    "reference": {
+      "questionNumber": 12,
+      "examName": "FL2024_chuong 2 Exam 26-27-28"
+    }
   },
   {
     "id": "q213",
@@ -180,7 +228,11 @@
       "(i) and (iv)"
     ],
     "correctAnswer": "(i) and (iv)",
-    "explanation": ""
+    "explanation": "Refer 2.1.2 theo đúng sách nên ta chọn i và iv",
+    "reference": {
+      "questionNumber": 13,
+      "examName": "FL2024_chuong 2 Exam 26-27-28"
+    }
   },
   {
     "id": "q214",
@@ -194,7 +246,11 @@
       "None of the above"
     ],
     "correctAnswer": "Driver",
-    "explanation": ""
+    "explanation": "Refer 2.2 Để kiểm tra một hàm, người lập trình phải viết một _________, hàm này gọi hàm cần kiểm tra và truyền dữ liệu kiểm tra cho nó, cái này bạn vẽ sơ đồ ra sẽ tìm ra đc Drivers",
+    "reference": {
+      "questionNumber": 14,
+      "examName": "FL2024_chuong 2 Exam 26-27-28"
+    }
   },
   {
     "id": "q215",
@@ -208,7 +264,11 @@
       "Running a previously failed test against new software/data/documents to see if the problem is solved"
     ],
     "correctAnswer": "A cursory run through a test pack to see if any new errors have been introduced.",
-    "explanation": ""
+    "explanation": "Refer 2.2.3 Kiểm tra hồi quy là gì?chọn C đúng vì \"see if any new errors have been introduced- xem có bất kỳ lỗi nào phát sinh ko\", A sai vì \"reproduce the problem- tài hiện lỗi là của LTV\", C sai vì \"the predetermined exit criteria\" Kiểm tra tiêu chí kết thúc là của Evaluate exit criteria, D sai vì \"a previously failed test\" này là của re-test",
+    "reference": {
+      "questionNumber": 15,
+      "examName": "FL2024_chuong 2 Exam 26-27-28"
+    }
   },
   {
     "id": "q216",
@@ -222,8 +282,12 @@
       "Only 5, 6"
     ],
     "correctAnswer": "Only 5, 7",
-    "explanation": "",
-    "imageUrl": "/images/q216.png"
+    "explanation": "Refer 2.2.3. Thử nghiệm nào ở trên được thực hiện dưới dạng thử nghiệm hồi quy? bạn nhớ là nếu kết quả lần trước Fail thì lần sau chạy lại gọi là Re-test, nếu kết quả lần trước Pass thì lần sau chạy lại gọi là Regression test,",
+    "imageUrl": "/images/q216.png",
+    "reference": {
+      "questionNumber": 16,
+      "examName": "FL2024_chuong 2 Exam 26-27-28"
+    }
   },
   {
     "id": "q217",
@@ -237,7 +301,11 @@
       "For every testing activity there is a corresponding development activity."
     ],
     "correctAnswer": "Testers should be involved in reviewing documents as soon as drafts are available in the development life cycle",
-    "explanation": ""
+    "explanation": "Refer 2.1 nhìn kỹ nhé, chọn C đúng, D là nó viết ngược so với sách, A sai vì general, B sai vì planning of test",
+    "reference": {
+      "questionNumber": 17,
+      "examName": "FL2024_chuong 2 Exam 26-27-28"
+    }
   },
   {
     "id": "q218",
@@ -251,7 +319,11 @@
       "Structural, because we need to know the internal structure of the program to measure the order processing time"
     ],
     "correctAnswer": "Non-functional, because the measure the system’s performance",
-    "explanation": ""
+    "explanation": "Refer 2.3 test types. chú ý vào cái yêu cầu này \"less than 10 seconds\"",
+    "reference": {
+      "questionNumber": 18,
+      "examName": "FL2024_chuong 2 Exam 26-27-28"
+    }
   },
   {
     "id": "q219",
@@ -265,7 +337,11 @@
       "Integration testing"
     ],
     "correctAnswer": "Maintenance testing",
-    "explanation": ""
+    "explanation": "refer 2.3 chú ý vào \"data migration\"",
+    "reference": {
+      "questionNumber": 19,
+      "examName": "FL2024_chuong 2 Exam 26-27-28"
+    }
   },
   {
     "id": "q220",
@@ -279,7 +355,11 @@
       "a, b and d."
     ],
     "correctAnswer": "a, b and d.",
-    "explanation": ""
+    "explanation": "Refer 2.4.1 Triggers for Maintenance:\tModification-\tMigration  -Retirement",
+    "reference": {
+      "questionNumber": 1,
+      "examName": "FL2024- chuong 2 exam 23-24-25"
+    }
   },
   {
     "id": "q221",
@@ -293,7 +373,11 @@
       "2, 3, and 5"
     ],
     "correctAnswer": "2, 3, and 4",
-    "explanation": ""
+    "explanation": "Refer 2.3 chỉ cần nhìn vào keyword là sẽ tìm ra, 2. đúng vì New OS installations, 3 đúng vì Changes, 4 đúng vì Converting. 1 sai vì period of time, 5 sai vì new software",
+    "reference": {
+      "questionNumber": 2,
+      "examName": "FL2024- chuong 2 exam 23-24-25"
+    }
   },
   {
     "id": "q222",
@@ -307,7 +391,11 @@
       "How long a legacy system can remain operational and not need replacement"
     ],
     "correctAnswer": "How changes to a system might affect the unchanged areas of the system",
-    "explanation": ""
+    "explanation": "refer 2.3 impact analysis. thì C đúng để xem mức độc phạm vi ảnh hưởng của thay đổi lên các vùng ko thay đổi của hệ thống. A sai vì không liên quan \"skills and knowledge\". B sai vì ko liên quan đến \"re-testing\" D sai vì không liên quan đến việc duy trì vận hành operatinal của hệ thống",
+    "reference": {
+      "questionNumber": 3,
+      "examName": "FL2024- chuong 2 exam 23-24-25"
+    }
   },
   {
     "id": "q223",
@@ -321,7 +409,11 @@
       "Running a previously failed test against new software/data/documents to see if the problem is solved"
     ],
     "correctAnswer": "Running a previously failed test against new software/data/documents to see if the problem is solved",
-    "explanation": ""
+    "explanation": "Refer 2.2 Test types. D định nghĩa của \"Confirmation testing ( Retest): confirm whether the original defect has been successfully fixed\". A là định nghĩa của Regression test, C là định nghĩa của Exit criteria. A là chỉ hoạt động tái hiện lỗi Reproduce bug",
+    "reference": {
+      "questionNumber": 4,
+      "examName": "FL2024- chuong 2 exam 23-24-25"
+    }
   },
   {
     "id": "q224",
@@ -335,7 +427,11 @@
       "Unit testing, maintenance testing, system testing, acceptance testing."
     ],
     "correctAnswer": "Unit testing, system testing, acceptance testing, maintenance testing.",
-    "explanation": ""
+    "explanation": "Refer 2.2 test levels. A là thứ tự đúng nhất",
+    "reference": {
+      "questionNumber": 5,
+      "examName": "FL2024- chuong 2 exam 23-24-25"
+    }
   },
   {
     "id": "q225",
@@ -349,7 +445,11 @@
       "It is often automated."
     ],
     "correctAnswer": "It serves to demonstrate that the changed software works as intended.",
-    "explanation": ""
+    "explanation": "Refer 2.2 Test types. Câu sai là B vì test cho  \" changed software\" phần thay đổi của phần mềm là việc của New test, không phải của regression test. Regression test chạy lại test case ở những chỗ không thay đổi",
+    "reference": {
+      "questionNumber": 6,
+      "examName": "FL2024- chuong 2 exam 23-24-25"
+    }
   },
   {
     "id": "q226",
@@ -363,7 +463,11 @@
       "Documents all issues raised in the review meeting, records problems and open points."
     ],
     "correctAnswer": "Plans the review, runs the review meeting and ensures that follow-up activities are completed.",
-    "explanation": ""
+    "explanation": "Refer 3.2.3 các vai trò của review. A là của Moderator còn gọi là Leader của review, B là của manager ra quyết định và cấp phép, C là của Author, D là Scribe",
+    "reference": {
+      "questionNumber": 7,
+      "examName": "FL2024- chuong 2 exam 23-24-25"
+    }
   },
   {
     "id": "q227",
@@ -377,7 +481,11 @@
       "Regression testing is checking that there are no additional problems in previously tested software, retesting is demonstrating that the reported defect has been fixed."
     ],
     "correctAnswer": "Regression testing is checking that there are no additional problems in previously tested software, retesting is demonstrating that the reported defect has been fixed.",
-    "explanation": ""
+    "explanation": "Refer 2.2 Test types. A sai cả 2 vế, B sai vế thứ 2 đanh định nghĩa debugging của lập trình, C sai vì all tests. Còn mỗi D đúng cả 2 vế",
+    "reference": {
+      "questionNumber": 8,
+      "examName": "FL2024- chuong 2 exam 23-24-25"
+    }
   },
   {
     "id": "q228",
@@ -391,7 +499,11 @@
       "User acceptance testing"
     ],
     "correctAnswer": "Integration testing",
-    "explanation": ""
+    "explanation": "Refer 2.2 test level.",
+    "reference": {
+      "questionNumber": 9,
+      "examName": "FL2024- chuong 2 exam 23-24-25"
+    }
   },
   {
     "id": "q229",
@@ -405,13 +517,17 @@
       "The system will allow up to 100 users to log in at the same time."
     ],
     "correctAnswer": "The system will allow up to 100 users to log in at the same time.",
-    "explanation": ""
+    "explanation": "Refer 2.2 test type. Chú ý mọi người hay nhầm đáp án C \"ensure security of the customer details.\" là 1 yêu cầu về non-functional nhưng đọc như vậy là sai. C là 1 các yêu cầu về functional về security giống như các tính năng Login, phân quyền gọi là các tính năng về security. Còn các yêu cầu non-function về security là các yêu cầu Protect data ( nói chung ko nói về tính năng cụ thể mà các yêu cầu chung cho toàn hệ thống để bảo đảm an toàn)",
+    "reference": {
+      "questionNumber": 10,
+      "examName": "FL2024- chuong 2 exam 23-24-25"
+    }
   },
   {
     "id": "q230",
     "chapter": 2,
     "difficulty": "normal",
-    "questionText": "Which of the following statements are true?\n\n(i) For every development activity there is a corresponding testing activity.\n\n(ii) Each test level has the same test objectives.\n\n(iii) The analysis and design of tests for a given test level should begin after the corresponding development activity.\n\n(iv)Testers should be involved in reviewing documents as soon as drafts are available in the development life cycle.",
+    "questionText": "Which of the following statements are true?\n(i) For every development activity there is a corresponding testing activity.\n(ii) Each test level has the same test objectives.\n(iii) The analysis and design of tests for a given test level should begin after the corresponding development activity.\n(iv)Testers should be involved in reviewing documents as soon as drafts are available in the development life cycle.",
     "options": [
       "(i) and (ii)",
       "(iii) and (iv)",
@@ -419,7 +535,11 @@
       "(i) and (iv)"
     ],
     "correctAnswer": "(i) and (iv)",
-    "explanation": ""
+    "explanation": "Refer 2.1.2 goog testing ( học thuộc)  ii sai vì \"the same test objectives\". iii sai vì \"begin after the corresponding development activity\"",
+    "reference": {
+      "questionNumber": 11,
+      "examName": "FL2024- chuong 2 exam 23-24-25"
+    }
   },
   {
     "id": "q231",
@@ -433,7 +553,11 @@
       "Running a previously failed test against new software/data/documents to see if the problem is solved"
     ],
     "correctAnswer": "A cursory run through a test pack to see if any new errors have been introduced.",
-    "explanation": ""
+    "explanation": "Refer 2.2.3 Test types. định nghĩa của Regression test là \"Regression testing: re-run tests to detect any introduced issues\". D là định nghĩa của Retest, C là định nghĩa của Exit criteria. A là chỉ hoạt động tái hiện lỗi Reproduce bug",
+    "reference": {
+      "questionNumber": 12,
+      "examName": "FL2024- chuong 2 exam 23-24-25"
+    }
   },
   {
     "id": "q232",
@@ -447,7 +571,11 @@
       "Load testing, stress testing, component testing, portability testing"
     ],
     "correctAnswer": "Load testing, stress testing, reliability testing, performance testing",
-    "explanation": ""
+    "explanation": "refer 2.2 chỉ có C mới chứa các loại test types thuộc non-functional. B và D có Component test là test Level, A cũng có System test là test level",
+    "reference": {
+      "questionNumber": 13,
+      "examName": "FL2024- chuong 2 exam 23-24-25"
+    }
   },
   {
     "id": "q233",
@@ -461,7 +589,11 @@
       "Users test the application in the developers environment"
     ],
     "correctAnswer": "Testing to ensure that the system meets the needs of the organization and end user.",
-    "explanation": ""
+    "explanation": "refer 2.2 mục tiêu của acceptance test là validate product",
+    "reference": {
+      "questionNumber": 14,
+      "examName": "FL2024- chuong 2 exam 23-24-25"
+    }
   },
   {
     "id": "q234",
@@ -475,7 +607,11 @@
       "Big-bang testing"
     ],
     "correctAnswer": "Big-bang testing",
-    "explanation": ""
+    "explanation": "refer 2.2 Kiểm thử tích hợp trong đó tất cả các thành phần của hệ thống được kết hợp để tạo thành hệ thống cùng một lúc? Integration test level có 2 chiến lược tích hợp, trong đó Big bang= merge code",
+    "reference": {
+      "questionNumber": 15,
+      "examName": "FL2024- chuong 2 exam 23-24-25"
+    }
   },
   {
     "id": "q235",
@@ -489,7 +625,11 @@
       "pre-release testing by end user representatives at their sites."
     ],
     "correctAnswer": "pre-release testing by end user representatives at the developer’s site.",
-    "explanation": ""
+    "explanation": "refer 2.2 chọn C, còn D là của Beta test, A sai vì post-release là sau release rồi, B thì sai hoàn toàn",
+    "reference": {
+      "questionNumber": 16,
+      "examName": "FL2024- chuong 2 exam 23-24-25"
+    }
   },
   {
     "id": "q236",
@@ -503,7 +643,11 @@
       "The tested application is user-friendly."
     ],
     "correctAnswer": "Loading time of the tested web application is within 3 seconds.",
-    "explanation": ""
+    "explanation": "Refer 2.2 Requirement nào đủ rõ ràng và chi tiết để test đc chọn B đủ chi tiết",
+    "reference": {
+      "questionNumber": 17,
+      "examName": "FL2024- chuong 2 exam 23-24-25"
+    }
   },
   {
     "id": "q237",
@@ -517,7 +661,11 @@
       "Security testing"
     ],
     "correctAnswer": "Boundary value analysis",
-    "explanation": ""
+    "explanation": "refer 2.2. BCD đều là non functional",
+    "reference": {
+      "questionNumber": 18,
+      "examName": "FL2024- chuong 2 exam 23-24-25"
+    }
   },
   {
     "id": "q238",
@@ -531,7 +679,11 @@
       "Structural testing."
     ],
     "correctAnswer": "Structural testing.",
-    "explanation": ""
+    "explanation": "Refer chapter 2.3 Test type, Họ nói là thơi gian bị giới hạn thì cái test type nào phù hợp để review đầu tiên. Lúc đầu mình thấy các lỗi họ đưa ra là thuộc về functional thì Nếu là câu hỏi là Run test cho loại nào đầu tiên thì tất nhiên chọn functional rồi, phần mô tả ko liên quan gì đến non-functional và performance cả. Nên loại C, D đi vì ko mô tả gì về performance hay security cũng ko phải nhé ( users allowed to change security levels without administrator rights -- cái này đang mô tả tính năng chứ ko phải security). Nhưng câu hỏi là review cái nào phừ hợp ( chứ nó  ko hỏi chạy test) nên giữa A và D thì thấy review nên dùng Whitebox test sẽ nhanh hơn, tập trung vào phần code đang sai",
+    "reference": {
+      "questionNumber": 19,
+      "examName": "FL2024- chuong 2 exam 23-24-25"
+    }
   },
   {
     "id": "q239",
@@ -545,6 +697,10 @@
       "By customers or potential customers at the developing organization’s site"
     ],
     "correctAnswer": "By customers or potential customers at their own locations",
-    "explanation": ""
+    "explanation": "refer 2.2 chọn A là định nghĩa của Beta test, loại C D vì là định nghĩa của Alpha test, loại B vì \"an independent test team\" là đội dự án ko phải bên KH",
+    "reference": {
+      "questionNumber": 20,
+      "examName": "FL2024- chuong 2 exam 23-24-25"
+    }
   }
 ]

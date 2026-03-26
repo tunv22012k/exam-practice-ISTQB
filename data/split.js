@@ -23,7 +23,7 @@ indexTs += `\nexport const allQuestions = [\n`;
 Object.keys(byChapter).forEach(ch => {
     indexTs += `  ...chapter${ch},\n`;
 });
-indexTs += `];\n\nexport default allQuestions;\n`;
+indexTs += `];\nexport default allQuestions;\n`;
 
 fs.writeFileSync(path.join(__dirname, 'index.ts'), indexTs);
 console.log('Done splitting!');
