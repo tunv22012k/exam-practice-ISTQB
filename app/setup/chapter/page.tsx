@@ -12,13 +12,22 @@ export default function ChapterSetupPage() {
   const router = useRouter();
   const { setExamConfig, startExam } = useExamStore();
   
+  const [activeTab, setActiveTab] = useState<'single' | 'custom'>('single');
+
+  // Single Chapter state
   const [chapter, setChapter] = useState('');
   const [questionCount, setQuestionCount] = useState(10);
   const [timeLimit, setTimeLimit] = useState(15);
 
+  // Custom Setup state
+  const [distribution, setDistribution] = useState<Record<number, number>>({
+    1: 4, 2: 4, 3: 4, 4: 12, 5: 12, 6: 4
+  });
+  const [customTime, setCustomTime] = useState(90);
+
   const maxQuestions = chapter ? allQuestions.filter(q => q.chapter === parseInt(chapter)).length : 0;
 
-  const handleStart = (e: React.FormEvent) => {
+  const handleSingleStart = (e: React.FormEvent) => {
     e.preventDefault();
     if (!chapter) return alert('Please select a chapter');
     if (questionCount > maxQuestions) {
@@ -33,6 +42,26 @@ export default function ChapterSetupPage() {
     });
     startExam();
     router.push('/exam');
+  };
+
+  const handleCustomStart = (e: React.FormEvent) => {
+    e.preventDefault();
+    const totalSelected = Object.values(distribution).reduce((a, b) => a + b, 0);
+    if (totalSelected === 0) return alert('Please select at least 1 question.');
+    
+    setExamConfig({
+      mode: 'cumulative',
+      chapterDistribution: distribution,
+      questionCount: totalSelected,
+      timeLimit: customTime
+    });
+    startExam();
+    router.push('/exam');
+  };
+
+  const updateDist = (chapter: number, val: string) => {
+    const num = parseInt(val) || 0;
+    setDistribution(prev => ({ ...prev, [chapter]: num }));
   };
 
   return (
@@ -53,61 +82,128 @@ export default function ChapterSetupPage() {
             Chapter Practice Setup
           </h1>
           <p className="text-slate-400 mb-8">Configure your targeted practice session.</p>
-          
-          <form onSubmit={handleStart} className="space-y-6">
-            <div>
-              <label className="block text-sm font-medium text-slate-300 mb-2">Select Chapter</label>
-              <select 
-                value={chapter}
-                onChange={(e) => setChapter(e.target.value)}
-                className="w-full bg-slate-800/50 border border-slate-600 text-white rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
-                required
-              >
-                <option value="" disabled>Select a chapter from syllabus</option>
-                <option value="1">Chapter 1: Fundamentals of Testing</option>
-                <option value="2">Chapter 2: Testing Throughout the SDLC</option>
-                <option value="3">Chapter 3: Static Testing</option>
-                <option value="4">Chapter 4: Test Analysis and Design</option>
-                <option value="5">Chapter 5: Managing the Test Activities</option>
-                <option value="6">Chapter 6: Test Tools</option>
-              </select>
-            </div>
-            
-            <div>
-              <label className="block text-sm font-medium text-slate-300 mb-2">
-                Number of Questions {chapter ? <span className="text-blue-400 font-bold ml-1">(Max available: {maxQuestions})</span> : null}
-              </label>
-              <input 
-                type="number" 
-                min="1"
-                max={chapter ? maxQuestions : 50}
-                value={questionCount}
-                onChange={(e) => setQuestionCount(parseInt(e.target.value))}
-                className="w-full bg-slate-800/50 border border-slate-600 text-white rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
-                required
-              />
-            </div>
 
-            <div>
-              <label className="block text-sm font-medium text-slate-300 mb-2">Time Limit (minutes)</label>
-              <input 
-                type="number" 
-                min="1"
-                max="120"
-                value={timeLimit}
-                onChange={(e) => setTimeLimit(parseInt(e.target.value))}
-                className="w-full bg-slate-800/50 border border-slate-600 text-white rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
-                required
-              />
-            </div>
-            
+          <div className="flex space-x-2 mb-8 bg-slate-800/80 p-1.5 rounded-xl border border-slate-700">
             <button 
-              type="submit"
-              className="w-full py-4 mt-8 rounded-xl font-bold text-lg bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white transition-all shadow-[0_0_20px_rgba(59,130,246,0.3)] hover:shadow-[0_0_30px_rgba(59,130,246,0.5)]"
+              onClick={() => setActiveTab('single')}
+              className={`flex-1 py-3 rounded-lg font-medium transition-all ${activeTab === 'single' ? 'bg-blue-500 text-white shadow-md' : 'text-slate-400 hover:text-white hover:bg-white/5'}`}
             >
-              Start Chapter Practice
+              Single Chapter
             </button>
-          </form>
+            <button 
+              onClick={() => setActiveTab('custom')}
+              className={`flex-1 py-3 rounded-lg font-medium transition-all ${activeTab === 'custom' ? 'bg-blue-500 text-white shadow-md' : 'text-slate-400 hover:text-white hover:bg-white/5'}`}
+            >
+              Custom Setup
+            </button>
+          </div>
+          
+          {activeTab === 'single' ? (
+            <form onSubmit={handleSingleStart} className="space-y-6">
+              <div>
+                <label className="block text-sm font-medium text-slate-300 mb-2">Select Chapter</label>
+                <select 
+                  value={chapter}
+                  onChange={(e) => setChapter(e.target.value)}
+                  className="w-full bg-slate-800/50 border border-slate-600 text-white rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
+                  required
+                >
+                  <option value="" disabled>Select a chapter from syllabus</option>
+                  <option value="1">Chapter 1: Fundamentals of Testing</option>
+                  <option value="2">Chapter 2: Testing Throughout the SDLC</option>
+                  <option value="3">Chapter 3: Static Testing</option>
+                  <option value="4">Chapter 4: Test Analysis and Design</option>
+                  <option value="5">Chapter 5: Managing the Test Activities</option>
+                  <option value="6">Chapter 6: Test Tools</option>
+                </select>
+              </div>
+              
+              <div>
+                <label className="block text-sm font-medium text-slate-300 mb-2">
+                  Number of Questions {chapter ? <span className="text-blue-400 font-bold ml-1">(Max available: {maxQuestions})</span> : null}
+                </label>
+                <input 
+                  type="number" 
+                  min="1"
+                  max={chapter ? maxQuestions : 50}
+                  value={questionCount}
+                  onChange={(e) => setQuestionCount(parseInt(e.target.value))}
+                  className="w-full bg-slate-800/50 border border-slate-600 text-white rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
+                  required
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-slate-300 mb-2">Time Limit (minutes)</label>
+                <input 
+                  type="number" 
+                  min="1"
+                  max="120"
+                  value={timeLimit}
+                  onChange={(e) => setTimeLimit(parseInt(e.target.value))}
+                  className="w-full bg-slate-800/50 border border-slate-600 text-white rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
+                  required
+                />
+              </div>
+              
+              <button 
+                type="submit"
+                className="w-full py-4 mt-8 rounded-xl font-bold text-lg bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white transition-all shadow-[0_0_20px_rgba(59,130,246,0.3)] hover:shadow-[0_0_30px_rgba(59,130,246,0.5)]"
+              >
+                Start Chapter Practice
+              </button>
+            </form>
+          ) : (
+            <form onSubmit={handleCustomStart} className="space-y-6">
+              <div>
+                <label className="block text-sm font-medium text-slate-300 mb-4">Chapter Distribution (Questions per chapter)</label>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {[1,2,3,4,5,6].map(ch => {
+                    const availableForCh = allQuestions.filter(q => q.chapter === ch).length;
+                    return (
+                    <div key={ch} className="flex items-center justify-between bg-slate-800/40 p-4 rounded-xl border border-slate-700 hover:border-blue-500/50 transition-colors">
+                      <div className="flex flex-col">
+                        <span className="text-sm font-medium">Chapter {ch}</span>
+                        <span className="text-xs text-slate-500">Max: {availableForCh}</span>
+                      </div>
+                      <input 
+                        type="number" 
+                        min="0"
+                        max={availableForCh}
+                        value={distribution[ch] || 0}
+                        onChange={(e) => updateDist(ch, e.target.value)}
+                        className="w-16 bg-slate-900 border border-slate-600 text-blue-400 font-bold rounded-lg p-2 text-center focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500"
+                      />
+                    </div>
+                  )})}
+                </div>
+                <div className="mt-6 p-4 bg-blue-500/10 border border-blue-500/20 rounded-xl flex justify-between items-center">
+                  <span className="text-blue-400 font-medium">Total Questions Selected</span>
+                  <span className="text-2xl font-bold text-white">{Object.values(distribution).reduce((a, b) => a + b, 0)}</span>
+                </div>
+              </div>
+
+              <div>
+                <label className="block text-sm font-medium text-slate-300 mb-2">Total Time Limit (minutes)</label>
+                <input 
+                  type="number" 
+                  min="1"
+                  max="180"
+                  value={customTime}
+                  onChange={(e) => setCustomTime(parseInt(e.target.value))}
+                  className="w-full bg-slate-800/50 border border-slate-600 text-white rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all font-medium text-lg"
+                  required
+                />
+              </div>
+
+              <button 
+                type="submit"
+                className="w-full py-4 mt-6 rounded-xl font-bold text-lg bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-blue-500 hover:to-cyan-400 text-white transition-all shadow-[0_0_20px_rgba(59,130,246,0.3)] hover:shadow-[0_0_30px_rgba(59,130,246,0.5)]"
+              >
+                Start Custom Practice
+              </button>
+            </form>
+          )}
         </div>
       </div>
     </main>
