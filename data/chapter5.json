@@ -11,7 +11,11 @@
       "An analysis of lessons learned to determine changes for future projects."
     ],
     "correctAnswer": "Whether there is any economic benefit in continuing testing beyond the planned date.",
-    "explanation": ""
+    "explanation": "refer 5.3.2  Contents for Test Reports, B sai vì any economic benefit  không có trong nội dung test report, A được hiểu là nằm ở mục summary of test, C là mục  risk, D là lession learn",
+    "reference": {
+      "questionNumber": 1,
+      "examName": "FL2024- chuong 5 exam 23-24-25"
+    }
   },
   {
     "id": "q5002",
@@ -25,7 +29,11 @@
       "b, c and e."
     ],
     "correctAnswer": "a, b and e.",
-    "explanation": ""
+    "explanation": "refer 5.2.2",
+    "reference": {
+      "questionNumber": 2,
+      "examName": "FL2024- chuong 5 exam 23-24-25"
+    }
   },
   {
     "id": "q5003",
@@ -39,8 +47,12 @@
       "1, 4, 3, 5, 2, 7, 9, 10, 6, 8"
     ],
     "correctAnswer": "1, 4, 3, 5, 2, 7, 9, 10, 6, 8",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter5_1.png"
+    "explanation": "Refer 5.1.5",
+    "imageUrl": "/images/quiz_chapter5_1.png",
+    "reference": {
+      "questionNumber": 3,
+      "examName": "FL2024- chuong 5 exam 23-24-25"
+    }
   },
   {
     "id": "q5004",
@@ -54,7 +66,11 @@
       "In an expert-based approach, the test lead with the most years in the role is chosen to produce the estimate"
     ],
     "correctAnswer": "The expert-based approach is based on the experience of the owners of the testing tasks or by subject matter experts.",
-    "explanation": ""
+    "explanation": "Refer 5.1.4 thì ra đáp án B đúng, A sai vì \"uses its original estimate for the current project\" metrics based là dựa trên data thực tế của dự án đã đóng trong quá khứ không phải dựa vào estimate của dự án cũ, B sai vì \"based on their subjective feel\" dự trên cảm giác chủ quan của owners,  D sai vì \"the test lead with the most years\" là không đủ, ko chính xác, còn nhiều người có thể estimate được",
+    "reference": {
+      "questionNumber": 4,
+      "examName": "FL2024- chuong 5 exam 23-24-25"
+    }
   },
   {
     "id": "q5005",
@@ -68,8 +84,12 @@
       "01.001, 01.002, 01.004, 01.005, 01.003"
     ],
     "correctAnswer": "01.001, 01.002, 01.004, 01.003, 01.005",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter5_2.png"
+    "explanation": "Refer 5.1.5 Xem xét các case có dependency là None để chạy đầu tiên ta có case 001,  tiếp theo chỉ có 002 chạy đc tiếp, tiếp theo có 3 case 003,004,005 có thể chạy đc ta chọn case có priority cao nhất để chạy. nhớ rằng smaller number is high priority tức là 1 là cao nhất",
+    "imageUrl": "/images/quiz_chapter5_2.png",
+    "reference": {
+      "questionNumber": 5,
+      "examName": "FL2024- chuong 5 exam 23-24-25"
+    }
   },
   {
     "id": "q5006",
@@ -86,7 +106,11 @@
       "With the expert-based approach, the test managers responsible for the different testing activities predict the expected testing effort.",
       "With the metrics-based approach, an average of the testing effort recorded from several past projects is used"
     ],
-    "explanation": ""
+    "explanation": "Refer 5.1.4 kỹ thuật estimation là có expert based dựa trên owner hoặc expert (TM hoặc PM)  và metric based dựa trên dự án cũ past project. Nên chọn đc B, C. A sai vì  \"expert users\" và D sai vì \" only available after the testing starts\" estimation phải có đầu tiên chứ ko phải sau khi test bắt đầu",
+    "reference": {
+      "questionNumber": 6,
+      "examName": "FL2024- chuong 5 exam 23-24-25"
+    }
   },
   {
     "id": "q5007",
@@ -100,7 +124,11 @@
       "Lack of needed tester training"
     ],
     "correctAnswer": "Poor system reliability",
-    "explanation": ""
+    "explanation": "Refer 5.2.2  B cà D là project risk, còn C cũng là project risk vì test data là dữ liệu do dự án tạo ra để test",
+    "reference": {
+      "questionNumber": 7,
+      "examName": "FL2024- chuong 5 exam 23-24-25"
+    }
   },
   {
     "id": "q5008",
@@ -114,7 +142,11 @@
       "Try to recreate the incident before reporting"
     ],
     "correctAnswer": "Try to recreate the incident before reporting",
-    "explanation": ""
+    "explanation": "Refer 5.5 Tester tìm ra đc 1 dấu hiệu lỗi là incident, để có thông tin đầy đủ chính xác cho việc report incident, tester cần cố tạo lại nó. A B sai vì send email và report bug luôn là ko nên. C sai vì đó là của lập trình viên",
+    "reference": {
+      "questionNumber": 8,
+      "examName": "FL2024- chuong 5 exam 23-24-25"
+    }
   },
   {
     "id": "q5009",
@@ -128,7 +160,11 @@
       "Vital function not implemented"
     ],
     "correctAnswer": "Skill and/or staff shortage",
-    "explanation": ""
+    "explanation": "Refer 5.2.2 , A,C,D là của product risk",
+    "reference": {
+      "questionNumber": 9,
+      "examName": "FL2024- chuong 5 exam 23-24-25"
+    }
   },
   {
     "id": "q5010",
@@ -141,8 +177,12 @@
       "When there are no remaining high priority defects outstanding.",
       "When every data combination has been exercised successfully."
     ],
-    "correctAnswer": "When there are no remaining high priority defects outstanding.",
-    "explanation": ""
+    "correctAnswer": "When no remaining high priority defects outstanding.",
+    "explanation": "Refer 5.1.3 Exit criteria thì C phù hợp là tiêu chí quan trọng nhất đánh giá hoàn thành \"- (importance) Residual risks: issues/ open serious defect, untested\"",
+    "reference": {
+      "questionNumber": 10,
+      "examName": "FL2024- chuong 5 exam 23-24-25"
+    }
   },
   {
     "id": "q5011",
@@ -156,7 +196,11 @@
       "Only that test execution is effective at reducing risk."
     ],
     "correctAnswer": "The types of test techniques to be employed.",
-    "explanation": ""
+    "explanation": "Refer 5.2.3  thì A đúng Risk based giúp xác định test techniques. B sai vì 100% coverage là ko có, C sai là vì cost of development, D sai vì only",
+    "reference": {
+      "questionNumber": 11,
+      "examName": "FL2024- chuong 5 exam 23-24-25"
+    }
   },
   {
     "id": "q5012",
@@ -170,7 +214,11 @@
       "Likelihood of failure = 2%; impact value = $200,000"
     ],
     "correctAnswer": "Likelihood of failure = 20%; impact value = $100,000",
-    "explanation": ""
+    "explanation": "Refer 5.2.1 cách tính Risk level = likelihood (probability) x  Impact (harm) . Chỉ cần nhân đáp án vào là thấy A lớn nhất",
+    "reference": {
+      "questionNumber": 12,
+      "examName": "FL2024- chuong 5 exam 23-24-25"
+    }
   },
   {
     "id": "q5013",
@@ -184,7 +232,11 @@
       "The metrics-based approach is more accurate than the expert-based approach."
     ],
     "correctAnswer": "The metrics-based approach uses calculations from historical data while the expert based approach relies on team wisdom.",
-    "explanation": ""
+    "explanation": "Refer 5.1.4 Điều nào sau đây là sự khác biệt quan trọng nhất giữa metrics-based và expert-based ? theo sách chọn A, còn các B C D đang so sánh 2 kỹ thuật này ko có căn cứ",
+    "reference": {
+      "questionNumber": 13,
+      "examName": "FL2024- chuong 5 exam 23-24-25"
+    }
   },
   {
     "id": "q5014",
@@ -198,7 +250,11 @@
       "a & b"
     ],
     "correctAnswer": "a & b",
-    "explanation": ""
+    "explanation": "Refer 5.1.4. Bạn ước tính effort cho re-test như thế nào? cần có a là  metric based và b là expert based nên chọn D",
+    "reference": {
+      "questionNumber": 14,
+      "examName": "FL2024- chuong 5 exam 23-24-25"
+    }
   },
   {
     "id": "q5015",
@@ -212,7 +268,11 @@
       "Using entry and exit criteria will prevent software that is not or poorly tested from going to the next test level."
     ],
     "correctAnswer": "Entry and exit criteria are a principal way for getting adequate resources.",
-    "explanation": ""
+    "explanation": "Refer 5.1.3 Lý do nào KHÔNG hợp lệ để sử dụng tiêu chí vào và ra? Chọn C vì \"adequate resources\"  là sai, entry và exit criteria để giúp trong tình huống thiếu thời gian và nguồn lực thì vẫn có thể test được những cái quan trọng nhất và đảm bảo mục tiêu quan trọng nhất",
+    "reference": {
+      "questionNumber": 1,
+      "examName": "FL2024_chuong 5 Exam 26-27-28"
+    }
   },
   {
     "id": "q5016",
@@ -226,7 +286,11 @@
       "A logical collection of test cases"
     ],
     "correctAnswer": "An approach to regression testing",
-    "explanation": ""
+    "explanation": "refer 5.1.1. chọn A vì có Approach, BCD là của  test case",
+    "reference": {
+      "questionNumber": 2,
+      "examName": "FL2024_chuong 5 Exam 26-27-28"
+    }
   },
   {
     "id": "q5017",
@@ -240,7 +304,11 @@
       "The likelihood and the probability of a hazard occurring"
     ],
     "correctAnswer": "The impact of an adverse event multiplied by the likelihood of that event occurring.",
-    "explanation": ""
+    "explanation": "refer 5.2.1. Lựa chọn nào TỐT NHẤT mô tả cách xác định mức độ rủi ro? Bạn thấy risk level = likelihood x impact, nên chọn C vì có 2 nhân tố này, loại D vì probability = likelihood, loại A vì  likelihood x the cost of preventing (2 cái này nhân với nhau là sai), loại B vì consequences x cost ( hậu quả nhân với chi phí)",
+    "reference": {
+      "questionNumber": 3,
+      "examName": "FL2024_chuong 5 Exam 26-27-28"
+    }
   },
   {
     "id": "q5018",
@@ -254,7 +322,11 @@
       "It helps the test manager to decide how best to integrate and coordinate the testing activities into the software life cycle."
     ],
     "correctAnswer": "It enables the tester to reproduce the tested item through unique identification and version control",
-    "explanation": ""
+    "explanation": "refer 5.4 Điều nào sau đây TỐT NHẤT mô tả cách quản lý cấu hình hỗ trợ quá trình thử nghiệm? cứ theo định nghĩa ta chọn A vì có \" unique identification and version control\" loại B vì là mô tả của kỹ thuật thiết kế test của chương 4 mục 4.1.1, loại C vì nó đang mô tả đến defect management của 5.5, loại D vì là task của test manager ở mục 1.4.5",
+    "reference": {
+      "questionNumber": 4,
+      "examName": "FL2024_chuong 5 Exam 26-27-28"
+    }
   },
   {
     "id": "q5019",
@@ -268,7 +340,11 @@
       "In an expert-based approach, the test lead with the most years in the role is chosen to produce the estimate."
     ],
     "correctAnswer": "The expert-based approach is based on the experience of the owners of the testing tasks or by subject matter experts.",
-    "explanation": ""
+    "explanation": "refer 5.1.4 Câu nào sau đây về kỹ thuật ước lượng nỗ lực kiểm thử là đúng? Chọn B đúng mô tả đúng về expert-based, Loại A vì \"uses its original estimate\" sử dụng estimation ban đầu của các dự án tương tự để tham chiếu cho dự án hiện tại là sai, loại C vì \"their subjective feel- cảm giác chủ quan\" cái này ko thể của metric based, loại D vì \"the most years\" cho test lead nhiều năm kinh nghiệm nhất estimate là sai",
+    "reference": {
+      "questionNumber": 5,
+      "examName": "FL2024_chuong 5 Exam 26-27-28"
+    }
   },
   {
     "id": "q5020",
@@ -282,7 +358,11 @@
       "Writing a test execution schedule"
     ],
     "correctAnswer": "Assigning resources for the planned activities",
-    "explanation": ""
+    "explanation": "refer 5.1.1 Hoạt động nào sau đây phù hợp với giai đoạn lập kế hoạch kiểm thử? chọn B như sách là của test planning, A là của test analysis, C là của test design, D là của test implementation",
+    "reference": {
+      "questionNumber": 6,
+      "examName": "FL2024_chuong 5 Exam 26-27-28"
+    }
   },
   {
     "id": "q5021",
@@ -296,7 +376,11 @@
       "A list of the names of the testers who will carry out the performance testing for the final iteration."
     ],
     "correctAnswer": "The test approach that will be applied at system integration testing",
-    "explanation": ""
+    "explanation": "refer 5.1.1 Bạn mong đợi điều nào sau đây trong kế hoạch kiểm tra tổng thể? chọn C vì \"test approach\"",
+    "reference": {
+      "questionNumber": 7,
+      "examName": "FL2024_chuong 5 Exam 26-27-28"
+    }
   },
   {
     "id": "q5022",
@@ -314,7 +398,11 @@
       "The percentage of decision coverage achieved during unit testing.",
       "The availability of the latest version of the capture-replay tool (for testing the interface with the newly developed test management tool)"
     ],
-    "explanation": ""
+    "explanation": "refer 5.1.3 Điều nào sau đây sẽ là HAI ví dụ phù hợp nhất về tiêu chí đầu vào được ghi trong kế hoạch kiểm tra tích hợp hệ thống? chọn A vì là level trước (unit test) thỏa mãn tiêu chí kết thúc, Chọn B vì sự sẵn sàng của tài liệu",
+    "reference": {
+      "questionNumber": 8,
+      "examName": "FL2024_chuong 5 Exam 26-27-28"
+    }
   },
   {
     "id": "q5023",
@@ -328,7 +416,11 @@
       "3, 1, 4, 2, 6, 5"
     ],
     "correctAnswer": "3, 1, 4, 2, 6, 5",
-    "explanation": ""
+    "explanation": "Refer 5.1.5. Sắp thứ tự của test case theo logic: bắt đầu Open/login và kết thúc là exit, tiếp theo là Search - select - edit - confirm",
+    "reference": {
+      "questionNumber": 9,
+      "examName": "FL2024_chuong 5 Exam 26-27-28"
+    }
   },
   {
     "id": "q5024",
@@ -342,7 +434,11 @@
       "Record of changes to documentation over time"
     ],
     "correctAnswer": "Auditing conformance to ISO9001",
-    "explanation": ""
+    "explanation": "refer 5.4. chọn B vì ko nhắc đến trong sách, A  thì \"Status accounting- kiểm tra rà soát trạng thái\" là 1 hoạt động của CM control, C và D thì rõ trong định nghĩa của CM rồi",
+    "reference": {
+      "questionNumber": 10,
+      "examName": "FL2024_chuong 5 Exam 26-27-28"
+    }
   },
   {
     "id": "q5025",
@@ -360,7 +456,11 @@
       "Estimated defect density is reached",
       "Regression tests are automated"
     ],
-    "explanation": ""
+    "explanation": "Refer 5.1.3 Chọn 2 tiêu chí Exit criteria như trong sách luôn",
+    "reference": {
+      "questionNumber": 11,
+      "examName": "FL2024_chuong 5 Exam 26-27-28"
+    }
   },
   {
     "id": "q5026",
@@ -374,8 +474,12 @@
       "TC 001"
     ],
     "correctAnswer": "TC 003",
-    "explanation": "",
-    "imageUrl": "/images/quiz_chapter5_3.png"
+    "explanation": "Refer 5.1.5 sắp xếp theo dependences trước rồi mới đến priority",
+    "imageUrl": "/images/quiz_chapter5_3.png",
+    "reference": {
+      "questionNumber": 12,
+      "examName": "FL2024_chuong 5 Exam 26-27-28"
+    }
   },
   {
     "id": "q5027",
@@ -389,7 +493,11 @@
       "Only that test execution is effective at reducing risk."
     ],
     "correctAnswer": "The types of test techniques to be employed",
-    "explanation": ""
+    "explanation": "Refer 5.2.3 Đánh giá rủi ro có thể ảnh hưởng đến việc kiểm tra tính kỹ lưỡng như thế nào?  Chọn A có trong sách, B sai vì ko có yêu cầu nào chính xác phải đạt 100% coverage, C sai ở cost of fixing, D sai ở Only that test execution",
+    "reference": {
+      "questionNumber": 13,
+      "examName": "FL2024_chuong 5 Exam 26-27-28"
+    }
   },
   {
     "id": "q5028",
@@ -406,7 +514,11 @@
       "A simultaneous expert-based and metrics-based approach",
       "Primarily an expert-based approach, augmented with a metrics-based approach"
     ],
-    "explanation": ""
+    "explanation": "Refer 5.2.4 kỹ thật estimation. Trong kịch bản: Đề ước lượng thì đầu tiên là bạn gặp \"meet with the proposed testers and others- người phù hợp\" cái này là kỹ thuật expert based rồi, sau đó để kiểm tra lại ước lượng này bạn \"refer to some industry averages for testing effort and costs on similar projects- tham chiếu đến các giá trị trung bình của dự án tương tự\" đây là kỹ thuật metric based. Như vậy đúng nhất là B, đúng thứ nhì là A ( dịch là kết hợp của 2 kỹ thuật)",
+    "reference": {
+      "questionNumber": 14,
+      "examName": "FL2024_chuong 5 Exam 26-27-28"
+    }
   },
   {
     "id": "q5029",
@@ -420,6 +532,10 @@
       "A risk-based approach is more likely to be used to mitigate project rather than product risks."
     ],
     "correctAnswer": "A risk-based approach is more likely to be used to mitigate product rather than project risks.",
-    "explanation": ""
+    "explanation": "Refer 5.2. Cái nào đúng nhất về Risk. Bạn xem lại cái bảng thì risk based là để mitigate cho product risk nên chọn C",
+    "reference": {
+      "questionNumber": 15,
+      "examName": "FL2024_chuong 5 Exam 26-27-28"
+    }
   }
 ]

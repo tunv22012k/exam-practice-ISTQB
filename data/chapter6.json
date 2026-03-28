@@ -11,7 +11,11 @@
       "Static analysis of a software model."
     ],
     "correctAnswer": "Static analysis of a software model.",
-    "explanation": ""
+    "explanation": "Refer 6.1  A,B,C là tester tham gia đc, D là tool phân tích tĩnh chỉ dùng cho lập trình viên",
+    "reference": {
+      "questionNumber": 1,
+      "examName": "FL2024- chuong 6 exam 23-24-25"
+    }
   },
   {
     "id": "q6002",
@@ -25,7 +29,11 @@
       "(iii) and (iv)"
     ],
     "correctAnswer": "(iii) and (iv)",
-    "explanation": ""
+    "explanation": "Refer 6.1 nói chung giai đoạn analysis and design chủ yếu dùng tool để quản lý task, test case, test document, requirement",
+    "reference": {
+      "questionNumber": 2,
+      "examName": "FL2024- chuong 6 exam 23-24-25"
+    }
   },
   {
     "id": "q6003",
@@ -39,6 +47,10 @@
       "ii and iv"
     ],
     "correctAnswer": "i and iv",
-    "explanation": ""
+    "explanation": "refer 6.2 Lợi ích nào sau đây có khả năng đạt được NHIỀU NHẤT khi sử dụng các công cụ kiểm tra? theo sách chọn i và iv",
+    "reference": {
+      "questionNumber": 3,
+      "examName": "FL2024- chuong 6 exam 23-24-25"
+    }
   }
 ]
