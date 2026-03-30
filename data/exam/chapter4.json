@@ -255,7 +255,7 @@
         "id": "q4015",
         "chapter": 4,
         "difficulty": "normal",
-        "questionText": "A system is designed to accept values of examination marks as follows:\n\nFail :0-39 inclusive\nPass :40-59 inclusive\nMerit :60-79 inclusive\nDistinction :80-100 inclusive\n\nIn which of the following sets of values are all values in different equivalence partitions?",
+        "questionText": "A system is designed to accept values of examination marks as follows:\nFail :0-39 inclusive\nPass :40-59 inclusive\nMerit :60-79 inclusive\nDistinction :80-100 inclusive\nIn which of the following sets of values are all values in different equivalence partitions?",
         "options": [
             "A. 25, 40, 60, 75",
             "B. 0, 45, 79, 87",
@@ -273,7 +273,7 @@
         "id": "q4016",
         "chapter": 4,
         "difficulty": "normal",
-        "questionText": "A washing machine has three temperature bands for different kinds of fabrics: fragile fabrics are washed at temperatures between 15 and 30 degrees Celsius; normal fabrics are washed at temperatures between 31 and 60 degrees Celsius; heavily soiled and tough fabrics are washed at temperatures between 61 and 100 degrees Celsius.\n\nWhich of the following contains only values that are in different equivalence partitions?",
+        "questionText": "A washing machine has three temperature bands for different kinds of fabrics: fragile fabrics are washed at temperatures between 15 and 30 degrees Celsius; normal fabrics are washed at temperatures between 31 and 60 degrees Celsius; heavily soiled and tough fabrics are washed at temperatures between 61 and 100 degrees Celsius.\nWhich of the following contains only values that are in different equivalence partitions?",
         "options": [
             "A. 15, 30, 60",
             "B. 20, 35, 60",
@@ -291,7 +291,7 @@
         "id": "q4017",
         "chapter": 4,
         "difficulty": "normal",
-        "questionText": "Consider the following pseudo code:\n\nHow many test cases are needed to achieve 100 percent statement coverage?\n\nCode snippet:\n1 Begin\n2 Read Time\n3 If Time < 12 Then\n4 Print(Time, \"am\")\n5 Endif\n6 If Time > 12 Then\n7 Print(Time −12, \"pm\")\n8 Endif\n9 If Time = 12 Then\n10 Print (Time, \"noon\")\n11 Endif\n12 End",
+        "questionText": "Consider the following pseudo code:\nHow many test cases are needed to achieve 100 percent statement coverage?\nCode snippet:\n1 Begin\n2 Read Time\n3 If Time < 12 Then\n4 Print(Time, \"am\")\n5 Endif\n6 If Time > 12 Then\n7 Print(Time −12, \"pm\")\n8 Endif\n9 If Time = 12 Then\n10 Print (Time, \"noon\")\n11 Endif\n12 End",
         "options": [
             "A. 1",
             "B. 2",
@@ -309,7 +309,7 @@
         "id": "q4018",
         "chapter": 4,
         "difficulty": "normal",
-        "questionText": "Consider the following pseudo code:\n\nIf the test cases Time = 11 and Time = 15 were input, what level of statement coverage would be achieved?\n\nCode snippet:\n1 Begin\n2 Read Time\n3 If Time < 12 Then\n4 Print(Time, \"am\")\n5 Endif\n6 If Time > 12 Then\n7 Print(Time −12, \"pm\")\n8 Endif\n9 If Time = 12 Then\n10 Print (Time, \"noon\")\n11 Endif\n12 End",
+        "questionText": "Consider the following pseudo code:\nIf the test cases Time = 11 and Time = 15 were input, what level of statement coverage would be achieved?\nCode snippet:\n1 Begin\n2 Read Time\n3 If Time < 12 Then\n4 Print(Time, \"am\")\n5 Endif\n6 If Time > 12 Then\n7 Print(Time −12, \"pm\")\n8 Endif\n9 If Time = 12 Then\n10 Print (Time, \"noon\")\n11 Endif\n12 End",
         "options": [
             "A. 7/7",
             "B. 4/7",
@@ -327,7 +327,7 @@
         "id": "q4019",
         "chapter": 4,
         "difficulty": "normal",
-        "questionText": "A software component has the code shown below:\n\nThe component has exit criteria for component testing that include 100% statement coverage. Which of the following test cases will satisfy this criterion?\n\nCode snippet:\nProgram BiggestA,\nBiggest: Integer\nBegin\nRead A\nBiggest = 10\nWhile A > 0\nDo\nIf A > Biggest\nThen Biggest = A\nEndif\nRead A\nEnddo\nEnd",
+        "questionText": "A software component has the code shown below:\nThe component has exit criteria for component testing that include 100% statement coverage. Which of the following test cases will satisfy this criterion?\nCode snippet:\nProgram BiggestA,\nBiggest: Integer\nBegin\nRead A\nBiggest = 10\nWhile A > 0\nDo\nIf A > Biggest\nThen Biggest = A\nEndif\nRead A\nEnddo\nEnd",
         "options": [
             "A. 0",
             "B. 10, 0",
@@ -381,7 +381,7 @@
         "id": "q4022",
         "chapter": 4,
         "difficulty": "normal",
-        "questionText": "Which of the following are most characteristic of structure-based testing?\n\n(i) Information about how the software is constructed is used to derive test cases.\n\n(ii) Statement coverage and/or decision coverage can be measured for existing test cases.\n\n(iii) The knowledge and experience of people are used to derive test cases.\n\n(iv) Test cases are derived from a model or specification of the system",
+        "questionText": "Which of the following are most characteristic of structure-based testing?\n(i) Information about how the software is constructed is used to derive test cases.\n(ii) Statement coverage and/or decision coverage can be measured for existing test cases.\n(iii) The knowledge and experience of people are used to derive test cases.\n(iv) Test cases are derived from a model or specification of the system",
         "options": [
             "A. (i) and (ii)",
             "B. (ii) and (iii)",

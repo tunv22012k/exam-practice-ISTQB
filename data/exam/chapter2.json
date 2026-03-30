@@ -201,7 +201,7 @@
         "id": "q2012",
         "chapter": 2,
         "difficulty": "normal",
-        "questionText": "Which of the following statements are true?\n\n(i) For every development activity there is a corresponding testing activity.\n\n(ii) Each test level has the same test objectives.\n\n(iii) The analysis and design of tests for a given test level should begin after the corresponding development activity.\n\n(iv)Testers should be involved in reviewing documents as soon as drafts are available in the development life cycle.",
+        "questionText": "Which of the following statements are true?\n(i) For every development activity there is a corresponding testing activity.\n(ii) Each test level has the same test objectives.\n(iii) The analysis and design of tests for a given test level should begin after the corresponding development activity.\n(iv)Testers should be involved in reviewing documents as soon as drafts are available in the development life cycle.",
         "options": [
             "A. (i) and (ii)",
             "B. (iii) and (iv)",

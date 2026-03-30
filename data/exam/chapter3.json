@@ -165,7 +165,7 @@
         "id": "q3010",
         "chapter": 3,
         "difficulty": "normal",
-        "questionText": "Which of the following statements are correct for walkthroughs?\n\n(i) Often led by the author.\n(ii) Documented and defined results.\n(iii) All participants have defined roles.\n(iv) Used to aid learning.\n(v) Main purpose is to find defects.",
+        "questionText": "Which of the following statements are correct for walkthroughs?\n(i) Often led by the author.\n(ii) Documented and defined results.\n(iii) All participants have defined roles.\n(iv) Used to aid learning.\n(v) Main purpose is to find defects.",
         "options": [
             "A. (i) and (v) are correct.",
             "B. (ii) and (iii) are correct.",
@@ -201,7 +201,7 @@
         "id": "q3012",
         "chapter": 3,
         "difficulty": "normal",
-        "questionText": "Which of the following statements are true?\n\n(i) Defects are likely to be found earlier in the development process by using reviews rather than static analysis.\n\n(ii) Walkthroughs require code but static analysis does not require code.\n\n(iii) Informal reviews can be performed on code and specifications.\n\n(iv) Dynamic techniques are generally used before static techniques.\n\n(v) Dynamic techniques can only be used after code is ready to be executed.",
+        "questionText": "Which of the following statements are true?\n(i) Defects are likely to be found earlier in the development process by using reviews rather than static analysis.\n(ii) Walkthroughs require code but static analysis does not require code.\n(iii) Informal reviews can be performed on code and specifications.\n(iv) Dynamic techniques are generally used before static techniques.\n(v) Dynamic techniques can only be used after code is ready to be executed.",
         "options": [
             "A. (i), (ii), (vi).",
             "B. (ii), (iii), (v).",

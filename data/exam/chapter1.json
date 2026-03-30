@@ -129,7 +129,7 @@
         "id": "q1008",
         "chapter": 1,
         "difficulty": "normal",
-        "questionText": "Which of the following is correct?\n\nDebugging is:",
+        "questionText": "Which of the following is correct?\nDebugging is:",
         "options": [
             "A. Testing/checking whether the software performs correctly.",
             "B. Checking that a previously reported defect has been corrected.",
@@ -201,7 +201,7 @@
         "id": "q1012",
         "chapter": 1,
         "difficulty": "normal",
-        "questionText": "The following statements relate to activities that are part of the fundamental test process.\n\ni. Evaluating the testability of requirements.\n\nii. Repeating testing activities after changes.\n\niii. Designing the test environment set-up.\n\niv. Developing and prioritizing test cases.\n\nv. Verifying the environment is set up correctly.\n\nWhich statement below is TRUE?",
+        "questionText": "The following statements relate to activities that are part of the fundamental test process.\ni. Evaluating the testability of requirements.\nii. Repeating testing activities after changes.\niii. Designing the test environment set-up.\niv. Developing and prioritizing test cases.\nv. Verifying the environment is set up correctly.\nWhich statement below is TRUE?",
         "options": [
             "A. (i) and (ii) are part of analysis and design, (iii), (iv) and (v) are part of test implementation and execution.",
             "B. (i) and (iii) , (iv) are part of analysis and design, (ii) and (v) are part of test implementation and execution.",
@@ -237,7 +237,7 @@
         "id": "q1014",
         "chapter": 1,
         "difficulty": "normal",
-        "questionText": "Which of the following are valid justifications for developers testing their own code during unit testing?\n\n(i) Their lack of independence is mitigated by independent testing during system and acceptance testing.\n\n(ii)A person with a good understanding of the code can find more defects more quickly using white-box techniques.\n\n(iii)Developers have a better understanding of the requirements than testers.\n\n(iv)Testers write unnecessary incident reports because they find minor differences between the way in which the system behaves and the way in which it is specified to work.",
+        "questionText": "Which of the following are valid justifications for developers testing their own code during unit testing?\n(i) Their lack of independence is mitigated by independent testing during system and acceptance testing.\n(ii)A person with a good understanding of the code can find more defects more quickly using white-box techniques.\n(iii)Developers have a better understanding of the requirements than testers.\n(iv)Testers write unnecessary incident reports because they find minor differences between the way in which the system behaves and the way in which it is specified to work.",
         "options": [
             "A. (i) and (ii)",
             "B. (i) and (iv)",

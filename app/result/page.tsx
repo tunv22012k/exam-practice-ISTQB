@@ -151,7 +151,13 @@ export default function ResultPage() {
                   Tương ứng với câu <span className="font-bold">{q.reference.questionNumber}</span> của bài tập <span className="font-bold">{q.reference.examName}</span>
                 </div>
               )}
-              <h3 className="text-xl md:text-2xl font-medium mb-8 leading-relaxed text-slate-100">{q.questionText}</h3>
+              <h3 className="text-xl md:text-2xl font-medium mb-6 leading-relaxed text-slate-100 whitespace-pre-line">{q.questionText}</h3>
+              
+              {q.imageUrl && (
+                <div className="mb-8 rounded-xl overflow-hidden border border-slate-700/50 bg-slate-900/50 flex justify-start p-4">
+                  <img src={q.imageUrl} alt="Question reference" className="max-w-full h-auto max-h-[400px] object-contain rounded" />
+                </div>
+              )}
               
               <div className="space-y-3 mb-8">
                 {q.options.map((opt, oIdx) => {
@@ -160,21 +166,31 @@ export default function ResultPage() {
                   
                   let optStyle = "bg-slate-900/40 border-slate-700 text-slate-400";
                   let icon = null;
+                  let badges = [];
 
-                  if (isActualCorrect) {
-                     // The right answer
-                    optStyle = "bg-emerald-500/10 border-emerald-500/50 text-emerald-400 ring-1 ring-emerald-500 shadow-[0_0_15px_rgba(16,185,129,0.1)]";
-                    icon = <svg className="w-6 h-6 ml-auto shrink-0 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" /></svg>;
+                  if (isUserSelection && isActualCorrect) {
+                     optStyle = "bg-emerald-500/10 border-emerald-500/50 text-emerald-400 ring-1 ring-emerald-500 shadow-[0_0_15px_rgba(16,185,129,0.1)]";
+                     icon = <svg className="w-6 h-6 shrink-0 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" /></svg>;
+                     badges.push(<span key="correct" className="text-[10px] font-bold px-2 py-0.5 rounded-sm bg-emerald-500/20 text-emerald-400">LỰA CHỌN ĐÚNG CỦA BẠN</span>);
                   } else if (isUserSelection && !isActualCorrect) {
-                     // User picked wrong
-                     optStyle = "bg-red-500/10 border-red-500/50 text-red-400";
-                     icon = <svg className="w-6 h-6 ml-auto shrink-0 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" /></svg>;
+                     optStyle = "bg-red-500/10 border-red-500/50 text-red-400 ring-1 ring-red-500/30";
+                     icon = <svg className="w-6 h-6 shrink-0 text-red-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" /></svg>;
+                     badges.push(<span key="wrong" className="text-[10px] font-bold px-2 py-0.5 rounded-sm bg-red-500/20 text-red-400">LỰA CHỌN SAI CỦA BẠN</span>);
+                  } else if (!isUserSelection && isActualCorrect) {
+                     optStyle = "bg-blue-500/10 border-blue-500/50 text-blue-400 border-dashed border-2";
+                     icon = <svg className="w-6 h-6 shrink-0 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" /></svg>;
+                     badges.push(<span key="missed" className="text-[10px] font-bold px-2 py-0.5 rounded-sm bg-blue-500/20 text-blue-400">ĐÁP ÁN ĐÚNG CỦA CÂU HỎI</span>);
                   }
 
                   return (
-                    <div key={oIdx} className={`border rounded-2xl p-5 flex items-center transition-all ${optStyle}`}>
-                      <span className={`text-lg ${isActualCorrect ? 'font-medium' : ''}`}>{opt}</span>
-                      {icon && icon}
+                    <div key={oIdx} className={`border rounded-2xl p-4 flex items-start gap-4 transition-all ${optStyle}`}>
+                      <div className="flex-1">
+                        <span className={`text-base md:text-lg block mb-1 ${isActualCorrect ? 'font-semibold' : ''}`}>{opt}</span>
+                        {badges.length > 0 && <div className="mt-2 flex gap-2">{badges}</div>}
+                      </div>
+                      <div className="mt-1">
+                        {icon && icon}
+                      </div>
                     </div>
                   );
                 })}
