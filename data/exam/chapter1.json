@@ -1,0 +1,20 @@
+[
+    {
+        "id": "q1001",
+        "chapter": 1,
+        "difficulty": "normal",
+        "questionText": "Which of the following statements best describes the testing principle \"context-driven testing\"? chúng tôi đã tra cứu thì thấy ý nghĩa của context-driven testing là bằng với test is context dependent 1 nguyên lý của test",
+        "options": [
+            "Testing is performed differently depending on the type of software, the risks involved, and the project environment.",
+            "The same testing process and techniques should be applied to all projects regardless of the product being developed.",
+            "Testing activities should only start once the code is fully developed and the environment is ready",
+            "The main goal of testing is to prove that the software is 100% free of defects before it is released."
+        ],
+        "correctAnswer": "Testing is performed differently depending on the type of software, the risks involved, and the project environment.",
+        "explanation": "Refer 1.3 7 nguyên lý của hoạt động test, test phụ thuộc vào ngữ cảnh",
+        "reference": {
+            "questionNumber": 4,
+            "examName": "FL2024 exam 37"
+        }
+    }
+]

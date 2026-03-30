@@ -4,9 +4,10 @@ import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import { useExamStore, Question } from '../../store/useExamStore';
 import allQuestionsRaw from '../../data/index';
+import allExamQuestionsRaw from '../../data/exam/index';
 
 const allQuestions = allQuestionsRaw as Question[];
-console.log(`Loaded ${allQuestions.length} total questions. Chapter 1 has: ${allQuestions.filter(q => q.chapter === 1).length}`);
+const allExamQuestions = allExamQuestionsRaw as Question[];
 
 // Utility to shuffle an array securely
 function shuffle<T>(array: T[]): T[] {
@@ -54,29 +55,38 @@ export default function ExamPage() {
     // This prevents re-shuffling on hot reloads or re-renders
     if (examQuestions.length === 0) {
       let selectedQuestions: Question[] = [];
+      let baseQuestions = allQuestions;
+      
+      if (examConfig.isExamOnly || examConfig.mode === 'predefined') {
+        baseQuestions = allExamQuestions;
+      }
 
       if (examConfig.mode === 'chapter' && examConfig.chapters) {
-        const pool = allQuestions.filter(q => examConfig.chapters?.includes(q.chapter));
+        const pool = baseQuestions.filter(q => examConfig.chapters?.includes(q.chapter));
         selectedQuestions = shuffle(pool).slice(0, examConfig.questionCount);
       }
       else if (examConfig.mode === 'cumulative') {
         if (examConfig.chapterDistribution) {
           // Custom setup
           Object.entries(examConfig.chapterDistribution).forEach(([ch, count]) => {
-            const pool = allQuestions.filter(q => q.chapter === parseInt(ch));
+            const pool = baseQuestions.filter(q => q.chapter === parseInt(ch));
             selectedQuestions.push(...shuffle(pool).slice(0, count));
           });
           // Final shuffle to mix chapters
           selectedQuestions = shuffle(selectedQuestions);
         } else {
           // Quick Start setup
-          selectedQuestions = shuffle(allQuestions).slice(0, examConfig.questionCount);
+          selectedQuestions = shuffle(baseQuestions).slice(0, examConfig.questionCount);
         }
       }
+      else if (examConfig.mode === 'predefined' && examConfig.predefinedExam) {
+        const pool = baseQuestions.filter(q => q.reference?.examName === examConfig.predefinedExam);
+        selectedQuestions = shuffle(pool);
+      }
       else if (examConfig.mode === 'ai') {
-        let pool = allQuestions;
+        let pool = baseQuestions;
         if (examConfig.difficulty && examConfig.difficulty !== 'mixed') {
-          pool = allQuestions.filter(q => q.difficulty === examConfig.difficulty);
+          pool = baseQuestions.filter(q => q.difficulty === examConfig.difficulty);
         }
         selectedQuestions = shuffle(pool).slice(0, examConfig.questionCount);
       }
@@ -84,7 +94,7 @@ export default function ExamPage() {
       // Just in case we run out of questions in DB
       if (selectedQuestions.length === 0) {
         alert("No questions found for the selected configuration. Using available questions.");
-        selectedQuestions = shuffle(allQuestions).slice(0, examConfig.questionCount || 10);
+        selectedQuestions = shuffle(baseQuestions).slice(0, examConfig.questionCount || 10);
       }
 
       setExamQuestions(selectedQuestions);

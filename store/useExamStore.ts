@@ -1,12 +1,14 @@
 import { create } from 'zustand';
 
 export type ExamConfig = {
-  mode: 'chapter' | 'cumulative' | 'ai';
+  mode: 'chapter' | 'cumulative' | 'ai' | 'predefined';
   chapters?: number[];
   questionCount: number;
   timeLimit?: number; // duration in minutes
   difficulty?: 'easy' | 'normal' | 'hard' | 'mixed'; // for AI mode
   chapterDistribution?: Record<number, number>; // Maps chapter to question count for custom cumulative
+  predefinedExam?: string;
+  isExamOnly?: boolean;
 };
 
 export type QuestionReference = {

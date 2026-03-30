@@ -1,0 +1,20 @@
+[
+    {
+        "id": "q2001",
+        "chapter": 2,
+        "difficulty": "normal",
+        "questionText": "Which of the following is a primary responsibility of a tester in a CI/CD pipeline?",
+        "options": [
+            "Manually executing all regression test cases before every code commit to the repository",
+            "Identifying which tests should be automated and integrated into the build process for rapid feedback",
+            "Being the sole owner of product quality and deciding alone when a build is ready for production.",
+            "Postponing all non-functional testing until the final delivery stage to avoid slowing down the pipeline"
+        ],
+        "correctAnswer": "Identifying which tests should be automated and integrated into the build process for rapid feedback",
+        "explanation": "Refer 2.1 Phần CI/CD trong Devops là nói về test automation, và phản hồi sớm",
+        "reference": {
+            "questionNumber": 5,
+            "examName": "FL2024 exam 37"
+        }
+    }
+]
