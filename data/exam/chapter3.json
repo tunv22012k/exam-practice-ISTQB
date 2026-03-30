@@ -214,5 +214,103 @@
             "questionNumber": 35,
             "examName": "FL2024- exam 24"
         }
+    },
+    {
+        "chapter": 3,
+        "difficulty": "normal",
+        "type": "multiple",
+        "questionText": "You are reading a user story in the product backlog to prepare for a meeting with the product owner and a developer, noting potential defects as you go. Which TWO of the following statements is true about this activity?",
+        "options": [
+            "A. It is not a static test, because static testing involves execution of the test object",
+            "B. It is not a static test, because static testing is always performed using a tool",
+            "C. It is a static test, because any defects you find could be found cheaper during dynamic testing",
+            "D. It is a static test, because static testing does not involve execution of the test object"
+        ],
+        "correctAnswer": [
+            "C. It is a static test, because any defects you find could be found cheaper during dynamic testing",
+            "D. It is a static test, because static testing does not involve execution of the test object"
+        ],
+        "explanation": "Refer 3.1.3. Hai cái nào đúng về việc mà bạn \"reading a user story\"? đây là 1 hoạt động review nên nó là static test là chắc chắn, đúng nhất theo định nghĩa là D review thì \"not involve execution of the test object\", đúng thứ nhì là C nó giúp tìm ra lỗi rẻ hơn dynamic testing",
+        "reference": {
+            "questionNumber": 6,
+            "examName": "FL2024_Exam 28"
+        },
+        "id": "q3013"
+    },
+    {
+        "chapter": 3,
+        "difficulty": "normal",
+        "type": "multiple",
+        "questionText": "Which TWO of the following statements on the use of checklists in a formal review is CORRECT?",
+        "options": [
+            "A. As part of the review planning, the reviewers create the checklists needed for the review",
+            "B. As part of the individual review, the reviewers fill in the checklists provided for the review",
+            "C. As part of the review meeting, the reviewers create defect reports based on the checklists provided for the review",
+            "D. As part of the review initiation, the reviewers receive the checklists needed for the review"
+        ],
+        "correctAnswer": [
+            "B. As part of the individual review, the reviewers fill in the checklists provided for the review",
+            "D. As part of the review initiation, the reviewers receive the checklists needed for the review"
+        ],
+        "explanation": "Refer 3.2.1 Review process. Đáp án D đùng vì nhiệm vụ của Initiate reivew ( kick-off) thì phân phát các tài liệu và material cho reviewers, thì trong đó reviewer cũng nhận đc checklist để review. Và đáp án B mình sửa là trong giai đoạn individual review ( cá nhân tự chuẩn bị cho review) thì họ sẽ fill kết quả vào checklist những comments hoặc defects mà họ tìm đc là đúng. (nếu đề thi để là trong Review Meeting mới fill thông tin vào checklist thì cũng tạm chấp nhận đc.) Còn A sai vì planning ko có nhiệm vụ của reviewer ( đây là nhiệm vụ của moderator). C sai vì tạo defect report là nhiệm vụ của Fixing and Reporting",
+        "reference": {
+            "questionNumber": 8,
+            "examName": "FL2024_Exam 28"
+        },
+        "id": "q3014"
+    },
+    {
+        "chapter": 3,
+        "difficulty": "normal",
+        "questionText": "Decide which of the following statements (i-v) are true for static testing.\ni. Abnormal external behaviors are easier to identify with this testing\nii. Discrepancies from a coding standard are easier to find with this testing\niii. It identifies failures caused by defects when the software is run\niv. Its test objective is to identify defects as early as possible\nv. Missing coverage for critical security requirements is easier to find and fix",
+        "options": [
+            "A. i, iv, v are true for static testing",
+            "B. i, iii, iv are true for static testing",
+            "C. ii, iii are true for static testing",
+            "D. ii, iv, v are true for static testing"
+        ],
+        "correctAnswer": "D. ii, iv, v are true for static testing",
+        "explanation": "Refer 3.1.3. Chú ý vào ii đúng vì \"Discrepancies from a coding standard\", v đúng vì \"security requirements\",  iv đúng vì \" identify defects as early as\" còn lại các cái khác sai vì i sai vì \"behaviors\" của dynamic, iii sai vì \" identifies failures\" của dynamic",
+        "reference": {
+            "questionNumber": 14,
+            "examName": "FL2024_Exam 28"
+        },
+        "id": "q3015"
+    },
+    {
+        "chapter": 3,
+        "difficulty": "normal",
+        "questionText": "What task may management take on during a formal review?",
+        "options": [
+            "A. Taking overall responsibility for the review",
+            "B. Deciding what is to be reviewed",
+            "C. Ensuring the effective running of review meetings, and mediating, if necessary",
+            "D. Recording review information such as review decisions"
+        ],
+        "correctAnswer": "B. Deciding what is to be reviewed",
+        "explanation": "Refer 3.2.2 roles and responsibility. B là của management, còn lại A, C,D là của moderator,",
+        "reference": {
+            "questionNumber": 15,
+            "examName": "FL2024_Exam 28"
+        },
+        "id": "q3016"
+    },
+    {
+        "chapter": 3,
+        "difficulty": "normal",
+        "questionText": "Which of following review types has its purpose of discussing, making decisions, evaluation alternatives, solving technical problems and checking conformance to specifications, plans, regulations and standards? [K2]",
+        "options": [
+            "A. Informal",
+            "B. Walkthrough",
+            "C. Technical Review",
+            "D. Inspection"
+        ],
+        "correctAnswer": "C. Technical Review",
+        "explanation": "Refer 3.2.3 Bạn chú ý vào đoạn \"solving technical problems and checking conformance to specifications\" kỹ thuật mà xử lý các vấn đề về kỹ thuật, kiểm tra xem có thỏa mãn với tài liệu đặc tả hay ko thì là Technical Review rồi",
+        "reference": {
+            "questionNumber": 17,
+            "examName": "FL2024_Exam 28"
+        },
+        "id": "q3017"
     }
 ]

@@ -178,5 +178,45 @@
             "questionNumber": 26,
             "examName": "FL2024- exam 24"
         }
+    },
+    {
+        "chapter": 5,
+        "difficulty": "normal",
+        "type": "multiple",
+        "questionText": "You are engaged in planning a test effort for a new mobile banking application. As part of estimation, you first meet with the proposed testers and others on the project. The team is well-coordinated and has already worked on similar projects. To verify the resulting estimate, you then refer to some industry averages for testing effort and costs on similar projects, published by a reputable consultant. Which TWO statement describes your estimation approach?",
+        "options": [
+            "A. A simultaneous expert-based and metrics-based approach",
+            "B. Primarily an expert-based approach, augmented with a metrics-based approach",
+            "C. Primarily a metrics-based approach, augmented with an expert-based approach",
+            "D. Primarily planning poker, checked by velocity from burndown charts."
+        ],
+        "correctAnswer": [
+            "A. A simultaneous expert-based and metrics-based approach",
+            "B. Primarily an expert-based approach, augmented with a metrics-based approach"
+        ],
+        "explanation": "Refer 5.2.4 kỹ thật estimation. Trong kịch bản: Đề ước lượng thì đầu tiên là bạn gặp \"meet with the proposed testers and others- người phù hợp\" cái này là kỹ thuật expert based rồi, sau đó để kiểm tra lại ước lượng này bạn \"refer to some industry averages for testing effort and costs on similar projects- tham chiếu đến các giá trị trung bình của dự án tương tự\" đây là kỹ thuật metric based. Như vậy đúng nhất là B, đúng thứ nhì là A ( dịch là kết hợp của 2 kỹ thuật)",
+        "reference": {
+            "questionNumber": 1,
+            "examName": "FL2024_Exam 28"
+        },
+        "id": "q5011"
+    },
+    {
+        "chapter": 5,
+        "difficulty": "normal",
+        "questionText": "Which of the following statements about risks is most accurate?",
+        "options": [
+            "A. Project risks rarely affect product risk.",
+            "B. Product risks rarely affect project risk.",
+            "C. A risk-based approach is more likely to be used to mitigate product rather than project risks.",
+            "D. A risk-based approach is more likely to be used to mitigate project rather than product risks."
+        ],
+        "correctAnswer": "C. A risk-based approach is more likely to be used to mitigate product rather than project risks.",
+        "explanation": "Refer 5.2. Cái nào đúng nhất về Risk. Bạn xem lại cái bảng thì risk based là để mitigate cho product risk nên chọn C",
+        "reference": {
+            "questionNumber": 4,
+            "examName": "FL2024_Exam 28"
+        },
+        "id": "q5012"
     }
 ]

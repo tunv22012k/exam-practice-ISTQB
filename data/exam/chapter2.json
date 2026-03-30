@@ -232,5 +232,59 @@
             "questionNumber": 40,
             "examName": "FL2024- exam 24"
         }
+    },
+    {
+        "chapter": 2,
+        "difficulty": "normal",
+        "questionText": "There are several characteristics of good testing in any life cycle model. Which statement is true about the characteristics of good testing? [K1]",
+        "options": [
+            "A. Each test level has general test objectives",
+            "B. The planning of tests for a given test level should begin during the corresponding",
+            "C. Testers should be involved in reviewing documents as soon as drafts are available in the development life cycle",
+            "D. For every testing activity there is a corresponding development activity."
+        ],
+        "correctAnswer": "C. Testers should be involved in reviewing documents as soon as drafts are available in the development life cycle",
+        "explanation": "Refer 2.1 nhìn kỹ nhé, chọn C đúng, D là nó viết ngược so với sách, A sai vì general, B sai vì planning of test",
+        "reference": {
+            "questionNumber": 10,
+            "examName": "FL2024_Exam 28"
+        },
+        "id": "q2014"
+    },
+    {
+        "chapter": 2,
+        "difficulty": "normal",
+        "questionText": "You work as a tester in a project on a mobile application for food ordering for one of your clients. The client sent you a list of requirements. One of them, with high priority, says “The order must be processed in less than 10 seconds in 95% of the cases” सिद्धार्थ . You created a set of test cases in which a number of random orders were made, the processing time measured, and the test results were checked against the requirements.\nWhat test type did you perform?",
+        "options": [
+            "A. Functional, because the test cases cover the user’s business requirement for the system",
+            "B. Non-functional, because the measure the system’s performance",
+            "C. Functional, because the test cases interact with the user interface",
+            "D. Structural, because we need to know the internal structure of the program to measure the order processing time"
+        ],
+        "correctAnswer": "B. Non-functional, because the measure the system’s performance",
+        "explanation": "Refer 2.3 test types. chú ý vào cái yêu cầu này \"less than 10 seconds\"",
+        "reference": {
+            "questionNumber": 12,
+            "examName": "FL2024_Exam 28"
+        },
+        "id": "q2015"
+    },
+    {
+        "chapter": 2,
+        "difficulty": "normal",
+        "questionText": "Your organization’s test strategy suggests that once a system is going to be retired, data migration shall be tested. As part of what test type is this testing MOST likely to be performed?",
+        "options": [
+            "A. Maintenance testing",
+            "B. Regression testing",
+            "C. Component testing",
+            "D. Integration testing"
+        ],
+        "correctAnswer": "A. Maintenance testing",
+        "explanation": "refer 2.3 chú ý vào \"data migration\"",
+        "reference": {
+            "questionNumber": 13,
+            "examName": "FL2024_Exam 28"
+        },
+        "id": "q2016"
     }
 ]

@@ -250,5 +250,77 @@
             "questionNumber": 38,
             "examName": "FL2024- exam 24"
         }
+    },
+    {
+        "chapter": 1,
+        "difficulty": "normal",
+        "questionText": "Which one of the following is the BEST description of a test condition?",
+        "options": [
+            "A. An attribute of a component or system specified or implied by requirements documentation.",
+            "B. An aspect of the test basis that is relevant to achieve specific test objectives.",
+            "C. The capability of the software product to provide functions which meet stated and implied needs when the software is used under specified conditions.",
+            "D. The percentage of all single condition outcomes that independently affect a decision outcome that have been exercised by a test case suite."
+        ],
+        "correctAnswer": "B. An aspect of the test basis that is relevant to achieve specific test objectives.",
+        "explanation": "Refer 1.4. hoặc refer lên glossary để tra định nghĩa của test condition bạn thấy nó là 1 \"aspect of test basis\"",
+        "reference": {
+            "questionNumber": 2,
+            "examName": "FL2024_Exam 28"
+        },
+        "id": "q1015"
+    },
+    {
+        "chapter": 1,
+        "difficulty": "normal",
+        "questionText": "Which one of the statements below describes a defect discovered during testing ?",
+        "options": [
+            "A. The product crashed when the user selected an option in a dialog box.",
+            "B. The developer of the system forgot to rename variables after a cut-and-paste operation",
+            "C. The developer misinterpreted the requirement for the algorithm.",
+            "D. The computation algorithm used the wrong input variables."
+        ],
+        "correctAnswer": "D. The computation algorithm used the wrong input variables.",
+        "explanation": "Refer 1.2.3. Mô tả nào về defect là đúng. ở đây thì A là failure rồi, B C là Error chỉ còn D là defect",
+        "reference": {
+            "questionNumber": 3,
+            "examName": "FL2024_Exam 28"
+        },
+        "id": "q1016"
+    },
+    {
+        "chapter": 1,
+        "difficulty": "normal",
+        "questionText": "Which of the following is an example of a defect in a car cruise control system?",
+        "options": [
+            "A. The developer of the system forgot to rename variables after a cut-and-paste operation.",
+            "B. Unnecessary code that sounds an alarm when reversing was included in the system.",
+            "C. The system stops maintaining a set speed when the radio volume is increased or decreased.",
+            "D. The design specification for the system wrongly states speeds in km/h."
+        ],
+        "correctAnswer": "D. The design specification for the system wrongly states speeds in km/h.",
+        "explanation": "Refer 1.2.3. chọn D là lỗi sai trong tài liệu Design. ( nếu câu này đc chọn 2 đáp án thì chọn B, D, nhưng nếu chỉ đc chọn 1 thì D là đúng nhất vì wrongly của D là sai hơn Unnecessary của B)",
+        "reference": {
+            "questionNumber": 9,
+            "examName": "FL2024_Exam 28"
+        },
+        "id": "q1017"
+    },
+    {
+        "chapter": 1,
+        "difficulty": "normal",
+        "questionText": "A phone ringing in a neighboring cubicle distracts a programmer causing him to improperly program the logic that checks the upper boundary of an input variable. Later, during system testing, a tester notices that this input field accepts invalid input values.\nWhich of the following correctly describes an incorrectly coded upper bound?",
+        "options": [
+            "A. The root cause",
+            "B. A failure",
+            "C. An error",
+            "D. A defect"
+        ],
+        "correctAnswer": "D. A defect",
+        "explanation": "Refer 1.2.3 chú ý vào câu hỏi đang hỏi từ nào mô tả về cái incorrectly code",
+        "reference": {
+            "questionNumber": 11,
+            "examName": "FL2024_Exam 28"
+        },
+        "id": "q1018"
     }
 ]

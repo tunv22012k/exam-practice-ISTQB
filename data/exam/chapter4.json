@@ -394,5 +394,60 @@
             "questionNumber": 37,
             "examName": "FL2024- exam 24"
         }
+    },
+    {
+        "chapter": 4,
+        "difficulty": "normal",
+        "questionText": "A functional requirement states that pressure values must always be positive and stay within a range of 100 to 200 pounds for a particular tank (100 and 200 are valid within the range). Which of the following is the minimum set of values that would achieve coverage using the equivalence partitioning technique?",
+        "options": [
+            "A. A series of tests where pressure is set to 98, 110, and 201 pounds",
+            "B. A series of tests where pressure is set to 98, 100, and 200 pounds",
+            "C. A series of tests where pressure is set to 100, 110, and 200 pounds",
+            "D. A series of tests where pressure is set to -1, 0, 175, and 297 pounds"
+        ],
+        "correctAnswer": "A. A series of tests where pressure is set to 98, 110, and 201 pounds",
+        "explanation": "Refer 4.2.1. Trong đề có nói là số đó phải positive, Nhưng mà vì là nó lại mô tả thêm là từ 100-200 là vùng valid, dưới 100 và trên 200 là vùng invalid nên ở đây chỉ cần 3 giá trị để test 3 phân vùng thôi ( ko cần tách vùng <0, từ 0 đến <100 nữa vì nó nằm chung ở 1 vùng invalid rồi)",
+        "reference": {
+            "questionNumber": 5,
+            "examName": "FL2024_Exam 28"
+        },
+        "id": "q4023"
+    },
+    {
+        "chapter": 4,
+        "difficulty": "normal",
+        "imageUrl": "/images/exam/FL2024_Exam_28_cau_7.png",
+        "questionText": "A daily radiation recorder for plants produces a sunshine score based on a combination of the number of hours a plant is exposed to the sun (below 2 hours, 2 to 4 hours, above 4 to 6 hours, above 6 to 8 hours, above 8) and the average intensity of the sunshine (very low, low, medium, high).\nGiven the following test case (image). What is the minimum number of additional test cases that are needed to ensure full coverage of all valid INPUT equivalence partitions?",
+        "options": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correctAnswer": "C. 3",
+        "explanation": "Refer 4.2.1 Equivalence partition, Việc ghép test case theo EP chỉ yêu cầu mỗi giá trị value được nhắc đến trong 1 test case, mà về hour thì các case đã có đã test đc 2 phân vùng còn thiếu 3 phân vùng chưa có test case, intensity cũng có 2 phân vùng đc test còn thiếu 2. Nên tối thiểu cần có 3 test case nữa để full coverage.",
+        "reference": {
+            "questionNumber": 7,
+            "examName": "FL2024_Exam 28"
+        },
+        "id": "q4024"
+    },
+    {
+        "chapter": 4,
+        "difficulty": "normal",
+        "questionText": "Which of the following statements about branch testing is CORRECT?",
+        "options": [
+            "A. If a program includes only unconditional branches, then 100% branch coverage can be achieved without executing any test cases",
+            "B. If the test cases exercise all unconditional branches in the code, then 100% branch coverage is achieved",
+            "C. If 100% statement coverage is achieved, then 100% branch coverage is also achieved",
+            "D. If 100% branch coverage is achieved, then all decision outcomes in each decision statement in the code are exercised"
+        ],
+        "correctAnswer": "D. If 100% branch coverage is achieved, then all decision outcomes in each decision statement in the code are exercised",
+        "explanation": "Refer 4.3.2 theo định nghĩa của Decision coverage còn gọi là branch coverage",
+        "reference": {
+            "questionNumber": 16,
+            "examName": "FL2024_Exam 28"
+        },
+        "id": "q4025"
     }
 ]
