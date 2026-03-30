@@ -1,1 +1,92 @@
-[]
+[
+    {
+        "id": "q6001",
+        "chapter": 6,
+        "difficulty": "normal",
+        "questionText": "Which of the following is a purpose of a pilot project for the introduction of a new tool?",
+        "options": [
+            "Evaluate testers competence to use the tool.",
+            "Complete the testing of a key project.",
+            "Discover what the requirements for the tool are.",
+            "Assess whether the benefits will be achieved at reasonable cost."
+        ],
+        "correctAnswer": "Assess whether the benefits will be achieved at reasonable cost.",
+        "explanation": "Refer 6.3 mục tiêu của pilot project",
+        "reference": {
+            "questionNumber": 4,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q6002",
+        "chapter": 6,
+        "difficulty": "normal",
+        "questionText": "What is one potential benefit of using a test automation tool?",
+        "options": [
+            "A. The quality of defects will improve",
+            "B. Ease of access to statistics about test progress",
+            "C. Disk space is not required to track versions of test artifacts",
+            "D. Less network traffic generated"
+        ],
+        "correctAnswer": "B. Ease of access to statistics about test progress",
+        "explanation": "Refer 6.2 Lợi ích của automation tool? Benefit: Reduce time, reduce repetitive task, Assessment objectively, easier access inf, có them thời gian cho tester. Prevent human errors Chọn B.",
+        "reference": {
+            "questionNumber": 7,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q6003",
+        "chapter": 6,
+        "difficulty": "normal",
+        "questionText": "Which is a key function of a test management tool?",
+        "options": [
+            "A. Facilitates management and control of testing activities",
+            "B. Generates test data based on test management criteria",
+            "C. Generates detailed test specifications based on the test plan",
+            "D. Analyzes and enforces coding and testing standards"
+        ],
+        "correctAnswer": "A. Facilitates management and control of testing activities",
+        "explanation": "Refer 6.1.Tool Support for Testing. Chức năng chính của management tool? B. C là của tool design và implement  D về coding standard là của tool về static testing Chọn A",
+        "reference": {
+            "questionNumber": 19,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q6004",
+        "chapter": 6,
+        "difficulty": "normal",
+        "questionText": "Which of the following is most likely to be performed by developers?",
+        "options": [
+            "A. Technical review of a functional specification.",
+            "B. Walkthrough of a requirements document.",
+            "C. Informal review of a program specification.",
+            "D. Static analysis of a software model."
+        ],
+        "correctAnswer": "D. Static analysis of a software model.",
+        "explanation": "Refer 6.1 A,B,C là tester tham gia đc, D là tool phân tích tĩnh chỉ dùng cho lập trình viên",
+        "reference": {
+            "questionNumber": 36,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q6005",
+        "chapter": 6,
+        "difficulty": "normal",
+        "questionText": "Which of the following pairs of test tools are likely to be most useful during the test analysis and design stage of the fundamental test process?\n\n(i) Test execution tool\n(ii) Test data preparation tool\n(iii) Test management tool\n(iv) Requirements management tool",
+        "options": [
+            "A. (i) and (ii)",
+            "B. (i) and (iv)",
+            "C. (ii) and (iii)",
+            "D. (iii) and (iv)"
+        ],
+        "correctAnswer": "D. (iii) and (iv)",
+        "explanation": "Refer 6.1 nói chung giai đoạn analysis and design chủ yếu dùng tool để quản lý task, test case, test document, requirement",
+        "reference": {
+            "questionNumber": 39,
+            "examName": "FL2024- exam 24"
+        }
+    }
+]

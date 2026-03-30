@@ -16,5 +16,221 @@
             "questionNumber": 5,
             "examName": "FL2024 exam 37"
         }
+    },
+    {
+        "id": "q2002",
+        "chapter": 2,
+        "difficulty": "normal",
+        "questionText": "Which of the following statements is correct about DevOps?",
+        "options": [
+            "It helps organizations improve website quality and stability by releasing website features more frequently",
+            "It helps organizations deliver web content to different types of devices using web applications.",
+            "It offers a lifecycle that consists of a series of iterative, automated development processes called workflows.",
+            "It’s an approach to deployment that promotes collaboration between the website, website development, and IT teams in a business."
+        ],
+        "correctAnswer": "It’s an approach to deployment that promotes collaboration between the website, website development, and IT teams in a business.",
+        "explanation": "Refer 2.1.4 về DevOps thì chọn cái promotes collaboration là phù hợp với hướng tiếp cận của DevOps và Agile",
+        "reference": {
+            "questionNumber": 2,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q2003",
+        "chapter": 2,
+        "difficulty": "normal",
+        "questionText": "Which of the following is a good testing practice that applies regardless of the specific software development lifecycle being used?",
+        "options": [
+            "A. Prompt and prepared attendance to stand-up meetings",
+            "B. Step-by-step test case documentation",
+            "C. Ensuring there is a corresponding testing activity for every software development activity",
+            "D. Involving the stakeholders in reviewing all acceptance criteria prior to designing test cases"
+        ],
+        "correctAnswer": "C. Ensuring there is a corresponding testing activity for every software development activity",
+        "explanation": "Refer 2.1.2. good testing practices. Chọn C đúng như sách",
+        "reference": {
+            "questionNumber": 9,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q2004",
+        "chapter": 2,
+        "difficulty": "normal",
+        "questionText": "Which of the following best suggests the need for maintenance testing?",
+        "options": [
+            "A. Failures found in alpha testing",
+            "B. The initial release of the software",
+            "C. Changing requirements during pre-deployment activities",
+            "D. Adding a new feature to an existing system"
+        ],
+        "correctAnswer": "D. Adding a new feature to an existing system",
+        "explanation": "Refer 2.3. Maintenance Testing. Đâu là đề xuất tốt nhất về maintenance test?Chọn D là thêm tính năng mới vào hệ thống đã có. C. Pre-deployment là trước khi release là ko phải của maintain A. alpha test là Acceptance Test ở môi trường của đội dự án -- ko phải maintan B. initial release -- ko phải maintan",
+        "reference": {
+            "questionNumber": 20,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q2005",
+        "chapter": 2,
+        "difficulty": "normal",
+        "questionText": "Your company has been working in a waterfall lifecycle model. They have now decided to implement DevOps and will be using CI/CD. Which of the following is a change that will be required from the testing team?",
+        "options": [
+            "A. No change is required. The current approach will still be applicable.",
+            "B. There will be additional emphasis on test automation to supply continuous testing.",
+            "C. Additional time will be needed to analyze the requirements and design test cases.",
+            "D. There will be a need for less technical testers because the developers will handle all the technical testing."
+        ],
+        "correctAnswer": "B. There will be additional emphasis on test automation to supply continuous testing.",
+        "explanation": "Refer 2.1.4 Devops. Câu hỏi là dự án đang ở mô hình waterfall, họ muốn đổi sang làm theo Devops và CI/CD thì cần phải thay đổi điều gì. A nó bảo ko phải thay đổi là sai, B nhấm mạnh vào test automation là có trong sách là đúng. C Nó bảo phải thêm thời gian cho phân tích Req và design TC là ko nhắc đến ở sách. D nó bảo cần tester có khả năng về technical ít hơn waterfall là sai nhé vì Devops là tester áp dụng kỹ thuật và tool nhiều hơn",
+        "reference": {
+            "questionNumber": 31,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q2006",
+        "chapter": 2,
+        "difficulty": "normal",
+        "questionText": "What is retesting?",
+        "options": [
+            "A. Running the same test again in the same circumstances to reproduce the problem.",
+            "B. A cursory run through a test pack to see if any new errors have been introduced.",
+            "C. Checking that the predetermined exit criteria for the test phase have been met",
+            "D. Running a previously failed test against new software/data/documents to see if the problem is solved"
+        ],
+        "correctAnswer": "D. Running a previously failed test against new software/data/documents to see if the problem is solved",
+        "explanation": "Refer 2.2 Test types. D định nghĩa của \"Confirmation testing ( Retest): confirm whether the original defect has been successfully fixed\". A là định nghĩa của Regression test, C là định nghĩa của Exit criteria. A là chỉ hoạt động tái hiện lỗi Reproduce bug",
+        "reference": {
+            "questionNumber": 10,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q2007",
+        "chapter": 2,
+        "difficulty": "normal",
+        "questionText": "Which of the following is in the correct order (typically)?",
+        "options": [
+            "A. Unit testing, system testing, acceptance testing, maintenance testing.",
+            "B. System testing, unit testing, acceptance testing, maintenance testing.",
+            "C. Acceptance testing, system testing, maintenance testing, unit testing.",
+            "D. Unit testing, maintenance testing, system testing, acceptance testing."
+        ],
+        "correctAnswer": "A. Unit testing, system testing, acceptance testing, maintenance testing.",
+        "explanation": "Refer 2.2 test levels. A là thứ tự đúng nhất",
+        "reference": {
+            "questionNumber": 14,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q2008",
+        "chapter": 2,
+        "difficulty": "normal",
+        "questionText": "Which of the following is not true of regression testing",
+        "options": [
+            "A. It can be carried out at each stage of the life cycle.",
+            "B. It serves to demonstrate that the changed software works as intended.",
+            "C. It serves to demonstrate that software has not been unintentionally changed.",
+            "D. It is often automated."
+        ],
+        "correctAnswer": "B. It serves to demonstrate that the changed software works as intended.",
+        "explanation": "Refer 2.2 Test types. Câu sai là B vì test cho \" changed software\" phần thay đổi của phần mềm là việc của New test, không phải của regression test. Regression test chạy lại test case ở những chỗ không thay đổi",
+        "reference": {
+            "questionNumber": 15,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q2009",
+        "chapter": 2,
+        "difficulty": "normal",
+        "questionText": "Which pair of definitions is correct?",
+        "options": [
+            "A. Regression testing is checking that the reported defect has been fixed; retesting is testing that there are no additional problems in previously tested software.",
+            "B. Regression testing is checking there are no additional problems in previously tested software; retesting enables developers to isolate the problem.",
+            "C. Regression testing involves running all tests that have been run before; retesting runs new tests.",
+            "D. Regression testing is checking that there are no additional problems in previously tested software, retesting is demonstrating that the reported defect has been fixed."
+        ],
+        "correctAnswer": "D. Regression testing is checking that there are no additional problems in previously tested software, retesting is demonstrating that the reported defect has been fixed.",
+        "explanation": "Refer 2.2 Test types. A sai cả 2 vế, B sai vế thứ 2 đanh định nghĩa debugging của lập trình, C sai vì all tests. Còn mỗi D đúng cả 2 vế",
+        "reference": {
+            "questionNumber": 27,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q2010",
+        "chapter": 2,
+        "difficulty": "normal",
+        "questionText": "A top-down development strategy affects which level of testing most?",
+        "options": [
+            "A. Component testing",
+            "B. Integration testing",
+            "C. System testing",
+            "D. User acceptance testing"
+        ],
+        "correctAnswer": "B. Integration testing",
+        "explanation": "Refer 2.2 test level.",
+        "reference": {
+            "questionNumber": 30,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q2011",
+        "chapter": 2,
+        "difficulty": "normal",
+        "questionText": "Which of the following is a non-functional requirement?",
+        "options": [
+            "A. The system will enable users to buy books.",
+            "B. The system will allow users to return books.",
+            "C. The system will ensure security of the customer details.",
+            "D. The system will allow up to 100 users to log in at the same time."
+        ],
+        "correctAnswer": "D. The system will allow up to 100 users to log in at the same time.",
+        "explanation": "Refer 2.2 test type. Chú ý mọi người hay nhầm đáp án C \"ensure security of the customer details.\" là 1 yêu cầu về non-functional nhưng đọc như vậy là sai. C là 1 các yêu cầu về functional về security giống như các tính năng Login, phân quyền gọi là các tính năng về security. Còn các yêu cầu non-function về security là các yêu cầu Protect data (nói chung ko nói về tính năng cụ thể mà các yêu cầu chung cho toàn hệ thống để bảo đảm an toàn)",
+        "reference": {
+            "questionNumber": 31,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q2012",
+        "chapter": 2,
+        "difficulty": "normal",
+        "questionText": "Which of the following statements are true?\n\n(i) For every development activity there is a corresponding testing activity.\n\n(ii) Each test level has the same test objectives.\n\n(iii) The analysis and design of tests for a given test level should begin after the corresponding development activity.\n\n(iv)Testers should be involved in reviewing documents as soon as drafts are available in the development life cycle.",
+        "options": [
+            "A. (i) and (ii)",
+            "B. (iii) and (iv)",
+            "C. (ii) and (iii)",
+            "D. (i) and (iv)"
+        ],
+        "correctAnswer": "D. (i) and (iv)",
+        "explanation": "Refer 2.1.2 goog testing ( học thuộc) ii sai vì \"the same test objectives\". iii sai vì \"begin after the corresponding development activity\"",
+        "reference": {
+            "questionNumber": 32,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q2013",
+        "chapter": 2,
+        "difficulty": "normal",
+        "questionText": "What is regression test?",
+        "options": [
+            "A. Running the same test again in the same circumstances to reproduce the problem.",
+            "B. A cursory run through a test pack to see if any new errors have been introduced.",
+            "C. Checking that the predetermined exit criteria for the test phase have been met",
+            "D. Running a previously failed test against new software/data/documents to see if the problem is solved"
+        ],
+        "correctAnswer": "B. A cursory run through a test pack to see if any new errors have been introduced.",
+        "explanation": "Refer 2.2.3 Test types. định nghĩa của Regression test là \"Regression testing: re-run tests to detect any introduced issues\". D là định nghĩa của Retest, C là định nghĩa của Exit criteria. A là chỉ hoạt động tái hiện lỗi Reproduce bug",
+        "reference": {
+            "questionNumber": 40,
+            "examName": "FL2024- exam 24"
+        }
     }
 ]

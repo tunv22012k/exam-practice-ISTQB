@@ -16,5 +16,239 @@
             "questionNumber": 4,
             "examName": "FL2024 exam 37"
         }
+    },
+    {
+        "id": "q1002",
+        "chapter": 1,
+        "difficulty": "normal",
+        "questionText": "Which of the following is an advantage of the whole team approach?",
+        "options": [
+            "A. Any person in the team with the right skills can perform any task",
+            "B. Tasks are assigned to specific team members who will own that task until completion",
+            "C. Testers have clear ownership of quality and this eliminates confusion and overlap",
+            "D. Business representatives are not included in the team so they can supply independent assessment during UAT"
+        ],
+        "correctAnswer": "A. Any person in the team with the right skills can perform any task",
+        "explanation": "Refer 1.5.2. Whole Team Approach. Ta thấy A đúng như sách luôn. B sai vì nó nói 1 task sẽ assign cho 1 member cụ thể làm cho đến khi hoàn thành, C sai vì nó nói về việc tester chịu trách nhiệm toàn bộ về quality. D thì bảo là BA ko bao gồm trong team. Nói chung Whole team approach là đang nói về cả dự án là 1 team và có trách nhiệm như nhau về chất lượng, bất kỳ ai cũng có kỹ năng để làm bất kỳ task nào",
+        "reference": {
+            "questionNumber": 12,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q1003",
+        "chapter": 1,
+        "difficulty": "normal",
+        "questionText": "If you are responsible for test analysis and test design what is your primary role in your team?",
+        "options": [
+            "A. Business analyst",
+            "B. Test manager",
+            "C. Developer",
+            "D. Tester"
+        ],
+        "correctAnswer": "D. Tester",
+        "explanation": "Refer 1.4.5. Roles in Testing. Ai làm task test analysis and design?",
+        "reference": {
+            "questionNumber": 15,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q1004",
+        "chapter": 1,
+        "difficulty": "normal",
+        "questionText": "Which testing principle provides a good reason to base testing upon risk mitigation priorities?",
+        "options": [
+            "A. Testing shows the presence of defects",
+            "B. Exhaustive testing is impossible",
+            "C. Tests wear out",
+            "D. Defects tend to cluster in a few modules"
+        ],
+        "correctAnswer": "B. Exhaustive testing is impossible",
+        "explanation": "Refer 1.3 Seven Principles of Testing. Câu hỏi là nguyên lý nào giải thích tốt cho việc Test dựa vào độ ưu tiên của risk. trả lời là B vì ta ko thể test tất cả đc nên phải test những chỗ có risk cao trước",
+        "reference": {
+            "questionNumber": 28,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q1005",
+        "chapter": 1,
+        "difficulty": "normal",
+        "questionText": "Which option is part of the implementation and execution area of the fundamental test process?",
+        "options": [
+            "A. Developing the tests.",
+            "B. Comparing actual and expected results",
+            "C. Writing a test summary.",
+            "D. Analysing lessons learnt for future releases."
+        ],
+        "correctAnswer": "B. Comparing actual and expected results",
+        "explanation": "Refer 1.4 tìm ra B. A là của Design, C là của Monitoring, D là của Completion test",
+        "reference": {
+            "questionNumber": 7,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q1006",
+        "chapter": 1,
+        "difficulty": "normal",
+        "questionText": "Which statement is most true?",
+        "options": [
+            "A. Different testing is needed depending upon the application.",
+            "B. All software is tested in the same way.",
+            "C. A technique that finds defects will always find defects.",
+            "D. A technique that has found no defects is not useful."
+        ],
+        "correctAnswer": "A. Different testing is needed depending upon the application.",
+        "explanation": "Refer 1.3 nói về 7 nguyên lý test thì A là nguyên lý 6 Test phụ thuộc vào ngữ cảnh và phần mềm khác nhau. B sai All, C sai kỹ thuật tìm ra lỗi luôn luôn ( always) tìm ra lỗi là sai, D sai \"kỹ thuật không tìm ra lỗi là không hữu ích\"",
+        "reference": {
+            "questionNumber": 8,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q1007",
+        "chapter": 1,
+        "difficulty": "normal",
+        "questionText": "A bug or defect is:",
+        "options": [
+            "A. A mistake made by a person;",
+            "B. A run-time problem experienced by a user;",
+            "C. The result of an error or mistake;",
+            "D. The result of a failure, which may lead to an error?"
+        ],
+        "correctAnswer": "C. The result of an error or mistake;",
+        "explanation": "Refer 1.2.3 sơ đồ Error- Defect- Failure thì tìm ra là C. Defect là kết quả của 1 error",
+        "reference": {
+            "questionNumber": 9,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q1008",
+        "chapter": 1,
+        "difficulty": "normal",
+        "questionText": "Which of the following is correct?\n\nDebugging is:",
+        "options": [
+            "A. Testing/checking whether the software performs correctly.",
+            "B. Checking that a previously reported defect has been corrected.",
+            "C. Identifying the cause of a defect, repairing the code and checking the fix is correct.",
+            "D. Checking that no unintended consequences have occurred as a result of a fix."
+        ],
+        "correctAnswer": "C. Identifying the cause of a defect, repairing the code and checking the fix is correct.",
+        "explanation": "Refer 1.1.2 Debugging. D sai vì là định nghĩa của regression test, A là hoạt động test, B là retest",
+        "reference": {
+            "questionNumber": 11,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q1009",
+        "chapter": 1,
+        "difficulty": "normal",
+        "questionText": "Which list of levels of tester independence is in the correct order, starting with the most independent first?",
+        "options": [
+            "A. Tests designed by the author; tests designed by another member of the development team; tests designed by someone from a different company.",
+            "B. Tests designed by someone from a different department within the company; tests designed by the author; tests designed by someone from a different company.",
+            "C. Tests designed by someone from a different company; tests designed by someone from a different department within the company; tests designed by another member of the development team.",
+            "D. Tests designed by someone from a different department within the company; tests designed by someone from a different company; tests designed by the author."
+        ],
+        "correctAnswer": "C. Tests designed by someone from a different company; tests designed by someone from a different department within the company; tests designed by another member of the development team.",
+        "explanation": "Refer 1.5.3 thứ tự của test independence đúng tứ mức độc lập cao nhất trở xuống, C là đúng nhất",
+        "reference": {
+            "questionNumber": 13,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q1010",
+        "chapter": 1,
+        "difficulty": "normal",
+        "questionText": "Which of the following defines the expected result of a test?",
+        "options": [
+            "A. Test case",
+            "B. Test procedure",
+            "C. Test execution schedule",
+            "D. Test condition"
+        ],
+        "correctAnswer": "A. Test case",
+        "explanation": "Glossary tra cứu định nghĩa Test case, có chứa thông tin về expected result của 1 cái test",
+        "reference": {
+            "questionNumber": 21,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q1011",
+        "chapter": 1,
+        "difficulty": "normal",
+        "questionText": "When assembling a test team to work on an enhancement to an existing system, which of the following has the highest level of test independence?",
+        "options": [
+            "A. A business analyst who wrote the original requirements for the system.",
+            "B. A permanent programmer who reviewed some of the new code, but has not written any of it.",
+            "C. A permanent tester who found most defects in the original system.",
+            "D. A contract tester who has never worked for the organization before."
+        ],
+        "correctAnswer": "D. A contract tester who has never worked for the organization before.",
+        "explanation": "Refer1.5.3 các mức độ độc lập thì D là cao nhất vì contract tester là thuê ngoài về",
+        "reference": {
+            "questionNumber": 25,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q1012",
+        "chapter": 1,
+        "difficulty": "normal",
+        "questionText": "The following statements relate to activities that are part of the fundamental test process.\n\ni. Evaluating the testability of requirements.\n\nii. Repeating testing activities after changes.\n\niii. Designing the test environment set-up.\n\niv. Developing and prioritizing test cases.\n\nv. Verifying the environment is set up correctly.\n\nWhich statement below is TRUE?",
+        "options": [
+            "A. (i) and (ii) are part of analysis and design, (iii), (iv) and (v) are part of test implementation and execution.",
+            "B. (i) and (iii) , (iv) are part of analysis and design, (ii) and (v) are part of test implementation and execution.",
+            "C. (i) and (v) are part of analysis and design, (ii), (iii) and (iv) are part of test implementation and execution.",
+            "D. (i) and (iv) are part of analysis and design, (ii), (iii) and (v) are part of test implementation and execution."
+        ],
+        "correctAnswer": "B. (i) and (iii) , (iv) are part of analysis and design, (ii) and (v) are part of test implementation and execution.",
+        "explanation": "Refer 1.4.1",
+        "reference": {
+            "questionNumber": 28,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q1013",
+        "chapter": 1,
+        "difficulty": "normal",
+        "questionText": "Which statement correctly describes the public and profession aspects of the code of ethics?",
+        "options": [
+            "A. Public: Certified software testers shall act in the best interests of their client and employer (being consistent with the wider public interest). Profession: Certified software testers shall advance the integrity and reputation of their industry consistent with the public interest.",
+            "B. Public: Certified software testers shall advance the integrity and reputation of the profession consistent with the public interest. Profession: Certified software testers shall consider the wider public interest in their actions.",
+            "C. Public: Certified software testers shall consider the wider public interest in their actions. Profession: Certified software testers shall participate in lifelong learning regarding the practice of their profession and shall promote an ethical approach to the practice of their profession.",
+            "D. Public: Certified software testers shall consider the wider public interest in their actions. Profession: Certified software testers shall advance the integrity and reputation of their industry consistent with the public interest."
+        ],
+        "correctAnswer": "D. Public: Certified software testers shall consider the wider public interest in their actions. Profession: Certified software testers shall advance the integrity and reputation of their industry consistent with the public interest.",
+        "explanation": "Theo 1 tài liệu trên mạng chúng tôi đọc đc thì \"the code of ethics\" được coi là 1 \"set of rules or regulary about good and bad behavior\" cần phải được tuân thủ theo khi phát triển và test phần mềm...",
+        "reference": {
+            "questionNumber": 29,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q1014",
+        "chapter": 1,
+        "difficulty": "normal",
+        "questionText": "Which of the following are valid justifications for developers testing their own code during unit testing?\n\n(i) Their lack of independence is mitigated by independent testing during system and acceptance testing.\n\n(ii)A person with a good understanding of the code can find more defects more quickly using white-box techniques.\n\n(iii)Developers have a better understanding of the requirements than testers.\n\n(iv)Testers write unnecessary incident reports because they find minor differences between the way in which the system behaves and the way in which it is specified to work.",
+        "options": [
+            "A. (i) and (ii)",
+            "B. (i) and (iv)",
+            "C. (ii) and (iii)",
+            "D. (iii) and (iv)"
+        ],
+        "correctAnswer": "A. (i) and (ii)",
+        "explanation": "Refer 1.5.3 câu hỏi là giải thích về việc developer thực hiện unit test trên code của anh ta thì là i đúng vì thiếu độc lập ( khách quan) nên cần phải có tester độc lập test ở phase sau, ii đúng vì developer hiểu biết về code, tìm lỗi và sửa lỗi nhanh hơn. iii sai vì developer không thể hiểu requirement hơn tester độc lập, iv sai vì \"unnecessary incident reports\"",
+        "reference": {
+            "questionNumber": 38,
+            "examName": "FL2024- exam 24"
+        }
     }
 ]

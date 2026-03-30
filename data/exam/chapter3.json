@@ -1,1 +1,218 @@
-[]
+[
+    {
+        "id": "q3001",
+        "chapter": 3,
+        "difficulty": "normal",
+        "questionText": "Which of the following is a benefit of early stakeholder feedback?",
+        "options": [
+            "A. It can be gathered early and then used to make changes after the product goes to production to make it more user friendly",
+            "B. It allows the project manager to get a better view of the changes that will be needed for the next version",
+            "C. The developers get a better understanding of what they are building",
+            "D. The testers get a better understanding of the test automation requirements"
+        ],
+        "correctAnswer": "C. The developers get a better understanding of what they are building",
+        "explanation": "Refer 3.2.1. Benefits of Early and Frequent Stakeholder Feedback. Lợi ích của phản hồi sớm, A sai vì 'changes after the product goes to production' là thay đổi đc tạo ra sau khi sản phẩm lên production là quá muộn, tương tự B sai vì quá muộn \"changes that will be needed for the next version\" next version cũng là lần release sau rồi. B đúng vì \"a better understanding\" hiểu biết về cái gì cần phải xây dựng tốt hơn. C sai vì \"test automation requirements\" yêu cầu về test automation thì là trách nhiệm của tester rồi, ko liên quan đến stakeholder feedback",
+        "reference": {
+            "questionNumber": 8,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q3002",
+        "chapter": 3,
+        "difficulty": "normal",
+        "questionText": "Which of the following should you review using static testing?",
+        "options": [
+            "A. Memory leak during execution",
+            "B. Performance of a module under load",
+            "C. Interactive output from a debugger",
+            "D. Test plan"
+        ],
+        "correctAnswer": "D. Test plan",
+        "explanation": "Refer: 3.1.3. Differences between Static Testing and Dynamic Testing. Cái nào sau đây nên sử dụng static testing ( gồm cả review và static analysis by tool)? A, B, C là lỗi của dynamic test Chọn D để thực hiện Review",
+        "reference": {
+            "questionNumber": 21,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q3003",
+        "chapter": 3,
+        "difficulty": "normal",
+        "questionText": "During which activity in the review process are the quality characteristics selected for evaluation?",
+        "options": [
+            "A. Initiating",
+            "B. Planning",
+            "C. Analysis",
+            "D. Fixing"
+        ],
+        "correctAnswer": "B. Planning",
+        "explanation": "Refer 3.2.2 & 3.2.3 Review Process. Câu hỏi là bước nào trong quy trình mà quality characteristics được select cho việc đánh giá. Chọn Planning",
+        "reference": {
+            "questionNumber": 27,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q3004",
+        "chapter": 3,
+        "difficulty": "normal",
+        "questionText": "What benefits do static analysis tools have over test execution tools?",
+        "options": [
+            "A. Static analysis tools find defects earlier in the life cycle.",
+            "B. Static analysis tools can be used before code is written.",
+            "C. Static analysis tools test that the delivered code meets business requirements.",
+            "D. Static analysis tools are particularly effective for regression testing."
+        ],
+        "correctAnswer": "A. Static analysis tools find defects earlier in the life cycle.",
+        "explanation": "Refer 3.1.2 Value của Static testing là tìm thấy lỗi sớm trước Dynamic test. B sai vì static analysis tool chủ yếu phân tích trên code. C sai vì \"meets business requirements.\" là của Review. D sai vì \"regression testing\" là của Dynamic test",
+        "reference": {
+            "questionNumber": 1,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q3005",
+        "chapter": 3,
+        "difficulty": "normal",
+        "questionText": "One of the roles in a review is that of moderator, which of the following best describes this role?",
+        "options": [
+            "A. Plans the review, runs the review meeting and ensures that follow-up activities are completed.",
+            "B. Allocates time in the plan, decides which reviews will take place and that the benefits are delivered.",
+            "C. Writes the document to be reviewed, agrees that the document can be reviewed, and updates the document with any changes.",
+            "D. Documents all issues raised in the review meeting, records problems and open points."
+        ],
+        "correctAnswer": "A. Plans the review, runs the review meeting and ensures that follow-up activities are completed.",
+        "explanation": "Refer 3.2.3 các vai trò của review. A là của Moderator còn gọi là Leader của review, B là của manager ra quyết định và cấp phép, C là của Author, D là Scribe",
+        "reference": {
+            "questionNumber": 16,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q3006",
+        "chapter": 3,
+        "difficulty": "normal",
+        "questionText": "What do static analysis tools analyze?",
+        "options": [
+            "A. Design",
+            "B. Test cases",
+            "C. Requirements",
+            "D. Program code"
+        ],
+        "correctAnswer": "D. Program code",
+        "explanation": "Refer 3.1.3 ba đáp án A,B,C sai là tài liệu chỉ có thể do Review tìm ra lỗi.",
+        "reference": {
+            "questionNumber": 17,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q3007",
+        "chapter": 3,
+        "difficulty": "normal",
+        "questionText": "Which of the following is most likely to be a benefit of using static techniques?",
+        "options": [
+            "A. Fewer performance defects.",
+            "B. Productivity improvements in the development process.",
+            "C. More efficient regression testing.",
+            "D. Quick return on investment in static analysis tools."
+        ],
+        "correctAnswer": "B. Productivity improvements in the development process.",
+        "explanation": "Refer 3.1.2 thì thấy B đúng, static test giúp cải thiện productivity, giảm thời gian và giảm chi phí. A,C là lỗi của dynamic, D là nhanh trả ra giá trị đầu tư là không có",
+        "reference": {
+            "questionNumber": 18,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q3008",
+        "chapter": 3,
+        "difficulty": "normal",
+        "questionText": "Which of the following are static techniques?",
+        "options": [
+            "A. Walkthrough.",
+            "B. State transition testing.",
+            "C. Decision table testing.",
+            "D. Statement testing."
+        ],
+        "correctAnswer": "A. Walkthrough.",
+        "explanation": "Refer 3.2.4 kỹ thuật static techniques không chạy source code là A. B,C,D sai vì là của Dynamic test",
+        "reference": {
+            "questionNumber": 19,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q3009",
+        "chapter": 3,
+        "difficulty": "normal",
+        "questionText": "Which one of the following roles is typically used in a review?",
+        "options": [
+            "A. Champion.",
+            "B. Author.",
+            "C. Project sponsor.",
+            "D. Custodian."
+        ],
+        "correctAnswer": "B. Author.",
+        "explanation": "Refer 3.2.3 Vai trò của review chỉ có B đúng",
+        "reference": {
+            "questionNumber": 20,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q3010",
+        "chapter": 3,
+        "difficulty": "normal",
+        "questionText": "Which of the following statements are correct for walkthroughs?\n\n(i) Often led by the author.\n(ii) Documented and defined results.\n(iii) All participants have defined roles.\n(iv) Used to aid learning.\n(v) Main purpose is to find defects.",
+        "options": [
+            "A. (i) and (v) are correct.",
+            "B. (ii) and (iii) are correct.",
+            "C. (i) and (iv) are correct.",
+            "D. (iii) and  (iv) are correct"
+        ],
+        "correctAnswer": "C. (i) and (iv) are correct.",
+        "explanation": "Refer 3.2.4 Review types thì walkthough có (i) lead by author và (iv) để training. và ii, iii, v là đặc điểm của inspection",
+        "reference": {
+            "questionNumber": 33,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q3011",
+        "chapter": 3,
+        "difficulty": "normal",
+        "questionText": "Which of the following has the typical formal review activities in the correct sequence?",
+        "options": [
+            "A. Kick-off, review meeting, planning, follow-up.",
+            "B. Kick-off, planning, review meeting, re-work.",
+            "C. Planning, kick-off, individual preparation, review meeting.",
+            "D. Planning, individual preparation, follow-up, re-work"
+        ],
+        "correctAnswer": "C. Planning, kick-off, individual preparation, review meeting.",
+        "explanation": "Refer 3.2.2 review process",
+        "reference": {
+            "questionNumber": 34,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q3012",
+        "chapter": 3,
+        "difficulty": "normal",
+        "questionText": "Which of the following statements are true?\n\n(i) Defects are likely to be found earlier in the development process by using reviews rather than static analysis.\n\n(ii) Walkthroughs require code but static analysis does not require code.\n\n(iii) Informal reviews can be performed on code and specifications.\n\n(iv) Dynamic techniques are generally used before static techniques.\n\n(v) Dynamic techniques can only be used after code is ready to be executed.",
+        "options": [
+            "A. (i), (ii), (vi).",
+            "B. (ii), (iii), (v).",
+            "C. (i), (iv), (v).",
+            "D. (i), (iii), (v)."
+        ],
+        "correctAnswer": "D. (i), (iii), (v).",
+        "explanation": "Refer 3.1.2 và loại trừ ii sai vì walkthrough là hình thức reiview không thay đc tool phân tích code ( review ko hết đc code). iv sai vì dynamic chạy trước static",
+        "reference": {
+            "questionNumber": 35,
+            "examName": "FL2024- exam 24"
+        }
+    }
+]

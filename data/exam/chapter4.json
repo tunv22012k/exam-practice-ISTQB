@@ -52,5 +52,347 @@
             "questionNumber": 3,
             "examName": "FL2024 exam 37"
         }
+    },
+    {
+        "id": "q4004",
+        "chapter": 4,
+        "difficulty": "normal",
+        "questionText": "Why is the \"Three Amigos\" approach considered beneficial in Agile software development?",
+        "options": [
+            "Because it reduces the number of team members needed to complete a sprint",
+            "Because it delays detailed discussions until after development is complete",
+            "Because it ensures a collaborative understanding of requirements between business, development, and testing roles",
+            "Because it allows the development team to work independently without interruptions"
+        ],
+        "correctAnswer": "Because it ensures a collaborative understanding of requirements between business, development, and testing roles",
+        "explanation": "refer 4.5 phần User Story có nói Three amigo = collaborative",
+        "reference": {
+            "questionNumber": 1,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q4005",
+        "chapter": 4,
+        "difficulty": "normal",
+        "questionText": "You are testing the functional behavior of an elevator in a building with 10 floors. The elevator has buttons for each floor, and it responds to both internal (inside the elevator) and external (on each floor) button presses. Which of the following test design techniques is MOST appropriate to test the functional behavior of the elevator?",
+        "options": [
+            "Boundary Value Analysis",
+            "State Transition Testing",
+            "Use Case Testing",
+            "Statement Coverage"
+        ],
+        "correctAnswer": "State Transition Testing",
+        "explanation": "Refer 4.2 Đề chỉ bảo test chức năng của cái elevator là cái thang máy ( embedded software) nên kỹ thuật phù hợp là state transition",
+        "reference": {
+            "questionNumber": 3,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q4006",
+        "chapter": 4,
+        "difficulty": "normal",
+        "questionText": "What is the benefit of using lightweight test documentation?",
+        "options": [
+            "It provides exhaustive details for every test case.",
+            "It reduces the overhead of maintaining test documents while ensuring essential information is captured.",
+            "It eliminates the need for any communication within the team.",
+            "It strictly follows ISO standards without room for flexibility."
+        ],
+        "correctAnswer": "It reduces the overhead of maintaining test documents while ensuring essential information is captured.",
+        "explanation": "Chapter 4. Lightweight giống như high level Test case, nói về việc làm tài liệu test ngắn gọn và nhẹ nhàng thì giúp điều gì? Chọn B vì dịch như sau: nó giúp giảm công sức maintaining các tài liệu này trong khi vẫn đảm bảo thông tin quan trọng đc capture",
+        "reference": {
+            "questionNumber": 5,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q4007",
+        "chapter": 4,
+        "difficulty": "normal",
+        "questionText": "How are role personas used in designing tests?",
+        "options": [
+            "To simulate the behavior and needs of different user types during testing.",
+            "To document defect reports with user details.",
+            "To prioritize test cases based on code coverage.",
+            "To automate repetitive test steps"
+        ],
+        "correctAnswer": "To simulate the behavior and needs of different user types during testing.",
+        "explanation": "Vai trò của cá nhân trong việc thiết kế test case, Ý nói là suy nghĩ và tiếng nói của mỗi cá nhân sẽ khác nhau như vậy nó đại diện cho các quan điểm của các user khác nhau khi đưa ra TC, chon A.",
+        "reference": {
+            "questionNumber": 6,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q4008",
+        "chapter": 4,
+        "difficulty": "normal",
+        "questionText": "You are testing web application software that allows a person to use their travel points to make flight and hotel reservations.\nWhen the user logs into the software (username/password) they are presented with a set of options. From that set of options, they can pick the following:\n1. View points balance\n2. Make flight reservation\n3. Make hotel reservation\nFrom the login page, they can log in successfully or might fail and need to try again. Once they login successfully they can go to either the view points, flight reservation or hotel reservation page.\nWhich of the following is the correct list of the transitions (a transition is shown as >) that should be tested, assuming that the test ends when a reservation state is reached.",
+        "options": [
+            "A. Points > Reservation",
+            "B. Login > Points, Points > Flight, Points > Hotel",
+            "C. Login > Login, Login > Points, Login > Flight, Login > Hotel, Points > Flight, Points > Hotel",
+            "D. Login > Login, Login > Points, Login > Flight, Login > Hotel, Flight > Hotel, Hotel > Flight, Flight > Login, Hotel > Login"
+        ],
+        "correctAnswer": "C. Login > Login, Login > Points, Login > Flight, Login > Hotel, Points > Flight, Points > Hotel",
+        "explanation": "Refer 4.2.4 State transition testing. Vẽ sơ đồ ra, Hỏi là sơ đồ transitions nào đúng thứ tự đi từ đầu đến khi kết thúc là phải đặt đc máy bay hoặc khách sạn?",
+        "reference": {
+            "questionNumber": 11,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q4009",
+        "chapter": 4,
+        "difficulty": "normal",
+        "questionText": "If you are using test results to learn more about the software and are then creating additional tests based on those results, what type of testing are you doing?",
+        "options": [
+            "A. Exploratory",
+            "B. Decision-based",
+            "C. Checklist-based",
+            "D. Control flow"
+        ],
+        "correctAnswer": "A. Exploratory",
+        "explanation": "Refer 4.4.2 Exploratory Testing. Learn - design test - run test là của kỹ thuật nào?",
+        "reference": {
+            "questionNumber": 13,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q4010",
+        "chapter": 4,
+        "difficulty": "normal",
+        "questionText": "A functional requirement states that pressure values must always be positive and stay within a range of 100 to 200 pounds for a particular tank (100 and 200 are valid within the range).\nWhich of the following is the minimum set of values that would achieve coverage using the equivalence partitioning technique?",
+        "options": [
+            "A. A series of tests where pressure is set to 98, 110, and 201 pounds",
+            "B. A series of tests where pressure is set to 98, 100, and 200 pounds",
+            "C. A series of tests where pressure is set to 100, 110, and 200 pounds",
+            "D. A series of tests where pressure is set to -1, 0, 175, and 297 pounds"
+        ],
+        "correctAnswer": "A. A series of tests where pressure is set to 98, 110, and 201 pounds",
+        "explanation": "Refer 4.1 Vẽ phân vùng. Nhớ là valid là từ 100- 200, nhỏ hơn 100 là invalid nên ko cần tách vùng nhỏ hơn 0 nữa. chỉ có 3 phân vùng thôi",
+        "reference": {
+            "questionNumber": 16,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q4011",
+        "chapter": 4,
+        "difficulty": "normal",
+        "questionText": "Which of the following is a methodical approach to error guessing?",
+        "options": [
+            "A. Create a list of possible failures and defects and design tests to address each one",
+            "B. Ask the developers where the likely errors will be and discuss how to test for each one",
+            "C. Review the code to determine areas of high complexity and target those areas with tests",
+            "D. Determine all the decisions in the code and design tests to address each one"
+        ],
+        "correctAnswer": "A. Create a list of possible failures and defects and design tests to address each one",
+        "explanation": "Refer 4.4.1 Error Guessing . Định nghĩa của error guessing?Chọn A đúng định nghĩa về list of possible defects , failures B. Ask developer - sai C. Review code là của static test D. Decisions in the code là white box",
+        "reference": {
+            "questionNumber": 22,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q4012",
+        "chapter": 4,
+        "difficulty": "normal",
+        "questionText": "Given the following requirement:\nThe system shall compute the car’s position using the following equation: new_distance_traveled + old_position\nWhich type of testing should be implemented to help ensure this requirement is met?",
+        "options": [
+            "A. Functional",
+            "B. Reliability",
+            "C. Performance",
+            "D. Maintainability"
+        ],
+        "correctAnswer": "A. Functional",
+        "explanation": "Refer 4.1. Câu này là xác định vị trí của ô tô thì họ cần 2 dữ liệu ew_distance_traveled + old_position đây là test về functional",
+        "reference": {
+            "questionNumber": 23,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q4013",
+        "chapter": 4,
+        "difficulty": "normal",
+        "questionText": "How is branch coverage determined?",
+        "options": [
+            "A. By taking the number of branches in the code that have been tested and dividing that by the number of total branches in the code",
+            "B. By taking the number of branches in the code on one path that has been tested and dividing that number by the total paths through the code",
+            "C. By taking the number of statements in the code and dividing those by the number of branches that have been tested",
+            "D. By counting the number of branches in the code that have been tested"
+        ],
+        "correctAnswer": "A. By taking the number of branches in the code that have been tested and dividing that by the number of total branches in the code",
+        "explanation": "refer 4.3.2 Branch testing (Branch coverage),",
+        "reference": {
+            "questionNumber": 24,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q4014",
+        "chapter": 4,
+        "difficulty": "normal",
+        "questionText": "You are using boundary value analysis to determine your test data.\nWhat values should you use to test a routine that requires an integer input (x) to be greater than zero and less than 100 to achieve 100% minimum coverage using the two-point boundary value analysis technique?",
+        "options": [
+            "A. 0, 100",
+            "B. -1, 1, 99, 101",
+            "C. 0, 1, 99, 100",
+            "D. -1, 0, 1, 99, 100, 101"
+        ],
+        "correctAnswer": "C. 0, 1, 99, 100",
+        "explanation": "Refer 4.1. Biến x lớn hơn 0 và nhỏ hơn 100, tìm BVA",
+        "reference": {
+            "questionNumber": 25,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q4015",
+        "chapter": 4,
+        "difficulty": "normal",
+        "questionText": "A system is designed to accept values of examination marks as follows:\n\nFail :0-39 inclusive\nPass :40-59 inclusive\nMerit :60-79 inclusive\nDistinction :80-100 inclusive\n\nIn which of the following sets of values are all values in different equivalence partitions?",
+        "options": [
+            "A. 25, 40, 60, 75",
+            "B. 0, 45, 79, 87",
+            "C. 35, 40, 59, 69",
+            "D. 25, 39, 60, 81"
+        ],
+        "correctAnswer": "B. 0, 45, 79, 87",
+        "explanation": "Refer 4.2, câu hỏi là xác định tất cả các giá trị test trong các phân vùng tương đương khác nhau",
+        "reference": {
+            "questionNumber": 2,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q4016",
+        "chapter": 4,
+        "difficulty": "normal",
+        "questionText": "A washing machine has three temperature bands for different kinds of fabrics: fragile fabrics are washed at temperatures between 15 and 30 degrees Celsius; normal fabrics are washed at temperatures between 31 and 60 degrees Celsius; heavily soiled and tough fabrics are washed at temperatures between 61 and 100 degrees Celsius.\n\nWhich of the following contains only values that are in different equivalence partitions?",
+        "options": [
+            "A. 15, 30, 60",
+            "B. 20, 35, 60",
+            "C. 25, 45, 75",
+            "D. 12, 35, 55"
+        ],
+        "correctAnswer": "C. 25, 45, 75",
+        "explanation": "Refer 4.2.1 : Câu hỏi là đáp án nào chỉ chứa 1 giá trị trong các phân vùng tương đương khác nhau",
+        "reference": {
+            "questionNumber": 3,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q4017",
+        "chapter": 4,
+        "difficulty": "normal",
+        "questionText": "Consider the following pseudo code:\n\nHow many test cases are needed to achieve 100 percent statement coverage?\n\nCode snippet:\n1 Begin\n2 Read Time\n3 If Time < 12 Then\n4 Print(Time, \"am\")\n5 Endif\n6 If Time > 12 Then\n7 Print(Time −12, \"pm\")\n8 Endif\n9 If Time = 12 Then\n10 Print (Time, \"noon\")\n11 Endif\n12 End",
+        "options": [
+            "A. 1",
+            "B. 2",
+            "C. 3",
+            "D. 4"
+        ],
+        "correctAnswer": "C. 3",
+        "explanation": "Refer 4.3, vẽ sơ đồ ra và xác định số test case để bao phủ 100% statement coverage",
+        "reference": {
+            "questionNumber": 4,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q4018",
+        "chapter": 4,
+        "difficulty": "normal",
+        "questionText": "Consider the following pseudo code:\n\nIf the test cases Time = 11 and Time = 15 were input, what level of statement coverage would be achieved?\n\nCode snippet:\n1 Begin\n2 Read Time\n3 If Time < 12 Then\n4 Print(Time, \"am\")\n5 Endif\n6 If Time > 12 Then\n7 Print(Time −12, \"pm\")\n8 Endif\n9 If Time = 12 Then\n10 Print (Time, \"noon\")\n11 Endif\n12 End",
+        "options": [
+            "A. 7/7",
+            "B. 4/7",
+            "C. 5/7",
+            "D. 6/7"
+        ],
+        "correctAnswer": "D. 6/7",
+        "explanation": "Refer 4.3 , vẽ sơ đồ ra và xác định 2 test case Time = 11 and Time = 15 đã bao phủ được bao nhiêu % decision coverage",
+        "reference": {
+            "questionNumber": 5,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q4019",
+        "chapter": 4,
+        "difficulty": "normal",
+        "questionText": "A software component has the code shown below:\n\nThe component has exit criteria for component testing that include 100% statement coverage. Which of the following test cases will satisfy this criterion?\n\nCode snippet:\nProgram BiggestA,\nBiggest: Integer\nBegin\nRead A\nBiggest = 10\nWhile A > 0\nDo\nIf A > Biggest\nThen Biggest = A\nEndif\nRead A\nEnddo\nEnd",
+        "options": [
+            "A. 0",
+            "B. 10, 0",
+            "C. 10, 5, 0",
+            "D. 10, 11, 0"
+        ],
+        "correctAnswer": "D. 10, 11, 0",
+        "explanation": "Refer 4.3 vẽ sơ đồ ra",
+        "reference": {
+            "questionNumber": 6,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q4020",
+        "chapter": 4,
+        "difficulty": "normal",
+        "questionText": "Which of the following describes structure-based (white-box) test case design techniques?",
+        "options": [
+            "A. Test cases are derived systematically from models of the system.",
+            "B. Test cases are derived systematically from the tester's experience.",
+            "C. Test cases are derived systematically from the delivered code.",
+            "D. Test cases are derived from the developers' experience."
+        ],
+        "correctAnswer": "C. Test cases are derived systematically from the delivered code.",
+        "explanation": "Refer 4.1.1 thì A là của Black box, B là Experience based, C là White box, D là Experience based",
+        "reference": {
+            "questionNumber": 22,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q4021",
+        "chapter": 4,
+        "difficulty": "normal",
+        "questionText": "Which of the following is a structure-based (white-box) technique?",
+        "options": [
+            "A. Decision table testing",
+            "B. State transition testing",
+            "C. Statement testing",
+            "D. Boundary value analysis"
+        ],
+        "correctAnswer": "C. Statement testing",
+        "explanation": "Refer 4.1.1 thì C đúng, A, B,D sai là vì của black box test",
+        "reference": {
+            "questionNumber": 23,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q4022",
+        "chapter": 4,
+        "difficulty": "normal",
+        "questionText": "Which of the following are most characteristic of structure-based testing?\n\n(i) Information about how the software is constructed is used to derive test cases.\n\n(ii) Statement coverage and/or decision coverage can be measured for existing test cases.\n\n(iii) The knowledge and experience of people are used to derive test cases.\n\n(iv) Test cases are derived from a model or specification of the system",
+        "options": [
+            "A. (i) and (ii)",
+            "B. (ii) and (iii)",
+            "C. (ii) and (iv)",
+            "D. (i) and (iii)"
+        ],
+        "correctAnswer": "A. (i) and (ii)",
+        "explanation": "Refer 4.1.1 chọn i và ii của white box test và loại trừ, iii là của experience based, iv là của black box",
+        "reference": {
+            "questionNumber": 37,
+            "examName": "FL2024- exam 24"
+        }
     }
 ]

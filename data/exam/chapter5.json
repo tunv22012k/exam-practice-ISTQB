@@ -1,1 +1,182 @@
-[]
+[
+    {
+        "id": "q5001",
+        "chapter": 5,
+        "difficulty": "normal",
+        "questionText": "In an Agile development model, the completion of testing or “done” is defined by which of the following?",
+        "options": [
+            "A. Project management",
+            "B. Entry criteria",
+            "C. Exit criteria",
+            "D. The expected test completion date"
+        ],
+        "correctAnswer": "C. Exit criteria",
+        "explanation": "Refer 5.1.3. Entry Criteria and Exit Criteria. thì Definition of done = exit criteria nên chọn C",
+        "reference": {
+            "questionNumber": 10,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q5002",
+        "chapter": 5,
+        "difficulty": "normal",
+        "questionText": "In what way does configuration management help the tester?",
+        "options": [
+            "A. It verifies that the test cases are executed in the correct order",
+            "B. It ensures that regressions do not occur",
+            "C. It enforces proper unit testing and measurement",
+            "D. It uniquely identifies the items to be tested"
+        ],
+        "correctAnswer": "D. It uniquely identifies the items to be tested",
+        "explanation": "Refer 5.4 Configuration Management. CM giúp cho tester? theo đúng dấu hiệu trong sách là uniquely identifies",
+        "reference": {
+            "questionNumber": 14,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q5003",
+        "chapter": 5,
+        "difficulty": "normal",
+        "questionText": "You have been given the following test cases for execution. You have been told that security and usability are the highest priorities respectively for this banking application. What is the proper execution order for these test cases?\n1. Update a customer’s account balance\n2. Query a customer’s account balance\n3. Delete a request for a paper statement\n4. Change the font size on the page to improve readability\n5. Create a new payee in a customer’s automatic bill pay list",
+        "options": [
+            "A. 3, 1, 5, 2, 4",
+            "B. 1, 2, 5, 4, 3",
+            "C. 1, 3, 5, 2, 4",
+            "D. 4, 3, 1, 2, 5"
+        ],
+        "correctAnswer": "B. 1, 2, 5, 4, 3",
+        "explanation": "Ko hiểu lắm",
+        "reference": {
+            "questionNumber": 17,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q5004",
+        "chapter": 5,
+        "difficulty": "normal",
+        "questionText": "When is the detailed risk analysis for a story first conducted?",
+        "options": [
+            "A. Project planning",
+            "B. Iteration planning",
+            "C. Release planning",
+            "D. Epic planning"
+        ],
+        "correctAnswer": "B. Iteration planning",
+        "explanation": "Refer 5.1.2. Tester's Contribution to Iteration and Release Planning. Detailed risk analysis đc thực hiện ở đâu?",
+        "reference": {
+            "questionNumber": 18,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q5005",
+        "chapter": 5,
+        "difficulty": "normal",
+        "questionText": "You are working with a geographically and time zone distributed team. It is important that the entire team always have access to the latest test execution information. Which of these is the most appropriate method for communicating that status?",
+        "options": [
+            "A. Daily stand-up meetings with everyone",
+            "B. Dashboards connected to the test management and defect management systems that automatically update when a change is made",
+            "C. Email sent out hourly to all team members with red text for any new issues with a “must read” note in the subject line",
+            "D. Formal test reports issued each week with trend charts and residual defect status information"
+        ],
+        "correctAnswer": "B. Dashboards connected to the test management and defect management systems that automatically update when a change is made",
+        "explanation": "Refer 5.3 Về Communication giữa 2 đội ngồi phân tán về địa lý và thời gian thì làm sao để họ cập nhật đc thông tin mới nhất của nhau thì chỉ có dashboard thôi ( giống như bảng chứng khoán nó update liên tục)",
+        "reference": {
+            "questionNumber": 26,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q5006",
+        "chapter": 5,
+        "difficulty": "normal",
+        "questionText": "Which of the following is a correct statement regarding Quadrant Q2 of the testing quadrants?",
+        "options": [
+            "A. It is technology facing, supports the team, and contains component and component integration tests",
+            "B. It is business facing, critiques the product, and contains exploratory and usability testing",
+            "C. It is technology facing, critiques the product, and contains the smoke tests and performance tests",
+            "D. It is business facing, supports the team, and contains functional tests and API tests"
+        ],
+        "correctAnswer": "D. It is business facing, supports the team, and contains functional tests and API tests",
+        "explanation": "refer 5.1.7. Testing Quadrants , nó hỏi về Q2. business facing, support the team",
+        "reference": {
+            "questionNumber": 29,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q5007",
+        "chapter": 5,
+        "difficulty": "normal",
+        "questionText": "Which of the following provides two defined risk response actions to help control product risk?",
+        "options": [
+            "A. Deny risk, Mitigate risk by testing",
+            "B. Accept risk, Abandon risk",
+            "C. Abandon risk, Delay risk",
+            "D. Transfer risk, Accept risk"
+        ],
+        "correctAnswer": "D. Transfer risk, Accept risk",
+        "explanation": "refer 5.2 Risk Management  nó có 4 actions cho risk là Accept, Reduce, Avoid, Tranfer",
+        "reference": {
+            "questionNumber": 30,
+            "examName": "FL2024_exam 45"
+        }
+    },
+    {
+        "id": "q5008",
+        "chapter": 5,
+        "difficulty": "normal",
+        "questionText": "When is testing complete?",
+        "options": [
+            "A. When time and budget are exhausted.",
+            "B. When there is enough information for sponsors to make an informed decision about release.",
+            "C. When there are no remaining high priority defects outstanding.",
+            "D. When every data combination has been exercised successfully."
+        ],
+        "correctAnswer": "C. When there are no remaining high priority defects outstanding.",
+        "explanation": "Refer 5.1.3 Exit criteria thì C phù hợp là tiêu chí quan trọng nhất đánh giá hoàn thành \"-(importance) Residual risks: issues/ open serious defect, untested\"",
+        "reference": {
+            "questionNumber": 12,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q5009",
+        "chapter": 5,
+        "difficulty": "normal",
+        "questionText": "What can a risk-based approach to testing provide?",
+        "options": [
+            "A. The types of test techniques to be employed.",
+            "B. The total tests needed to provide 100 per cent coverage.",
+            "C. An estimation of the total cost of development.",
+            "D. Only that test execution is effective at reducing risk."
+        ],
+        "correctAnswer": "A. The types of test techniques to be employed.",
+        "explanation": "Refer 5.2.3 thì A đúng Risk based giúp xác định test techniques. B sai vì 100% coverage là ko có, C sai là vì cost of development, D sai vì only",
+        "reference": {
+            "questionNumber": 24,
+            "examName": "FL2024- exam 24"
+        }
+    },
+    {
+        "id": "q5010",
+        "chapter": 5,
+        "difficulty": "normal",
+        "questionText": "A new system is about to be developed. Which of the following functions has the highest level of risk?",
+        "options": [
+            "A. Likelihood of failure = 20%; impact value = $100,000",
+            "B. Likelihood of failure = 10%; impact value = $150,000",
+            "C. Likelihood of failure = 1%; impact value = $500,000",
+            "D. Likelihood of failure = 2%; impact value = $200,000"
+        ],
+        "correctAnswer": "A. Likelihood of failure = 20%; impact value = $100,000",
+        "explanation": "Refer 5.2.1 cách tính Risk level = likelihood (probability) x Impact (harm) . Chỉ cần nhân đáp án vào là thấy A lớn nhất",
+        "reference": {
+            "questionNumber": 26,
+            "examName": "FL2024- exam 24"
+        }
+    }
+]
